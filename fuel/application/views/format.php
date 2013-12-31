@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	
 	<!-- Page Title -->
-	<title>Gym Club - Home</title>
+	<title>MKG Detroit</title>
 	
 	<!-- Responsive Metatag -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -87,7 +87,7 @@
 									<span class="icon-bar"></span>
 								</button>
 								<h1 class="logo">
-									<a class="navbar-brand" href="index.html"><img src="<?php echo img_path('mkg_logo.png'); ?>" alt="Logo" /></a>
+									<a class="navbar-brand" href="<?php echo base_url(); ?>"><img src="<?php echo img_path('mkg_logo.png'); ?>" alt="Logo" /></a>
 								</h1>  
 							</div>
 
