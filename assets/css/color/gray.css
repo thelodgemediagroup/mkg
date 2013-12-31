@@ -1,0 +1,377 @@
+@charset "utf-8";
+
+
+
+.dropdown:hover > a {
+	background: #A8B7AD;
+}
+
+.sub-header .title {
+	color: #A8B7AD;
+}
+
+.sub-header .custom-breadcrumb .separator {
+	color: #A8B7AD;
+}
+
+header .top-bar ul li.active a,
+header .top-bar ul li:hover a {
+	background: #A8B7AD;
+	border-right: 1px solid #A8B7AD;
+}
+
+header .main-menu .navbar .navbar-toggle {
+	background: #A8B7AD;
+}
+
+header .main-menu .nav li > a:hover,
+header .main-menu .nav li.active > a,
+header .main-menu .nav li.active > a:hover {  
+	background: #A8B7AD;
+}
+
+header .main-menu .navbar .btn-navbar {
+	background: #A8B7AD;
+}
+
+.errorpage i {
+	color: #A8B7AD;
+}
+
+.pricing-table .title {
+	text-shadow: 0 1px #606362;
+}
+
+.pricing-table .button a {
+	text-shadow: 0 1px #606362;
+}
+
+header .top-bar ul li.active a i,
+header .top-bar ul li:hover a i {
+	color: #606362;
+}
+
+header .main-menu .navbar .navbar-toggle .icon-bar {
+	background-color: #606362;
+}
+
+header .main-menu .nav li > a:hover,
+header .main-menu .nav li.active > a,
+header .main-menu .nav li.active > a:hover {  
+	text-shadow: 0 0.06em #606362;
+}
+
+header .main-menu .navbar .btn-navbar .icon-bar {
+	background-color: #606362;
+}
+
+footer button {
+	text-shadow: 0 0.06em #606362;
+}
+
+.accordion-group .accordion-heading {
+	background: none repeat scroll 0 0 #A9A9A9;
+}
+
+.accordion-group .accordion-body .accordion-inner h5{
+	color: #A9A9A9;
+}
+
+.accordion-group .accordion-body .accordion-inner .accordion-toggle {
+	color: #A9A9A9;
+}
+
+.nav-tabs > li > a {
+	background: #A9A9A9;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover {
+	color: #A9A9A9;
+}
+
+.nav-tabs.nav-tabs-sec li > a {
+	color: #A9A9A9;
+}
+
+.nav-tabs.nav-tabs-sec > li.active > a,
+.nav-tabs.nav-tabs-sec > li.active > a:hover {
+	background: #A9A9A9;
+}
+
+.tab-content.nav-tabs-sec {
+	background: #A9A9A9;
+}
+
+.tabs-left .nav-tabs > li:hover a {
+	color: #A9A9A9;
+}
+
+.button-gym {
+	background: #A9A9A9;
+	border-color: #A9A9A9;
+}
+
+.button-gym.big-button:hover,
+.button-gym.medium-button:hover,
+.button-gym.normal-button:hover,
+.button-gym.big-button.active,
+.button-gym.medium-button.active,
+.button-gym.normal-button.active {
+	color: #A9A9A9;
+}
+
+.button-gym.view-all:hover { 
+	border-color: #A9A9A9;
+	color: #A9A9A9;
+}
+
+.progress .bar {  
+	background-color: #A9A9A9;
+}
+
+.cap {
+	color: #A9A9A9;
+}
+
+.highlight-green {
+	background: #A9A9A9;
+}
+
+.highlight-green-under {
+	color: #A9A9A9;
+}
+
+.tags li a:hover,
+.tags li.active a {
+	background: #A9A9A9;
+}
+
+.custom-icon-list li i {  
+	color: #A9A9A9;
+}
+
+.social li a {
+	background-color: #A9A9A9;
+	border: 1px solid #A9A9A9;
+}
+
+.social li a:hover,
+.social li.active a {
+	color: #A9A9A9;
+}
+
+.testimonial-container.sec p {
+	border: 2px solid #A9A9A9;
+}
+
+.testimonial-container.sec span.border {  
+	border-top: 22px solid #A9A9A9;
+}
+
+.testimonial-container .img-container {
+	background: #A9A9A9;
+}
+
+.testimonials-position {
+	color: #A9A9A9;
+}
+
+.pagination li a {
+	border: 2px solid #A9A9A9;
+}
+
+.pagination li:last-child a,
+.pagination li:first-child a{
+	color: #A9A9A9;
+}
+
+.pagination li:hover a {
+	background-color: #A9A9A9;
+}
+
+.panel.panel-gym .panel-heading,
+.panel.panel-gym .panel-footer {
+	background-color: #A9A9A9;
+}
+
+.line .sub-line {
+	border: 2px solid #A9A9A9;
+}
+
+.fc-container a {
+	color: #A9A9A9;
+}
+
+.logos li img:hover {
+	border: 2px solid #A9A9A9;
+}
+
+.pricing-table .title {
+	background: #A9A9A9;
+}
+
+.pricing-table .button a {
+	background: #A9A9A9;  
+}
+
+.grid.magic-grid .filters button.active { 
+	border-color: #A9A9A9;
+	color: #A9A9A9;
+}
+
+.grid.magic-grid .filters button:hover { 
+	background-color: #A9A9A9;
+	border-color: #A9A9A9;
+}
+
+.grid.slider-grid .content .element .link {
+	background: #A9A9A9;
+}
+
+.grid.slider-grid .content .element .title h6 a {
+	color: #A9A9A9;
+}
+
+.grid.slider-grid .content .element .title h4 a:hover {
+	color: #A9A9A9;
+}
+
+.container-comments .single-comment header button:hover {
+	color: #A9A9A9;
+}
+
+.sub-header .custom-breadcrumb a:hover {
+	color: #A9A9A9;
+}
+
+.categories li a:hover { 
+	color: #A9A9A9; 
+}
+
+footer button:hover {
+	color: #A9A9A9;
+	border-color: #A9A9A9;
+}
+
+footer .misc .about li i {
+	color: #A9A9A9;
+}
+
+footer .misc .links li a i {
+	color: #A9A9A9;
+}
+
+#trainers #suscribe {
+	background-color: #A9A9A9;
+}
+
+#news .post a.readmore {
+	color: #A9A9A9;
+}
+
+#contact .contact form {
+	background: #A9A9A9;
+}
+
+#contact .contact form button:hover {
+	color: #A9A9A9;
+}
+
+footer .misc .links li a:hover {
+	color: #BFCEC4;
+}
+
+footer .copyright p a {
+	color: #BFCEC4;
+}
+
+footer .copyright .main-links li a:hover {
+	color: #BFCEC4;
+}
+
+#home .nav-tabs li .gym-icon {
+	background: url("../../images/icons-tabs-red.png") no-repeat;
+}
+
+.grid .content .element .link a {
+	background: #414445 url("../../images/hover-red.png") no-repeat center center;
+}
+
+#home .new-classes .new-class .class-title a {
+	background: url("../../images/hover-red.png") no-repeat;
+}
+
+.slider-control {
+	background-image: url('../../images/arrows/small-red.png');
+}
+
+.tp-leftarrow.default,
+.tp-rightarrow.default {
+	background-image: url("../../images/arrows/big-red.png");
+}
+
+#contact .contact form .form-control {
+	background: #767877;
+}
+
+#contact .contact form .form-control:focus {
+	background: #767877;
+}
+
+.flickr-feed li:hover {
+	border: 3px solid #A9A9A9;
+}
+
+#price .membership-price ul li.button a:hover {
+	background-color: #8F9C93;
+}
+
+#single-trainer .chart {
+	color: #A9A9A9;
+}
+
+header .top-bar .dropdown ul { 
+	background-color: #A9A9A9; 
+}
+
+header .top-bar .dropdown ul li { 
+	background-color: #A9A9A9; 
+}
+
+header .top-bar .dropdown ul li:last-child { 
+	background-color: #8B958E; 
+}
+
+header .top-bar ul li.active a i,
+header .top-bar ul li:hover a i {
+	text-shadow: 0 0.06em #E4E4E4;
+}
+
+#home .banner .slide1 h2 {
+	background: #A9A9A9;
+}
+
+#home .banner .slide1 p {
+	color: #A9A9A9;
+}
+
+#home .banner .slide1 a {
+	background: #A9A9A9;
+}
+
+#home .banner .slide2 > div > h2 {
+	color: #A9A9A9;
+}
+
+#home .banner .slide2 > div > h2.invert {
+	background-color: #A9A9A9;
+}
+
+#home .banner .slide3 h2 {
+	color: #AFB5B1;
+}
+
+#home .banner .slide3 a {
+	background: #8F9C93;
+}
