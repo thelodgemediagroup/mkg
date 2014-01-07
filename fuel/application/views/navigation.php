@@ -22,30 +22,30 @@
 									<li class="dropdown">
 										<a href="<?php echo base_url('about/') ?>">About</a>
 										<ul class="dropdown-about">
-											<li><a href="<?php echo base_url(''); ?>">General Info</a></li>
-											<li><a href="<?php echo base_url(''); ?>">Mission Statement</a></li>
-											<li><a href="<?php echo base_url(''); ?>">International Organization</a></li>
-											<li><a href="<?php echo base_url(''); ?>">Staff</a></li>
+											<li><a href="<?php echo base_url('about/'); ?>">General Info</a></li>
+											<li><a href="<?php echo base_url('about/mission/'); ?>">Mission Statement</a></li>
+											<li><a href="<?php echo base_url('about/mkg_international/'); ?>">International Organization</a></li>
+											<li><a href="<?php echo base_url('about/staff/'); ?>">Staff</a></li>
 										</ul>
 									</li>
 									
 									<li class="dropdown">
-										<a href="<?php echo base_url(''); ?>">Classes</a>
+										<a href="<?php echo base_url('classes/'); ?>">Classes</a>
 										<ul class="dropdown-class">
-											<li><a href="<?php echo base_url(''); ?>">Phase Program</a></li>
-											<li><a href="<?php echo base_url(''); ?>">Muy Thai / Thai Boxing</a></li>
-											<li><a href="<?php echo base_url(''); ?>">Jeet Kune Do / JKD Concepts</a></li>
-											<li><a href="<?php echo base_url(''); ?>">Filipino Kali Weaponry</a></li>
-											<li><a href="<?php echo base_url(''); ?>">Filipino Dirty Boxing / Panantukan</a></li>
-											<li><a href="<?php echo base_url(''); ?>">Women’s Kickboxing</a></li>
-											<li><a href="<?php echo base_url(''); ?>">Functional Fitness Circuits</a></li>
-											<li><a href="<?php echo base_url(''); ?>">Specialty Programs</a></li>
+											<li><a href="<?php echo base_url('classes/phase-program/'); ?>">Phase Program</a></li>
+											<li><a href="<?php echo base_url('classes/muy-thai/'); ?>">Muy Thai / Thai Boxing</a></li>
+											<li><a href="<?php echo base_url('classes/jeet-kune-do/'); ?>">Jeet Kune Do / JKD Concepts</a></li>
+											<li><a href="<?php echo base_url('classes/kali/'); ?>">Filipino Kali Weaponry</a></li>
+											<li><a href="<?php echo base_url('classes/dirty-boxing/'); ?>">Filipino Dirty Boxing / Panantukan</a></li>
+											<li><a href="<?php echo base_url('classes/womens-kickboxing/'); ?>">Women’s Kickboxing</a></li>
+											<li><a href="<?php echo base_url('classes/fitness/'); ?>">Functional Fitness Circuits</a></li>
+											<li><a href="<?php echo base_url('classes/speciality-programs/'); ?>">Specialty Programs</a></li>
 										</ul>
 									</li>
-									<li><a href="<?php echo base_url(''); ?>">Schedule</a></li>
-									<li><a href="<?php echo base_url(''); ?>">Registration</a></li>
+									<li><a href="<?php echo base_url('schedule/'); ?>">Schedule</a></li>
+									<li><a href="<?php echo base_url('registration/'); ?>">Registration</a></li>
 									
-									<li><a href="<?php echo base_url(''); ?>">News</a></li>
+									<li><a href="<?php echo base_url('news/'); ?>">News</a></li>
 									
 								</ul>
 							</div><!-- /.navbar-collapse -->
