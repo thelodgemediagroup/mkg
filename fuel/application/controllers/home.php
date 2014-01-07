@@ -12,7 +12,11 @@ Class Home extends CI_Controller {
 	public function index()
 	{
 
-		$this->load->view('format');
+		$data['navigation'] = $this->load->view('navigation', '', TRUE);
+
+		$this->load->view('header', $data);
+		$this->load->view('index', $data);
+		$this->load->view('footer', $data);
 
 	}
 

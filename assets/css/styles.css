@@ -1469,11 +1469,15 @@ header .main-menu .dropdown ul li a {
 	height: 44px;
 	line-height: 44px;
 	margin: 1px 0 0;
-	width: 185px;
 }
 
+.dropdown-class a {
+	width: 320px;
+}
 
-
+.dropdown-about a {
+	width: 275px;
+}
 
 
 /***************************************************************************/
@@ -2215,3 +2219,5 @@ footer .copyright .main-links li a {
 	opacity: 0.7;
 	text-decoration: none;
 }
+
+/************** Temp ******************/
