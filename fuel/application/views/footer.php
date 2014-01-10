@@ -3,7 +3,7 @@
 		<div class="container" >
 			<div class="row misc">
 				<div class="col-md-3" >
-					<h3>About the Club</h3>
+					<h3>About the MKG</h3>
 					<p>Phasellus sit amet justo sapien. Praesent bibendum, enim non fringilla vestibulum.</p>
 					<p>We can condimentum est lacus ut dolor. Sed facilisis ante felis, vitae mattis massa luctus sit amet. Vestibulum eu blandit ipsum. In ornare enim nunc.</p>
 					<ul class="about" >
@@ -57,7 +57,7 @@
 		</div>
 		<div class="copyright" >
 			<div class="container">
-				<p class="pull-left" >&copy; All rights reserved. Gym Website by <a href="#">Demo</a></p>
+				<p class="pull-left" >&copy; MKG Detroit <?php echo date('Y'); ?>. All rights reserved.</a></p>
 				<ul class="main-links pull-right" >
 					<li><a href="#">Home</a></li>
 					<li><a href="#">Classes</a></li>
@@ -80,10 +80,10 @@
 	<!-- jQuery -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript" ></script>
 	
-	    
-    <!-- Respond.j media queries for IE8 -->
-    <?php echo js('respond.min.js'); ?>
-    
+		
+	<!-- Respond.j media queries for IE8 -->
+	<?php echo js('respond.min.js'); ?>
+	
 	<!-- Bootstrap-->
 	<?php echo js('bootstrap.min.js'); ?>
  
@@ -93,12 +93,22 @@
 	<!-- Placeholder.js http://widgetulous.com/placeholderjs/ -->
 	<?php echo js('placeholder.js'); ?>
 
-    <!-- Retina.js -->
-    <?php echo js('retina.js'); ?>
-    
-	<!-- jQuery REVOLUTION Slider  -->
-	<?php echo js('rs-plugin/pluginsources/jquery.themepunch.plugins.min.js'); ?>
-	<?php echo js('rs-plugin/js/jquery.themepunch.revolution.min.js'); ?>
+	<!-- Retina.js -->
+	<?php echo js('retina.js'); ?>
+	
+	<?php if (current_url() == base_url()) : ?>
+		<!-- jQuery REVOLUTION Slider  -->
+		<?php echo js('rs-plugin/pluginsources/jquery.themepunch.plugins.min.js'); ?>
+		<?php echo js('rs-plugin/js/jquery.themepunch.revolution.min.js'); ?>
+	<?php endif ?>
+
+	<?php if (current_url() == base_url('classes/')) : ?>
+		<!-- needed to work Isotope -->
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+		<!-- Isotope -->
+		<?php echo js('jquery.isotope.min.js'); ?>
+	<?php endif ?>
+
 
 	<!-- Custom site js-->
 	<?php echo js('script.js'); ?>

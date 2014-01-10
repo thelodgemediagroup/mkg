@@ -117,20 +117,20 @@
                     <div class="carousel-inner">
                         <div class="item active">
                             <ul class="logos" >
-                                <li><a href="#"><img src="img/logos/1.png" alt="//" /></a></li>
-                                <li><a href="#"><img src="img/logos/2.png" alt="//" /></a></li>
-                                <li><a href="#"><img src="img/logos/3.png" alt="//" /></a></li>
-                                <li><a href="#"><img src="img/logos/4.png" alt="//" /></a></li>
-                                <li><a href="#"><img src="img/logos/5.png" alt="//" /></a></li>
+                                <li><a href="#"><img src="<?php echo img_path('logos/1.png'); ?>" alt="//" /></a></li>
+                                <li><a href="#"><img src="<?php echo img_path('logos/2.png'); ?>" alt="//" /></a></li>
+                                <li><a href="#"><img src="<?php echo img_path('logos/3.png'); ?>" alt="//" /></a></li>
+                                <li><a href="#"><img src="<?php echo img_path('logos/4.png'); ?>" alt="//" /></a></li>
+                                <li><a href="#"><img src="<?php echo img_path('logos/5.png'); ?>" alt="//" /></a></li>
                             </ul>
                         </div>
                         <div class="item">
                             <ul class="logos" >
-                                <li><a href="#"><img src="img/logos/5.png" alt="//" /></a></li>
-                                <li><a href="#"><img src="img/logos/1.png" alt="//" /></a></li>
-                                <li><a href="#"><img src="img/logos/2.png" alt="//" /></a></li>
-                                <li><a href="#"><img src="img/logos/3.png" alt="//" /></a></li>
-                                <li><a href="#"><img src="img/logos/4.png" alt="//" /></a></li>
+                                <li><a href="#"><img src="<?php echo img_path('logos/5.png'); ?>" alt="//" /></a></li>
+                                <li><a href="#"><img src="<?php echo img_path('logos/1.png'); ?>" alt="//" /></a></li>
+                                <li><a href="#"><img src="<?php echo img_path('logos/2.png'); ?>" alt="//" /></a></li>
+                                <li><a href="#"><img src="<?php echo img_path('logos/3.png'); ?>" alt="//" /></a></li>
+                                <li><a href="#"><img src="<?php echo img_path('logos/4.png'); ?>" alt="//" /></a></li>
                             </ul>
                         </div>
                     </div>
