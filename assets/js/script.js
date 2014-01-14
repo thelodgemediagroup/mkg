@@ -8,7 +8,7 @@ $(document).ready(function() {
 			delay:3000,
 			hideThumbs:1,
 			startwidth:1170,
-			startheight:500,
+			startheight:400,
 			shadow:0,
 			touchenabled:"on",
 			navigationType: "none",

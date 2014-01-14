@@ -11,7 +11,7 @@
 						data-transition="boxslide" 
 						data-slotamount="1"
 					>
-						<img src="<?php echo img_path('slider/01.jpg'); ?>" alt="//" />
+						<img src="<?php echo img_path('slider/mkg_slider01.jpg'); ?>" alt="//" />
 						<div 
 							class="caption lfb ltb" 
 							data-x="600"
@@ -20,7 +20,7 @@
 							data-start="500"
 							data-easing="easeOutBack"
 						>
-							<h2>cardio fitness</h2>
+							<h2>Muy Thai</h2>
 						</div>
 						<div 
 							class="caption lfb ltb"  
@@ -30,7 +30,7 @@
 							data-start="500" 
 							data-easing="easeOutBack"
 						>
-							<p>strength - stamina - power</p>
+							<p>thai boxing</p>
 						</div>
 						<div 
 							class="caption lfb ltb"  
@@ -39,7 +39,7 @@
 							data-speed="300" 
 							data-start="500"
 						>
-							<a class="see_work" href="#portfolio" >sign up today</a>
+							<a class="see_work" href="<?php echo base_url('registration'); ?>" >sign up today</a>
 						</div>                                    
 					</li>
 
@@ -48,7 +48,7 @@
 						data-transition="boxslide" 
 						data-slotamount="1"
 					>
-						<img src="<?php echo img_path('slider/02.jpg'); ?>" alt="//" />
+						<img src="<?php echo img_path('slider/mkg_slider01.jpg'); ?>" alt="//" />
 						<div 
 							class="caption lfb ltb divA"  
 							data-x="100" 
@@ -57,7 +57,7 @@
 							data-start="500" 
 							data-easing="easeOutBack"
 						>
-							<h2>yoga pilates</h2>
+							<h2>women's kickboxing</h2>
 							<p>Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum sollicitudin. Lorem ipsum dolor sit amet velu.</p>
 						</div>
 
@@ -69,7 +69,7 @@
 							data-start="500" 
 							data-easing="easeOutBack"
 						>
-							<h2 class="invert">indoor cycling</h2>
+							<h2 class="invert">specialty programs</h2>
 							<p>Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum sollicitudin. Lorem ipsum dolor sit amet velu.</p>
 							<button class="button-gym">Read More</button>
 						</div>
@@ -82,7 +82,7 @@
 							data-start="500" 
 							data-easing="easeOutBack"
 						>
-							<h2>cardio fitness</h2>                               
+							<h2>jeet kune do</h2>                               
 							<p>Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum sollicitudin. Lorem ipsum dolor sit amet velu.</p>
 						</div>
 					</li> 
@@ -92,7 +92,7 @@
 						data-transition="boxslide" 
 						data-slotamount="1"
 					>
-						<img src="<?php echo img_path('slider/04.jpg'); ?>" alt="//" />
+						<img src="<?php echo img_path('slider/mkg_slider01.jpg'); ?>" alt="//" />
 						<div 
 							class="caption lfb ltb"  
 							data-x="100" 
@@ -101,7 +101,7 @@
 							data-start="500" 
 							data-easing="easeOutBack"
 						>
-							<h2>Personal Training</h2>
+							<h2>phase program</h2>
 						</div>
 						<div 
 							class="caption lfb ltb"  
@@ -123,123 +123,6 @@
 							<a class="see_work" href="#portfolio" >sign up today</a>
 						</div>                                    
 					</li>
-					<li 
-						class="slide1" 
-						data-transition="boxslide" 
-						data-slotamount="1"
-					>
-						<img src="<?php echo img_path('slider/05.jpg'); ?>" alt="//" />
-						<div 
-							class="caption lfb ltb" 
-							data-x="600"
-							data-y="120"
-							data-speed="700"
-							data-start="500"
-							data-easing="easeOutBack"
-						>
-							<h2>cardio fitness</h2>
-						</div>
-						<div 
-							class="caption lfb ltb"  
-							data-x="600" 
-							data-y="120" 
-							data-speed="500" 
-							data-start="500" 
-							data-easing="easeOutBack"
-						>
-							<p>strength - stamina - power</p>
-						</div>
-						<div 
-							class="caption lfb ltb"  
-							data-x="600" 
-							data-y="120" 
-							data-speed="300" 
-							data-start="500"
-						>
-							<a class="see_work" href="#portfolio" >sign up today</a>
-						</div>                                    
-					</li>
-
-					<li 
-						class="slide2" 
-						data-transition="boxslide" 
-						data-slotamount="1"
-					>
-						<img src="<?php echo img_path('slider/06.jpg'); ?>" alt="//" />
-						<div 
-							class="caption lfb ltb divA"  
-							data-x="100" 
-							data-y="bottom" 
-							data-speed="700" 
-							data-start="500" 
-							data-easing="easeOutBack"
-						>
-							<h2>yoga pilates</h2>
-							<p>Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum sollicitudin. Lorem ipsum dolor sit amet velu.</p>
-						</div>
-
-						<div 
-							class="caption lfb ltb divB"  
-							data-x="440" 
-							data-y="bottom" 
-							data-speed="700" 
-							data-start="500" 
-							data-easing="easeOutBack"
-						>
-							<h2 class="invert">indoor cycling</h2>
-							<p>Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum sollicitudin. Lorem ipsum dolor sit amet velu.</p>
-							<button class="button-gym">Read More</button>
-						</div>
-
-						<div 
-							class="caption lfb ltb divC"  
-							data-x="780" 
-							data-y="bottom" 
-							data-speed="700" 
-							data-start="500" 
-							data-easing="easeOutBack"
-						>
-							<h2>cardio fitness</h2>                               
-							<p>Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum sollicitudin. Lorem ipsum dolor sit amet velu.</p>
-						</div>
-					</li> 
-
-					<li 
-						class="slide3" 
-						data-transition="boxslide" 
-						data-slotamount="1"
-					>
-						<img src="<?php echo img_path('slider/01.jpg'); ?>" alt="//" />
-						<div 
-							class="caption lfb ltb"  
-							data-x="100" 
-							data-y="95" 
-							data-speed="700" 
-							data-start="500" 
-							data-easing="easeOutBack"
-						>
-							<h2>Personal Training</h2>
-						</div>
-						<div 
-							class="caption lfb ltb"  
-							data-x="100" 
-							data-y="75" 
-							data-speed="500" 
-							data-start="500" 
-							data-easing="easeOutBack"
-						>
-							<p>Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum sollicitudin. Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum sollicitudin.</p>
-						</div>
-						<div 
-							class="caption lfb ltb"  
-							data-x="100" 
-							data-y="75" 
-							data-speed="300" 
-							data-start="500"
-						>
-							<a class="see_work" href="#portfolio" >sign up today</a>
-						</div>                                    
-					</li>					 
 				</ul>
 			</div>
 			</div>
@@ -288,7 +171,7 @@
 									<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
 									<div class="class-title" >
 										<div class="occult" ><a href="#" class="link" ></a></div>
-										<h3>stretching</h3>
+										<h3>Phase Program</h3>
 										<p class="occult" >Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum</p>
 									</div>
 								</div>
@@ -299,7 +182,7 @@
 									<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
 									<div class="class-title" >
 										<div class="occult" ><a href="#" class="link" ></a></div>
-										<h3>dance classes</h3>
+										<h3>Muay Thai</h3>
 										<p class="occult" >Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum</p>
 									</div>
 								</div>
@@ -310,7 +193,7 @@
 									<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
 									<div class="class-title" >
 										<div class="occult" ><a href="#" class="link" ></a></div>
-										<h3>zen and yoga</h3>
+										<h3>Jeet Kune Do</h3>
 										<p class="occult" >Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum</p>
 									</div>
 								</div>
@@ -321,7 +204,7 @@
 									<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
 									<div class="class-title" >
 										<div class="occult" ><a href="#" class="link" ></a></div>
-										<h3>weight training</h3>
+										<h3>Kali Weaponry</h3>
 										<p class="occult" >Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum</p>
 									</div>
 								</div>
@@ -334,7 +217,7 @@
 									<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
 									<div class="class-title" >
 										<div class="occult" ><a href="#" class="link" ></a></div>
-										<h3>dance classes</h3>
+										<h3>Dirty Boxing</h3>
 										<p class="occult" >Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum</p>
 									</div>
 								</div>
@@ -345,7 +228,7 @@
 									<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
 									<div class="class-title" >
 										<div class="occult" ><a href="#" class="link" ></a></div>
-										<h3>zen and yoga</h3>
+										<h3>Women’s Kickboxing</h3>
 										<p class="occult" >Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum</p>
 									</div>
 								</div>
@@ -356,7 +239,7 @@
 									<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
 									<div class="class-title" >
 										<div class="occult" ><a href="#" class="link" ></a></div>
-										<h3>weight training</h3>
+										<h3>Functional Fitness</h3>
 										<p class="occult" >Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum</p>
 									</div>
 								</div>
@@ -367,7 +250,7 @@
 									<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
 									<div class="class-title" >
 										<div class="occult" ><a href="#" class="link" ></a></div>
-										<h3>stretching</h3>
+										<h3>Specialty Programs</h3>
 										<p class="occult" >Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum</p>
 									</div>
 								</div>

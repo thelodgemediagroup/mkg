@@ -41,14 +41,14 @@
 								<li><i class="entypo-calendar" ></i>Monday to Friday</li>
 								<li><i class="entypo-clock" ></i>10AM - 11AM and 7PM - 8PM</li>
 								<li><i class="entypo-location" ></i>Room 07, Center Plaza 15654</li>
-								<li><a href="price.html">See Pricing Tables</a></li>
+								<li><a href="<?php echo base_url('schedule'); ?>">See Pricing Tables</a></li>
 							</ul>
 						</li>   
 						<li>
 							<a href="#"><i class="entypo-phone" ></i>2-985-505-6574</a>
 						</li>
 						<li>
-							<a href="contact.html"><i class="entypo-mail" ></i>Contact</a>
+							<a href="<?php echo base_url('contact'); ?>"><i class="entypo-mail" ></i>Contact</a>
 						</li>
 					</ul>
 					<ul class="social-header pull-right">
