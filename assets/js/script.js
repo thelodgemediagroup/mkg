@@ -74,7 +74,7 @@ $(document).ready(function() {
 		map.addMarker({
 			lat: 41.8902624,
 			lng: 12.4923096,
-			title: 'Contanct',
+			title: 'Contact',
 			infoWindow: {
 				content: '15rd Avenue, New York,<br /> 156408, US<br /> <br /> Email: info@company.com <br /> Web: company.com'
 			}

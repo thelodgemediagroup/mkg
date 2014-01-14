@@ -109,6 +109,11 @@
 		<?php echo js('jquery.isotope.min.js'); ?>
 	<?php endif ?>
 
+	<?php if (current_url() == base_url('registration/')) : ?>
+		<!-- Gmaps -->
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true" ></script>
+		<?php echo js('gmaps.js'); ?>
+	<?php endif ?>
 
 	<!-- Custom site js-->
 	<?php echo js('script.js'); ?>
