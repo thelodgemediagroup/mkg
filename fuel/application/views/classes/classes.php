@@ -48,7 +48,7 @@
 							<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
 						</div>
 						<div class="title">
-							<h4>Muy Thai / Thai Boxing</h4>
+							<h4>Muay Thai / Thai Boxing</h4>
 							<p>A quick description of the class</p>
 						</div>
 					</div>

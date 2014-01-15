@@ -33,7 +33,7 @@
 										<a href="<?php echo base_url('classes/'); ?>">Classes</a>
 										<ul class="dropdown-class">
 											<li><a href="<?php echo base_url('classes/phase_program/'); ?>">Phase Program</a></li>
-											<li><a href="<?php echo base_url('classes/muy_thai_thai_boxing/'); ?>">Muy Thai / Thai Boxing</a></li>
+											<li><a href="<?php echo base_url('classes/muay_thai_thai_boxing/'); ?>">Muay Thai / Thai Boxing</a></li>
 											<li><a href="<?php echo base_url('classes/jeet_kune_do/'); ?>">Jeet Kune Do / JKD Concepts</a></li>
 											<li><a href="<?php echo base_url('classes/filipino_kali_weaponry/'); ?>">Filipino Kali Weaponry</a></li>
 											<li><a href="<?php echo base_url('classes/dirty_boxing/'); ?>">Filipino Dirty Boxing / Panantukan</a></li>

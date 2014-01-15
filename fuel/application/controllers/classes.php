@@ -31,13 +31,13 @@ Class Classes extends CI_Controller {
 
 	}
 
-	public function muy_thai_thai_boxing()
+	public function muay_thai_thai_boxing()
 	{
 
 		$data['navigation'] = $this->load->view('navigation', '', TRUE);
 
 		$this->load->view('header', $data);
-		$this->load->view('classes/muy_thai.php');
+		$this->load->view('classes/muay_thai.php');
 		$this->load->view('footer');
 
 	}

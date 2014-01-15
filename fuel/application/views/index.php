@@ -20,7 +20,7 @@
 							data-start="500"
 							data-easing="easeOutBack"
 						>
-							<h2>Muy Thai</h2>
+							<h2>Muay Thai</h2>
 						</div>
 						<div 
 							class="caption lfb ltb"  
