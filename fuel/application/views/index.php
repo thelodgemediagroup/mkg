@@ -135,14 +135,81 @@
 			<div class="container">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
-					<h2><strong>Go from where you are to where you want to be</strong></h2>
-					<p>If you put yourself in a position where you have to stretch outside your comfort zone, then you are forced to expand your consciousness.</p>
-					<button class="button-gym big-button">see our classes</button>
+					<h2><strong>MKG DETROIT is Michigan's only branch of the famed MKG International martial art organization</strong></h2>
+					<p>With a mission to empower the great people of the city of Detroit and its surrounding metro area, using a variety of martial arts, MKGD has put its roots down in locations all over the Metro in order to watch as many people grow as possible.</p>
+					<a href="<?php echo base_url('classes'); ?>"><button class="button-gym big-button">see our classes</button></a>
 				</div>
 			</div>
 			</div>
 		</article>
 		<!-- end Intro -->
+
+		<!-- begin No pressure, no diamonds  / The Club Featured -->
+		<article class="article-container">
+			<div class="container" >
+				<div class="row">
+					<div class="col-md-7">
+						<h2 class="headers">Is it right for me?</h2>
+						<span class="line" >
+							<span class="sub-line" ></span>
+						</span>
+						<div class="tabbable tabs-left">
+							<div class="tab-content">
+								<p><strong>If you answer “YES” to any of the following questions, MKGD is right for YOU!</strong></p>
+									<p>
+										&#9656; Do you want to get healthier, stronger, faster, better – not just “in shape” (whatever that means)?
+									</p>
+									<p>
+										&#9656; Have you been interested in martial arts, but have been concerned about the competitive, ego-driven atmosphere sometimes associated with this activity?
+									</p>
+									<p>
+										&#9656; Do you fantasize about working out in a place that emphasizes encouragement, excitement, and skill-building, over vanity, competition, and mirror-gazing? 
+									</p>
+									<p>
+										&#9656; Do you want to relieve stress in your life?
+									</p>
+									<p>
+										&#9656; Do you want to learn a new skill, one that can help keep you and your loved ones safe? 
+									</p>
+									<p>
+										&#9656; Do you like fun?
+									</p>
+									<p>
+										&#9656; Are you a martial art movie fan?
+									</p>
+									<p>
+										&#9656; Do you want to expand in your knowledge of martial art?
+									</p>
+									<p>
+										&#9656; Do you want an interesting place to meet new people, share in new experiences, and get out of the house?
+									</p>
+									<p>
+										&#9656; Have you wondered what it’s like to train your body like a real MMA fighter or pro boxer, but aren’t interested in the inconvenience of explaining your black eye and concussion to your boss?  
+									</p>
+							</div> 
+
+						</div>
+					</div>
+					<div class="col-md-5">
+						<h2 class="headers">MKGD Curriculum</h2>
+						<span class="line" >
+							<span class="sub-line" ></span>
+						</span>
+						<div class="tabs-left">
+							<div class="tab-content">
+								<p>
+									All of our classes are designed to offer the beginning student a “go-at-your-own-pace” experience, while offering the more seasoned martial artist a chance to dive deeper in their skill set, or develop in a new area entirely.  This will probably be the most fun you’ll have learning something new, and working towards looking and feeling great. 
+								</p>
+								<p>&nbsp;</p>
+								<p><a href="<?php echo base_url('registration'); ?>"><button class="button-gym big-button">Call or email to register for a free trial!</button></a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+		<!-- end No pressure, no diamonds  / The Club Featured -->
+
 
 		<!-- begin new classes -->
 		<article class="article-container">
@@ -156,7 +223,7 @@
 					</span>
 					<a class="slider-control pull-right next" href="#new-classes" data-slide="next"></a>
 					<a class="slider-control pull-right prev" href="#new-classes" data-slide="prev"></a>
-					<a class="button-gym normal-button view-all pull-right" href="classes.html" >view all</a>
+					<a class="button-gym normal-button view-all pull-right" href="<?php echo base_url('classes'); ?>" >view all</a>
 					</div>
 				</div>
 
@@ -265,187 +332,6 @@
 			</div>
 		</article>
 		<!-- end new classes --> 
-
-
-		<!-- begin Featured Classes -->
-		<article class="article-container">
-			<div class="container" >
-				<div class="row" >
-					<div class="col-xs-12">
-					<h2 class="headers">Featured Classes</h2>
-					<span class="line" >
-						<span class="sub-line" ></span>
-					</span>
-					<a class="button-gym normal-button view-all pull-right no-margin" href="classes.html" >view all</a>
-					</div>
-				</div>
-				<div class="row" >
-					<div class="col-xs-3 col-sm-2 col-md-1" >
-						<img src="<?php echo img_path('featured-classes/ballet-red.png'); ?>" alt="//" />
-					</div>
-					<div class="col-xs-9 col-sm-10 col-md-3 fc-container" >
-						<h3>Ballet classes</h3>
-						<p>Ut a molestie urna. Vestibulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci.</p>
-						<a href="#">Read more...</a>
-					</div>
-					
-					<div class="col-xs-3 col-sm-2 col-md-1" >
-						<img src="<?php echo img_path('featured-classes/yoga-red.png'); ?>" alt="//" />
-					</div>
-					<div class="col-xs-9 col-sm-10 col-md-3 fc-container" >
-						<h3>Yoga classes</h3>
-						<p>
-							Ut a molestie urna. Vestibulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci.
-						</p>
-						<a href="#">Read more...</a>
-					</div>
-					
-					<div class="col-xs-3 col-sm-2 col-md-1" >
-						<img src="<?php echo img_path('featured-classes/karate-red.png'); ?>" alt="//" />
-					</div>
-					<div class="col-xs-9 col-sm-10 col-md-3 fc-container" >
-						<h3>Karate classes</h3>
-						<p>
-							Ut a molestie urna. Vestibulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci.
-						</p>
-						<a href="#">Read more...</a>
-					</div>
-				  </div>
-			  </div>
-		</article>  
-		<!-- end Featured Classes -->
-		
-		<!-- begin No pressure, no diamonds  / The Club Featured -->
-		<article class="article-container">
-			<div class="container" >
-				<div class="row">
-					<div class="col-md-7">
-						<h2 class="headers">No pressure, no diamonds</h2>
-						<span class="line" >
-							<span class="sub-line" ></span>
-						</span>
-						<div class="tabbable tabs-left">
-						<ul class="nav nav-tabs col-xs-4"><!--  nav-tabs-sec" id="myTab"  nav-tabs-sec -->
-							<li class="active"><a href="#outside-sec" data-toggle="tab"><span class="gym-icon outside"></span>Outside Sports</a></li>
-							<li><a href="#video-sec" data-toggle="tab" ><span class="gym-icon video"></span>Video Tour</a></li>
-							<li><a href="#quiet-sec" data-toggle="tab" ><span class="gym-icon sports"></span>Quiet Sports</a></li>
-							<li><a href="#comunity-sec" data-toggle="tab" ><span class="gym-icon comunity"></span>Sportive Comunity</a></li>
-							<li><a href="#footbal-sec" data-toggle="tab" ><span class="gym-icon footbal"></span>Footbal</a></li>
-						</ul>
-								 
-						<div class="tab-content col-xs-8">
-							<div class="tab-pane in active" id="outside-sec">
-								<p>
-									1Ut a molestie urna. Vestibulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci. Sed ultricies elit eget venenatis tristique. Sed tempus egestas ante, vel ullamcorper nulla ultricies at.
-								</p>
-								<p>
-									Maecenas pellentesque rhoncus egestas. Aenean molestie nisl eget semper pretium. Praesent adipiscing faucibus magna, eu vulbus magna, eu vul and putate ante volutpat volutpat and ulla facilisi. 
-								</p>
-								<p>
-									Maecenas pellentesque rhoncus egestas. Aenean molestie nisl eget semper pretium. Praesent adipiscing faucibus magna, eu vulbus magna, eu vul and putate ante volutpat volutpat and ulla facilisi. Maecenas pellentesque rhoncus egestas. Aenean molestie nisl eget semper pretium. Praesent adipiscing faucibus magna, eu vulbus magna, eu vul and putate ante volutpat volutpat and ulla facilisi. 
-								</p>
-							</div>
-							<div class="tab-pane in" id="video-sec">
-								<p>
-									2Ut a molestie urna. Vestibulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci. Sed ultricies elit eget venenatis tristique. Sed tempus egestas ante, vel ullamcorper nulla ultricies at.
-								</p>
-								<p>
-									Maecenas pellentesque rhoncus egestas. Aenean molestie nisl eget semper pretium. Praesent adipiscing faucibus magna, eu vulbus magna, eu vul and putate ante volutpat volutpat and ulla facilisi. 
-								</p>
-								<p>
-									Maecenas pellentesque rhoncus egestas. Aenean molestie nisl eget semper pretium. Praesent adipiscing faucibus magna, eu vulbus magna, eu vul and putate ante volutpat volutpat and ulla facilisi. 
-								</p>
-							</div>
-							<div class="tab-pane in" id="quiet-sec">
-								<p>
-									3 go ulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci. Sed ultricies elit eget venenatis tristique. Sed tempus egestas ante, vel ullamcorper nulla ultricies at.
-								</p>
-								<p>
-									Maecenas pellentesque rhoncus egestas. Aenean molestie nisl eget semper pretium. Praesent adipiscing faucibus magna, eu vulbus magna, eu vul and putate ante volutpat volutpat and ulla facilisi. 
-								</p>
-							</div>
-							<div class="tab-pane in" id="comunity-sec">
-								<p>
-									4Ut a molestie urna. Vestibulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci. Sed ultricies elit eget venenatis tristique. Sed tempus egestas ante, vel ullamcorper nulla ultricies at.
-								</p>
-								<p>
-									Maecenas pellentesque rhoncus egestas. Aenean mnean molestie nissl eget semper pretium. Praesent adipiscing faucibus magna, eu vulbus magna, eu vul and putate ante volutpat volutpat and ulla facilisi. 
-								</p>
-							</div>
-							<div class="tab-pane in" id="footbal-sec">
-								<p>
-									5Ut a molestie urna. Vestibulum malesuaollis varius, lorem urna euismod purus, ut varius est erat a orci. Sed ultricies elit eget venenatis tristique. Sed tempus egestas ante, vel ullamcorper nulla ultricies at.
-								</p>
-								<p>
-									Maecenas pellentesque rhoncus egestas. Aenean molestie nisl eget semper pretium. Praesent adipiscing faucibus magna, eu vulbus magna, eu vul and putate ante volutpat volutpat and ulla facilisi. 
-								</p>
-							</div>
-						</div> 
-
-						</div>
-					</div>
-					<div class="col-md-5">
-						<h2 class="headers">The Club Features</h2>
-						<span class="line" >
-							<span class="sub-line" ></span>
-						</span>
-						
-						<!-- begin Accordion -->
-						<div class="accordion" id="accordion2">
-							<div class="accordion-group">
-								<div class="accordion-heading">
-									<h5>Gym Fitness</h5>
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">+</a>
-								</div>
-								<div id="collapseOne" class="accordion-body collapse in">
-								<div class="accordion-inner">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">-</a>
-									<h5>Indoor Cycling</h5>
-									<p>
-										Ut a molestie urna. Vestibulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci. Sed ultricies elit eget venenatis tristique. Sed tempus egestas ante, vel ullamcorper nulla ultricies at. Maecenas pellentesque rhoncus egestas. Aenean molestie nisl eget semper pretium. Praesent adipiscing faucibus magna, eu vulputate ante volutpat volutpat and ulla facilisi.
-									</p>
-								</div>
-								</div>
-							</div>
-							
-							<div class="accordion-group">
-								<div class="accordion-heading">
-									<h5>Yoga Pilates</h5>
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">+</a>
-								</div>
-								<div id="collapseTwo" class="accordion-body collapse">
-								<div class="accordion-inner">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">-</a>
-									<h5>Indoor Cycling</h5>
-									<p>
-										Ut a molestie urna. Vestibulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci. Sed ultricies elit eget venenatis tristique. Sed tempus egestas ante, vel ullamcorper nulla ultricies at. Maecenas pellentesque rhoncus egestas. Aenean molestie nisl eget semper pretium. Praesent adipiscing faucibus magna, eu vulputate ante volutpat volutpat and ulla facilisi.
-									</p>
-								</div>
-								</div>
-							</div>
-
-							<div class="accordion-group">
-								<div class="accordion-heading">
-									<h5>Cardio Fitness</h5>
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">+</a>
-								</div>
-								<div id="collapseThree" class="accordion-body collapse">
-								  <div class="accordion-inner">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">-</a>
-									<h5>Indoor Cycling</h5>
-									<p>
-										Ut a molestie urna. Vestibulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci. Sed ultricies elit eget venenatis tristique. Sed tempus egestas ante, vel ullamcorper nulla ultricies at. Maecenas pellentesque rhoncus egestas. Aenean molestie nisl eget semper pretium. Praesent adipiscing faucibus magna, eu vulputate ante volutpat volutpat and ulla facilisi.
-									</p>
-								</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</article>
-		<!-- end No pressure, no diamonds  / The Club Featured -->
-
 
         <!-- Table -->
         <article class="article-container">      
@@ -605,53 +491,6 @@
             </div>            
         </article>  
         <!-- end Table -->
-
-
-		<!-- begin Bodybuilding Supplements -->
-		<article class="article-container">
-			<div class="container" >
-
-				<!-- arrows -->
-				<div class="row" >					
-					<div class="col-md-12">
-						<h2 class="headers">Bodybuilding Supplements</h2>
-						<span class="line" >
-							<span class="sub-line" ></span>
-						</span>
-						<a class="slider-control pull-right next" href="#bodybuilding" data-slide="next"></a>
-						<a class="slider-control pull-right prev" href="#bodybuilding" data-slide="prev"></a>
-					</div>
-				</div>
-				<!-- end arrows -->
-
-				<div class="row" >
-					<div id="bodybuilding" class="carousel slide">
-					<!-- Wrapper for slides -->
-					<div class="carousel-inner">
-						<div class="item active">
-							<ul class="logos" >
-								<li><a href="#"><img src="<?php echo img_path('logos/1.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/2.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/3.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/4.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/5.png'); ?>" alt="//" /></a></li>
-							</ul>
-						</div>
-						<div class="item">
-							<ul class="logos" >
-								<li><a href="#"><img src="<?php echo img_path('logos/5.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/1.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/2.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/3.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/4.png'); ?>" alt="//" /></a></li>
-							</ul>
-						</div>
-					</div>
-					</div>
-				</div>
-			</div>
-		</article>
-		<!-- end Bodybuilding Supplements -->
 	</section>
 
 	<!-- end content -->

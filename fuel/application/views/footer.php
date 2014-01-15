@@ -3,9 +3,9 @@
 		<div class="container" >
 			<div class="row misc">
 				<div class="col-md-3" >
-					<h3>About the MKG</h3>
-					<p>Phasellus sit amet justo sapien. Praesent bibendum, enim non fringilla vestibulum.</p>
-					<p>We can condimentum est lacus ut dolor. Sed facilisis ante felis, vitae mattis massa luctus sit amet. Vestibulum eu blandit ipsum. In ornare enim nunc.</p>
+					<h3>About MKGD</h3>
+					<p>MKG DETROIT (MKGD) is Michigan's only branch of the famed MKG International martial art organization!</p>
+					<p>MKGD brings you the unique approach to martial art training that the MKG brand is known for the world over.</p>
 					<ul class="about" >
 						<li><i class="entypo-location" ></i>Street 32165, 646 UK</li>
 						<li><i class="entypo-mobile" ></i>(62626) 5154 4545</li>
@@ -16,17 +16,17 @@
 				<div class="col-md-3">
 					<h3>Useful Links</h3>
 					<ul class="links" >
-						<li><a href="#"><i class="entypo-right-open-mini" ></i>Meet the Coaches of the Club</a></li>  
-						<li><a href="#"><i class="entypo-right-open-mini" ></i>Meet the Trainers</a></li>  
-						<li><a href="#"><i class="entypo-right-open-mini" ></i>See the Club inside</a></li>  
-						<li><a href="#"><i class="entypo-right-open-mini" ></i>Testimonials Videos</a></li>  
-						<li><a href="#"><i class="entypo-right-open-mini" ></i>Meet the Trainers of the Club</a></li>  
-						<li><a href="#"><i class="entypo-right-open-mini" ></i>Personal Coaching Video</a></li>                      
+						<li><a href="<?php echo base_url('about'); ?>"><i class="entypo-right-open-mini" ></i>About MKGD</a></li>  
+						<li><a href="<?php echo base_url('about/staff/'); ?>"><i class="entypo-right-open-mini" ></i>Meet the Staff</a></li>  
+						<li><a href="<?php echo base_url('classes'); ?>"><i class="entypo-right-open-mini" ></i>Explore Our Classes</a></li>  
+						<li><a href="#<?php echo base_url('registration'); ?>"><i class="entypo-right-open-mini" ></i>Register for Classes</a></li>  
+						<li><a href="<?php echo base_url('news'); ?>"><i class="entypo-right-open-mini" ></i>MKGD News</a></li>  
+						<li><a href="<?php echo base_url('schedule'); ?>"><i class="entypo-right-open-mini" ></i>MKGD Schedule</a></li>                      
 					</ul>
 				</div>
 				<div class="col-md-3">
 					<h3>Newsletter</h3>
-					<p>Suscribe to our ahasellus sit amet justo sapien and raesent bibendum you will get nim non fringilla vestibulum.</p>
+					<p>Suscribe to our newsletter and stay current on our course offerings and hot deals throughout the year.</p>
 					<form method="post" action="//" role="form">
 						<div class="form-group">
 							<label for="name" class="sr-only">Your Name</label>
@@ -42,7 +42,7 @@
 				</div>
 				<div class="col-md-3">
 					<h3>Get Social</h3>
-					<p>Follow us on the Social Networks to let all the news and win disccounts!</p>
+					<p>Follow us on the Social Networks for news and special offers.</p>
 					<ul class="social" >
 						<li><a href="#"><i class="entypo-facebook" ></i></a></li>
 						<li><a href="#"><i class="entypo-twitter" ></i></a></li>
