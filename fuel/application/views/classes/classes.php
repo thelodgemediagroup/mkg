@@ -6,13 +6,13 @@
 				<div class="row" >
 					<ul class="sub-header-container" >
 						<li>
-							<h3 class="title">No pressure, no diamonds</h3>
+							<h3 class="title">MKGD Classes</h3>
 						</li>
 						<li>
 							<ul class="custom-breadcrumb" >
-								<li><h6><a href="index.html">Home</a></h6></li>
+								<li><h6><a href="<?php echo base_url(); ?>">Home</a></h6></li>
 								<li><i class="separator entypo-play" ></i></li>
-								<li><h6>Classes</h6></li>
+								<li><h6>MKGD Classes</h6></li>
 							</ul>                    
 						</li>
 					</ul>
@@ -25,7 +25,7 @@
 			<div class="container grid magic-grid" >
 				<div class="row" >
 					<div class="col-md-12">
-					<h2 class="article-title" >MKG Classes</h2>
+					<h2 class="article-title" >MKGD Classes</h2>
 					<span class="line" >
 						<span class="sub-line" ></span>
 					</span>
@@ -44,7 +44,7 @@
 				<div class="row content">
 					<div class="element kickboxing martial-arts" >
 						<div class="link" >
-							<a href="single-class.html"></a>
+							<a href="<?php echo base_url('classes/muay_thai_thai_boxing'); ?>"></a>
 							<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
 						</div>
 						<div class="title">
@@ -55,7 +55,7 @@
 
 					<div class="element fitness" >
 						<div class="link" >
-							<a href="single-class.html"></a>
+							<a href="<?php echo base_url('classes/phase_program'); ?>"></a>
 							<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
 						</div>
 						<div class="title">
@@ -66,7 +66,7 @@
 
 					<div class="element martial-arts" >
 						<div class="link" >
-							<a href="single-class.html"></a>
+							<a href="<?php echo base_url('classes/jeet_kune_do'); ?>"></a>
 							<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
 						</div>
 						<div class="title">
@@ -77,7 +77,7 @@
 						
 					<div class="element martial-arts" >
 						<div class="link" >
-							<a href="single-class.html"></a>
+							<a href="<?php echo base_url('classes/filipino_kali_weaponry'); ?>"></a>
 							<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
 						</div>
 						<div class="title">
@@ -88,7 +88,7 @@
 
 					<div class="element kickboxing martial-arts" >
 						<div class="link" >
-							<a href="single-class.html"></a>
+							<a href="<?php echo base_url('classes/dirty_boxing'); ?>"></a>
 							<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
 						</div>
 						<div class="title">
@@ -99,7 +99,7 @@
 
 					<div class="element kickboxing martial-arts" >
 						<div class="link" >
-							<a href="single-class.html"></a>
+							<a href="<?php echo base_url('classes/womens_kickboxing'); ?>"></a>
 							<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
 						</div>
 						<div class="title">
@@ -110,7 +110,7 @@
 						
 					<div class="element fitness" >
 						<div class="link" >
-							<a href="single-class.html"></a>
+							<a href="<?php echo base_url('classes/fitness'); ?>"></a>
 							<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
 						</div>
 						<div class="title">
@@ -121,7 +121,7 @@
 
 					<div class="element fitness martial-arts" >
 						<div class="link" >
-							<a href="single-class.html"></a>
+							<a href="<?php echo base_url('classes/specialty_programs'); ?>"></a>
 							<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
 						</div>
 						<div class="title">
@@ -132,51 +132,6 @@
 			</div>
 		</article> 
 		<!-- end Classes --> 
-		
-		<!-- begin Bodybuilding Supplements -->
-		<article class="article-container">
-			<div class="container" >
-
-				<!-- arrows -->
-				<div class="row" >                  
-					<div class="col-md-12">
-						<h2 class="headers">Bodybuilding Supplements</h2>
-						<span class="line" >
-							<span class="sub-line" ></span>
-						</span>
-						<a class="slider-control pull-right next" href="#bodybuilding" data-slide="next"></a>
-						<a class="slider-control pull-right prev" href="#bodybuilding" data-slide="prev"></a>
-					</div>
-				</div>
-				<!-- end arrows -->
-				
-				<div class="row" >
-					<div id="bodybuilding" class="carousel slide">
-					<!-- Wrapper for slides -->
-					<div class="carousel-inner">
-						<div class="item active">
-							<ul class="logos" >
-								<li><a href="#"><img src="<?php echo img_path('logos/1.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/2.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/3.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/4.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/5.png'); ?>" alt="//" /></a></li>
-							</ul>
-						</div>
-						<div class="item">
-							<ul class="logos" >
-								<li><a href="#"><img src="<?php echo img_path('logos/5.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/1.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/2.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/3.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/4.png'); ?>" alt="//" /></a></li>
-							</ul>
-						</div>
-					</div>
-					</div>
-				</div>
-			</div>
-		</article>
 	</section>
 
 	<!-- END HOME -->

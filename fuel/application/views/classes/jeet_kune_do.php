@@ -7,15 +7,15 @@
 				<div class="row" >
 					<ul class="sub-header-container" >
 						<li>
-							<h3 class="title">No pressure, no diamonds</h3>
+							<h3 class="title">MKGD Jeet Kune Do</h3>
 						</li>
 						<li>
 							<ul class="custom-breadcrumb" >
-								<li><h6><a href="index.html">Home</a></h6></li>
+								<li><h6><a href="<?php echo base_url(); ?>">Home</a></h6></li>
 								<li><i class="separator entypo-play" ></i></li>
-								<li><h6><a href="#">Classes</a></h6></li>
+								<li><h6><a href="<?php echo base_url('classes'); ?>">Classes</a></h6></li>
 								<li><i class="separator entypo-play" ></i></li>
-								<li><h6>Phase Program</h6></li>
+								<li><h6>Jeet Kune Do</h6></li>
 							</ul>                    
 						</li>
 					</ul>
@@ -30,7 +30,7 @@
 			<div class="container" >
 				<div class="row" >
 					<div class="col-md-12">
-					<h2 class="article-title" >Jeet Kune Do</h2>                  
+					<h2 class="article-title" >Jeet Kune Do (JKD) / Jun Fan Gung Fu</h2>                  
 					<span class="line" >
 						<span class="sub-line" ></span>
 					</span>
@@ -43,8 +43,8 @@
 					</figure>
 					</div>
 					<div class="sol-sm-7 col-md-5">
-						<p>Proin eros ante, viverra id risus non, porttitor posuere enim. In hac habitasse platea dictumst. Integer dapibus velit eu mattis ullamcorper. Nam ac placerat ligula, eu sodales nisl. Sed libero nisi, aliquet non tellus non, pharetra faucibus diam. Phasellus scelerisque fringilla diam, ac rhoncus purus sodales mattis. Nullam eleifend molestie felis ac tempus. Curabitur semper arcu a est viverra, vel adipiscing dui tristique. Aliquam erat volutpat. Duis pharetra congue tellus nec imperdiet. Donec pellentesque aliquet risus eu pellentesque. Donec varius ut ligula in lobortis.</p>
-						<p> Maecenas ut scelerisque ante. Maecenas nunc libero, suscipit ut adipiscing sit amet, accumsan sed eros. Vestibulum varius lacus eget molestie tempor. Nam bibendum ullamcorper laoreet. Sed vestibulum erat ac est facilisis commodo. Donec posuere dolor metus, et placerat turpis sodales sit amet. Cras semper libero eu tempus viverra.</p>
+						<p>This highly effective approach to martial art was developed by the late, and infamous, Bruce Lee.  While widely known as a popular film and television actor, Bruce Lee’s greatest contribution was likely his scientific approach to the martial arts.  Along with his friend and training partner Dan Inosanto, Lee developed Jeet Kune Do (JKD), or “The Way of the Intercepting Fist”.  Acting as a guiding philosophy to the approach of martial studies, a filter that allowed practitioners to focus on personal growth and expression, JKD changed the face of martial art forever.</p>
+						<p>This class focuses on developing specific attributes that allow a martial artist to hone their craft in all ranges of empty hand combatives.  Useful as a study in mixed martial arts, as well as for realistic self protection, our JKD class is a mix of high energy kickboxing drills, footwork training, intricate trapping, locking, in-fighting, and occasional ground tactics.  Each class combines partnered drills that promote increased sensitivity and familiarization with lines of attack, with effective pad-work and some conditioning.  As always, all levels are welcome to try this exciting and effective art that offers a workout for not just the body, but also the mind.</p>
 					</div>
 					<div class="col-md-4">
 						<div class="panel panel-gym">

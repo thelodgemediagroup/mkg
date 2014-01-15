@@ -11,9 +11,9 @@
 						</li>
 						<li>
 							<ul class="custom-breadcrumb" >
-								<li><h6><a href="index.html">Home</a></h6></li>
+								<li><h6><a href="<?php echo base_url(); ?>">Home</a></h6></li>
 								<li><i class="separator entypo-play" ></i></li>
-								<li><h6><a href="#">Classes</a></h6></li>
+								<li><h6><a href="<?php echo base_url('classes'); ?>">Classes</a></h6></li>
 								<li><i class="separator entypo-play" ></i></li>
 								<li><h6>Phase Program</h6></li>
 							</ul>                    

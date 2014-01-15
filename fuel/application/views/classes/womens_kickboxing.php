@@ -7,15 +7,15 @@
 				<div class="row" >
 					<ul class="sub-header-container" >
 						<li>
-							<h3 class="title">No pressure, no diamonds</h3>
+							<h3 class="title">MKGD Women's Kickboxing</h3>
 						</li>
 						<li>
 							<ul class="custom-breadcrumb" >
-								<li><h6><a href="index.html">Home</a></h6></li>
+								<li><h6><a href="<?php echo base_url(); ?>">Home</a></h6></li>
 								<li><i class="separator entypo-play" ></i></li>
-								<li><h6><a href="#">Classes</a></h6></li>
+								<li><h6><a href="<?php echo base_url('classes'); ?>">Classes</a></h6></li>
 								<li><i class="separator entypo-play" ></i></li>
-								<li><h6>Phase Program</h6></li>
+								<li><h6>Women's Kickboxing</h6></li>
 							</ul>                    
 						</li>
 					</ul>
@@ -43,8 +43,7 @@
 					</figure>
 					</div>
 					<div class="sol-sm-7 col-md-5">
-						<p>Proin eros ante, viverra id risus non, porttitor posuere enim. In hac habitasse platea dictumst. Integer dapibus velit eu mattis ullamcorper. Nam ac placerat ligula, eu sodales nisl. Sed libero nisi, aliquet non tellus non, pharetra faucibus diam. Phasellus scelerisque fringilla diam, ac rhoncus purus sodales mattis. Nullam eleifend molestie felis ac tempus. Curabitur semper arcu a est viverra, vel adipiscing dui tristique. Aliquam erat volutpat. Duis pharetra congue tellus nec imperdiet. Donec pellentesque aliquet risus eu pellentesque. Donec varius ut ligula in lobortis.</p>
-						<p> Maecenas ut scelerisque ante. Maecenas nunc libero, suscipit ut adipiscing sit amet, accumsan sed eros. Vestibulum varius lacus eget molestie tempor. Nam bibendum ullamcorper laoreet. Sed vestibulum erat ac est facilisis commodo. Donec posuere dolor metus, et placerat turpis sodales sit amet. Cras semper libero eu tempus viverra.</p>
+						<p>A kickboxing class designed exclusively for women,  Women’s Kickboxing provides a workout for all fitness levels. This curriculum combines material from JKD Kickboxing, Thai Boxing, and Western Boxing, in a fun and fitness-focused fashion.  You will get in the shape you desire, while learning some effective self defense and kickboxing skills. The workout is a supportive “go at your own pace” environment, so you can work up to your maximum potential.  Bring a friend to partner up with, or take the opportunity to meet a new friend!  The environment is fun, layed-back, and high-energy. </p>
 					</div>
 					<div class="col-md-4">
 						<div class="panel panel-gym">

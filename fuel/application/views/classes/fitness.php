@@ -7,15 +7,15 @@
 				<div class="row" >
 					<ul class="sub-header-container" >
 						<li>
-							<h3 class="title">No pressure, no diamonds</h3>
+							<h3 class="title">MKGD Functional Fitness</h3>
 						</li>
 						<li>
 							<ul class="custom-breadcrumb" >
-								<li><h6><a href="index.html">Home</a></h6></li>
+								<li><h6><a href="<?php echo base_url(); ?>">Home</a></h6></li>
 								<li><i class="separator entypo-play" ></i></li>
-								<li><h6><a href="#">Classes</a></h6></li>
+								<li><h6><a href="<?php echo base_url('classes'); ?>">Classes</a></h6></li>
 								<li><i class="separator entypo-play" ></i></li>
-								<li><h6>Phase Program</h6></li>
+								<li><h6>Functional Fitness</h6></li>
 							</ul>                    
 						</li>
 					</ul>
@@ -30,7 +30,7 @@
 			<div class="container" >
 				<div class="row" >
 					<div class="col-md-12">
-					<h2 class="article-title" >Functional Fitness Circuits</h2>                  
+					<h2 class="article-title" >Fight-Fit Circuit Training</h2>                  
 					<span class="line" >
 						<span class="sub-line" ></span>
 					</span>
@@ -43,8 +43,9 @@
 					</figure>
 					</div>
 					<div class="sol-sm-7 col-md-5">
-						<p>Proin eros ante, viverra id risus non, porttitor posuere enim. In hac habitasse platea dictumst. Integer dapibus velit eu mattis ullamcorper. Nam ac placerat ligula, eu sodales nisl. Sed libero nisi, aliquet non tellus non, pharetra faucibus diam. Phasellus scelerisque fringilla diam, ac rhoncus purus sodales mattis. Nullam eleifend molestie felis ac tempus. Curabitur semper arcu a est viverra, vel adipiscing dui tristique. Aliquam erat volutpat. Duis pharetra congue tellus nec imperdiet. Donec pellentesque aliquet risus eu pellentesque. Donec varius ut ligula in lobortis.</p>
-						<p> Maecenas ut scelerisque ante. Maecenas nunc libero, suscipit ut adipiscing sit amet, accumsan sed eros. Vestibulum varius lacus eget molestie tempor. Nam bibendum ullamcorper laoreet. Sed vestibulum erat ac est facilisis commodo. Donec posuere dolor metus, et placerat turpis sodales sit amet. Cras semper libero eu tempus viverra.</p>
+						<p>Are you an MMA or boxing fan?  Have you wondered what it’s like to train your body like a real pro fighter, but aren’t interested in actual contact-sparring or competition?  Do you want to have fun getting in the best shape you can, but get too bored just lifting bars with heavy plates attached on them?</p>
+						<p>If you answered yes, every MKGD Program is designed with YOU in mind.  This is perhaps most overtly the case with Fight-Fit Circuit Training.  Try FFCT once, and you’ll probably never drop hundreds of dollars at a fancy nightclub…er, fitness club…again.</p>
+						<p>These group workouts are designed to rotate you through multiple stations of very high-energy, non-traditional workout routines, inspired by the training regiments of pro fighters from multiple disciplines and generations.  Known in many gyms by names like “Caveman Training”, “Smash Class”, and many other adrenaline-conjuring titles, this class lets you train like a fighter, without the inconvenience of black eyes and concussions.  Call for details!</p>
 					</div>
 					<div class="col-md-4">
 						<div class="panel panel-gym">

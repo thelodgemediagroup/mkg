@@ -11,11 +11,11 @@
 						</li>
 						<li>
 							<ul class="custom-breadcrumb" >
-								<li><h6><a href="index.html">Home</a></h6></li>
+								<li><h6><a href="<?php echo base_url(); ?>">Home</a></h6></li>
 								<li><i class="separator entypo-play" ></i></li>
-								<li><h6><a href="#">Pages</a></h6></li>
+								<li><h6><a href="<?php echo base_url('about'); ?>">About</a></h6></li>
 								<li><i class="separator entypo-play" ></i></li>
-								<li><h6>FAQs</h6></li>
+								<li><h6>Mission Statement</h6></li>
 							</ul>                    
 						</li>
 					</ul>

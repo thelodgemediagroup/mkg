@@ -7,15 +7,15 @@
 				<div class="row" >
 					<ul class="sub-header-container" >
 						<li>
-							<h3 class="title">No pressure, no diamonds</h3>
+							<h3 class="title">MKGD Muay Thai / Thai Boxing</h3>
 						</li>
 						<li>
 							<ul class="custom-breadcrumb" >
-								<li><h6><a href="index.html">Home</a></h6></li>
+								<li><h6><a href="<?php echo base_url(); ?>">Home</a></h6></li>
 								<li><i class="separator entypo-play" ></i></li>
-								<li><h6><a href="#">Classes</a></h6></li>
+								<li><h6><a href="<?php echo base_url('classes'); ?>">Classes</a></h6></li>
 								<li><i class="separator entypo-play" ></i></li>
-								<li><h6>Phase Program</h6></li>
+								<li><h6>Muay Thai / Thai Boxing</h6></li>
 							</ul>                    
 						</li>
 					</ul>
@@ -43,8 +43,8 @@
 					</figure>
 					</div>
 					<div class="sol-sm-7 col-md-5">
-						<p>Proin eros ante, viverra id risus non, porttitor posuere enim. In hac habitasse platea dictumst. Integer dapibus velit eu mattis ullamcorper. Nam ac placerat ligula, eu sodales nisl. Sed libero nisi, aliquet non tellus non, pharetra faucibus diam. Phasellus scelerisque fringilla diam, ac rhoncus purus sodales mattis. Nullam eleifend molestie felis ac tempus. Curabitur semper arcu a est viverra, vel adipiscing dui tristique. Aliquam erat volutpat. Duis pharetra congue tellus nec imperdiet. Donec pellentesque aliquet risus eu pellentesque. Donec varius ut ligula in lobortis.</p>
-						<p> Maecenas ut scelerisque ante. Maecenas nunc libero, suscipit ut adipiscing sit amet, accumsan sed eros. Vestibulum varius lacus eget molestie tempor. Nam bibendum ullamcorper laoreet. Sed vestibulum erat ac est facilisis commodo. Donec posuere dolor metus, et placerat turpis sodales sit amet. Cras semper libero eu tempus viverra.</p>
+						<p>Muay Thai, also referred to as Thai Boxing or Thai Kickboxing, is the National Sport of Thailand. Muay Thai fighters have been referred to as “Kings of the Ring” for generations. In Muay Thai bouts, fighters may strike nearly any part of the body with kicks, knees, punches and elbows. The art itself combines a devastating offense with a constant focus on defensive structure, all the while offering up a legendary endurance and conditioning workout. </p>
+						<p>As MKGD does not train competitive fighters, our Thai Boxing classes use Muay Thai techniques, as taught to us by Ajarn Rick Faye and Grandmaster Chai Sirisute, to primarily promote an incredible leap in the fitness level of any martial artist.  Likewise, this program will have you developing the defensive structure and offensive creativity that will serve as the physical platform for all of your training here.  You will be hitting pads and developing good reactions from the very first class, learning long and short combination drills that are specifically designed to help you achieve optimal performance, all in a safe environment.  This class offers our biggest fitness outlet, but like all our classes, encourages a “go at your own pace” atmosphere for you to experiment and grow in.  Students of all levels are welcomed here.  Those new to the arts benefit from a great workout while learning fundamental martial art technique, and more experienced practitioners are allowed to further grow in the depth of their understanding of this iconic art.</p>
 					</div>
 					<div class="col-md-4">
 						<div class="panel panel-gym">

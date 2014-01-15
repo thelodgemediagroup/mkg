@@ -7,15 +7,15 @@
 				<div class="row" >
 					<ul class="sub-header-container" >
 						<li>
-							<h3 class="title">No pressure, no diamonds</h3>
+							<h3 class="title">MKGD Filipino Kali Weaponry</h3>
 						</li>
 						<li>
 							<ul class="custom-breadcrumb" >
-								<li><h6><a href="index.html">Home</a></h6></li>
+								<li><h6><a href="<?php echo base_url(); ?>">Home</a></h6></li>
 								<li><i class="separator entypo-play" ></i></li>
-								<li><h6><a href="#">Classes</a></h6></li>
+								<li><h6><a href="<?php echo base_url('classes'); ?>">Classes</a></h6></li>
 								<li><i class="separator entypo-play" ></i></li>
-								<li><h6>Phase Program</h6></li>
+								<li><h6>Kali Weaponry</h6></li>
 							</ul>                    
 						</li>
 					</ul>
@@ -30,7 +30,7 @@
 			<div class="container" >
 				<div class="row" >
 					<div class="col-md-12">
-					<h2 class="article-title" >Filipino Kali Weaponry</h2>                  
+					<h2 class="article-title" >Kali:  The Filipino Martial Arts</h2>                  
 					<span class="line" >
 						<span class="sub-line" ></span>
 					</span>
@@ -43,8 +43,8 @@
 					</figure>
 					</div>
 					<div class="sol-sm-7 col-md-5">
-						<p>Proin eros ante, viverra id risus non, porttitor posuere enim. In hac habitasse platea dictumst. Integer dapibus velit eu mattis ullamcorper. Nam ac placerat ligula, eu sodales nisl. Sed libero nisi, aliquet non tellus non, pharetra faucibus diam. Phasellus scelerisque fringilla diam, ac rhoncus purus sodales mattis. Nullam eleifend molestie felis ac tempus. Curabitur semper arcu a est viverra, vel adipiscing dui tristique. Aliquam erat volutpat. Duis pharetra congue tellus nec imperdiet. Donec pellentesque aliquet risus eu pellentesque. Donec varius ut ligula in lobortis.</p>
-						<p> Maecenas ut scelerisque ante. Maecenas nunc libero, suscipit ut adipiscing sit amet, accumsan sed eros. Vestibulum varius lacus eget molestie tempor. Nam bibendum ullamcorper laoreet. Sed vestibulum erat ac est facilisis commodo. Donec posuere dolor metus, et placerat turpis sodales sit amet. Cras semper libero eu tempus viverra.</p>
+						<p>Most recently made famous by such Hollywood films as “The Bourne Identity”, “Taken”, and “I, Frankenstein”, Filipino Kali is quickly becoming one of the most popular martial arts across the world.</p>
+						<p>The base of this system is weaponry. Training covers a wide spectrum featuring sticks, long-blades, knives/daggers, palm stick, as well as flexible weapons and weapons of opportunity.  Training in our Kali classes emphasizes safety first, and therefore all weapon training is done using simulated blades or rattan sticks, with no body impact. Movements are broken down into easily learned segments, making the information approachable for all levels. Kali is renowned for its flow drills that are fun, fascinating, and give a real feel for the movement and speed of combat. </p>
 					</div>
 					<div class="col-md-4">
 						<div class="panel panel-gym">
