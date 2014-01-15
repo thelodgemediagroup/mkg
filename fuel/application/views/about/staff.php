@@ -7,15 +7,15 @@
 				<div class="row" >
 					<ul class="sub-header-container" >
 						<li>
-							<h3 class="title">No pressure, no diamonds</h3>
+							<h3 class="title">MKGD Staff</h3>
 						</li>
 						<li>
 							<ul class="custom-breadcrumb" >
 								<li><h6><a href="index.html">Home</a></h6></li>
 								<li><i class="separator entypo-play" ></i></li>
-								<li><h6><a href="#">Pages</a></h6></li>
+								<li><h6><a href="<?php echo base_url('about'); ?>">About</a></h6></li>
 								<li><i class="separator entypo-play" ></i></li>
-								<li><h6>FAQs</h6></li>
+								<li><h6>Staff</h6></li>
 							</ul>                    
 						</li>
 					</ul>
@@ -32,9 +32,19 @@
 
 
 				<div class="col-md-8" >
-					<h2 class="headers" >MKG Staff</h2>
+					<h2 class="article-title" >About Our Instructors</h2>
+					<h3>Kurt Cornwell</h3>
 					<p>
-						Ut a molestie urna. Vestibulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci. Sed ultricies elit eget venenatis tristique. Sed tempus egestas ante, vel ullamcorper.Ut a molestie urna. Vestibulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut varius est erat a orci. Sed ultricies elit eget venenatis tristique. Sed tempus egestas ante, vel ullamcorper.Ut a molestie urna. Vestibulum malesuada, diam ut mollis varius, lorem urna euismod purus, ut 
+						MKG Detroit’s head Instructor, Kurt Cornwell, has been a certified with the MKG International Martial Art Organization since 2009.  
+					</p>
+					<p>
+						Kurt began learning martial art as a young child, originally under the tutelage of his father, a former Judo competitor and fitness enthusiast.  He trained in an extensive variety of arts throughout his formative years, before he began his studies under Sifu Rick Faye and MKG International.  Other notable instructors Kurt regularly trains under include Guro Dan Inosanto, Guro Diana Rathborne, Grandmaster Chai Sirisute, Sensei Erik Paulson, author and expert coach Marcus Wynne, and the talented staff at MKG MPLS. 
+					</p>
+					<p>
+						Kurt has taught classes throughout the Minneapolis and Detroit areas, was a regular staff instructor at MKG MPLS, and also regularly helps instruct women’s self defense workshops, college safety seminars, corporate safety workshops, and classes for law enforcement agencies such as the Eau Claire (WI) SWAT Team, and the Dakota County Sherriff’s Department.  His studies in reality-based self defense and Criminal Justice have enabled him to work as a Security Consultant, as well as a security officer and liaison for a Major League Baseball team and for  numerous nightclubs around Detroit, MI, Ann Arbor, MI, Brooklyn, NY, and Minneapolis, MN.
+					</p>
+					<p>
+						Kurt is also certified in Myomassology (holistic bodyworks), is a writer and gardener, and has extensive training in primitive survival skills and tracking through Tom Brown’s famed Tracker School.  
 					</p>
 				</div>  
 
@@ -53,92 +63,12 @@
 
 						</ul>
 						
-
-						<h3 class="article-title" >Categories</h3>
-						<span class="line" >
-							<span class="sub-line" ></span>
-						</span>
-
-						<ul class="custom-icon-list categories" >
-							<li><i class="entypo-cd" ></i><a href="#">Fitness</a></li>
-							<li><i class="entypo-cd" ></i><a href="#">Excercise advices</a></li>
-							<li><i class="entypo-cd" ></i><a href="#">Personal trainers</a></li>
-							<li><i class="entypo-cd" ></i><a href="#">Nutritional Experts</a></li>
-							<li><i class="entypo-cd" ></i><a href="#">Special Offers</a></li>
-							<li><i class="entypo-cd" ></i><a href="#">Sauna and Pool</a></li>
-							<li><i class="entypo-cd" ></i><a href="#">Press</a></li>
-							<li><i class="entypo-cd" ></i><a href="#">Gallery</a></li>
-							<li><i class="entypo-cd" ></i><a href="#">Members Benefits</a></li>
-						</ul>
-
-
-						<h3 class="article-title" >Social Media Icons</h3>
-						<span class="line" >
-							<span class="sub-line" ></span>
-						</span>
-						<ul class="social" >
-							<li><a href="#"><i class="entypo-facebook" ></i></a></li>
-							<li><a href="#"><i class="entypo-twitter" ></i></a></li>
-							<li><a href="#"><i class="entypo-linkedin" ></i></a></li>
-							<li><a href="#"><i class="entypo-play" ></i></a></li>
-							<li><a href="#"><i class="entypo-tumblr" ></i></a></li>
-							<li><a href="#"><i class="entypo-gplus" ></i></a></li>
-							<li><a href="#"><i class="entypo-pinterest-circled" ></i></a></li>
-						</ul>
-
 					</aside>
 					<!-- end Sidebar -->
 				</div>
 			</div>
 		</article>
 		<!-- end News -->
-
-
-		<!-- begin Bodybuilding Supplements -->
-		<article class="article-container">
-			<div class="container" >
-
-				<!-- arrows -->
-				<div class="row" >                  
-					<div class="col-md-12">
-						<h2 class="headers">Bodybuilding Supplements</h2>
-						<span class="line" >
-							<span class="sub-line" ></span>
-						</span>
-						<a class="slider-control pull-right next" href="#bodybuilding" data-slide="next"></a>
-						<a class="slider-control pull-right prev" href="#bodybuilding" data-slide="prev"></a>
-					</div>
-				</div>
-				<!-- end arrows -->
-
-				<div class="row" >
-					<div id="bodybuilding" class="carousel slide">
-					<!-- Wrapper for slides -->
-					<div class="carousel-inner">
-						<div class="item active">
-							<ul class="logos" >
-								<li><a href="#"><img src="<?php echo img_path('logos/1.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/2.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/3.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/4.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/5.png'); ?>" alt="//" /></a></li>
-							</ul>
-						</div>
-						<div class="item">
-							<ul class="logos" >
-								<li><a href="#"><img src="<?php echo img_path('logos/5.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/1.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/2.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/3.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/4.png'); ?>" alt="//" /></a></li>
-							</ul>
-						</div>
-					</div>
-					</div>
-				</div>
-			</div>
-		</article>
-		<!-- end Bodybuilding Supplements -->
 
 	</section>
 	<!-- end Content -->

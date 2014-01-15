@@ -32,7 +32,7 @@
 
 
                 <div class="col-md-8" >
-                    <h2 class="headers" >About MKG International Martial Art Association</h2>
+                    <h2 class="article-title" >About MKG International Martial Art Association</h2>
                     <p>
                         MKG Detroit’s head instructor Kurt Cornwell is proud to represent martial art legend Rick Faye’s MKG International here in Michigan.  Started in 1982, MKG International is known for its easy-going, non-traditional, recreational approach to martial art. Emphasizing fun, fitness, and functionality, instructors act as guides, not "masters", creating a unique and always-evolving training experience. 
                     </p>

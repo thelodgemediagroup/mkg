@@ -30,7 +30,7 @@
 
 
 				<div class="col-md-8" >
-					<h2 class="headers" >About MKG DETROIT</h2>
+					<h2 class="article-title" >About MKG DETROIT</h2>
 					<p>
 						MKG DETROIT (MKGD) is Michigan's only branch of the famed MKG International martial art organization! MKGD brings you the unique approach to martial art training that the MKG brand is known for the world over. With a non-competitive focus on fitness, stress relief, and self defense, this could be the most fun you have learning a serious martial art!
 					</p>
