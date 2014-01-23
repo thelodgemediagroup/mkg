@@ -39,7 +39,7 @@
 							data-speed="300" 
 							data-start="500"
 						>
-							<a class="see_work" href="<?php echo base_url('registration'); ?>" >sign up today</a>
+							<a class="see_work" href="<?php echo base_url('contact'); ?>" >sign up today</a>
 						</div>                                    
 					</li>
 
@@ -201,7 +201,7 @@
 									All of our classes are designed to offer the beginning student a “go-at-your-own-pace” experience, while offering the more seasoned martial artist a chance to dive deeper in their skill set, or develop in a new area entirely.  This will probably be the most fun you’ll have learning something new, and working towards looking and feeling great. 
 								</p>
 								<p>&nbsp;</p>
-								<p><a href="<?php echo base_url('registration'); ?>"><button class="button-gym big-button">Call or email to register for a free trial!</button></a></p>
+								<p><a href="<?php echo base_url('contact'); ?>"><button class="button-gym big-button">Call or email to register for a free trial!</button></a></p>
 							</div>
 						</div>
 					</div>

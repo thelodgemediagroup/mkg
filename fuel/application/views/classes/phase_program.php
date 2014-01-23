@@ -60,7 +60,7 @@
 									<li><i class="entypo-newspaper" ></i>See Pricing Tables</li>
 								</ul>
 							</div>
-							<div class="panel-footer"><a href="<?php echo base_url('registration'); ?>">Registration</a></div>
+							<div class="panel-footer"><a href="<?php echo base_url('contact'); ?>">Registration</a></div>
 						</div>
 					</div>
 				</div>

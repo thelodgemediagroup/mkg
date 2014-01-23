@@ -43,7 +43,7 @@
 										</ul>
 									</li>
 									<li><a href="<?php echo base_url('schedule/'); ?>">Schedule</a></li>
-									<li><a href="<?php echo base_url('registration/'); ?>">Registration</a></li>
+									<li><a href="<?php echo base_url('contact'); ?>">Registration</a></li>
 									
 									<li><a href="<?php echo base_url('news/'); ?>">News</a></li>
 									

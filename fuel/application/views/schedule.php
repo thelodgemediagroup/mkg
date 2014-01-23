@@ -7,11 +7,11 @@
 				<div class="row" >
 					<ul class="sub-header-container" >
 						<li>
-							<h3 class="title">MKG Schedule</h3>
+							<h3 class="title">MKGD Schedule</h3>
 						</li>
 						<li>
 							<ul class="custom-breadcrumb" >
-								<li><h6><a href="index.html">Home</a></h6></li>
+								<li><h6><a href="<?php echo base_url(); ?>">Home</a></h6></li>
 								<li><i class="separator entypo-play" ></i></li>
 								<li><h6>Schedule</h6></li>
 							</ul>                    
@@ -22,13 +22,28 @@
 		</div>
 		<!-- end Sub Header -->
 
+		<!-- begin Intro -->
+		<article class="article-container" id="intro">
+			<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<h2>MKGD Class Schedule</h2>
+					<p>MKG Detroit offers classes out of a rotating list of locations around the Detroit Metro area, in an effort to make our classes, and our community, available to people regardless of geography.  Please refer to our Google Calendar, located on this site’s home page, for up-to-date schedule postings.</p>
+					<p>MKG Detroit encourages you to try all the classes offered, as opposed to just specializing in one specific art.  All classes are specifically designed to help your development each area of these arts.  We do not take a singular approach.  This way, everyone achieves more.</p>
+					<p>Also, remember to follow us on <a href="https://www.facebook.com/MKGDetroit">Facebook</a> and Twitter for real-time updates on classes, special events, and re-scheduling notices.</p>
+				</div>
+			</div>
+			</div>
+		</article>
+		<!-- end Intro -->
+
 		<!-- Table -->
 		<article class="article-container">      
 			<div class="container" >
 			
 				<div class="row" >
 				  <div class="col-xs-12">
-				  <h2 class="headers">List of classes in the timeline</h2>
+				  
 				  <span class="line" >
 					  <span class="sub-line" ></span>
 				  </span>
