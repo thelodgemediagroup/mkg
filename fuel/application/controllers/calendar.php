@@ -6,6 +6,7 @@ Class Calendar extends CI_Controller {
 	{
 
 		parent::__construct();
+		$this->load->library('Gcalendar/gcalendar');
 
 	}
 
@@ -14,6 +15,8 @@ Class Calendar extends CI_Controller {
 		$this->load->helper('object');
 
 		$data['navigation'] = $this->load->view('navigation', '', TRUE);
+
+		$data['cal'] = $this->gcalendar->get_calendar();
 
 		$this->load->view('header', $data);
 		$this->load->view('format', $data);
