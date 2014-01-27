@@ -52,9 +52,6 @@ class GCE_Feed{
 
 		//Put the URL back together
 		$url = $scheme_and_host . $path . $query;
-		//Attempt to retrieve the cached feed data
-		
-		print_r($url);
 
 		//Retrieve the feed data
 		$raw_data = file_get_contents($url);
@@ -86,7 +83,7 @@ class GCE_Feed{
 		foreach ( $this->events as $event ) {
 			$event->set_feed( $this );
 		}
-		
+
 	}
 
 	//Convert an ISO date/time to a UNIX timestamp

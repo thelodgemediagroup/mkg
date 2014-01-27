@@ -25,15 +25,41 @@ function gce_generate_calendar( $year, $month, $days = array(), $day_name_length
 	# for instance, mktime(0,0,0,12,32,1997) will be the date for Jan 1, 1998
 	# this provides a built in "rounding" feature to generate_calendar()
 
-	$day_names = array(); #generate all the day names according to the current locale
-	for ( $n = 0, $t = ( 3 + $first_day ) * 86400; $n < 7; $n++, $t += 86400 ) { #January 4, 1970 was a Sunday
-		$day_names[$n]['full'] = date_i18n( 'l', $t, true );
-		$day_names[$n]['initial'] = $wp_locale->get_weekday_initial( date_i18n( 'l', $t, true ) );
-	}
+	$day_names =  #generate all the day names according to the current locale
+	array(
+		array(
+			'full' => 'Monday',
+			'initial' => 'M'
+		),
+		array(
+			'full' => 'Tuesday',
+			'initial' => 'T'
+		),
+		array(
+			'full' => 'Wednesday',
+			'initial' => 'W'
+		),
+		array(
+			'full' => 'Thursday',
+			'initial' => 'T'
+		),
+		array(
+			'full' => 'Friday',
+			'initial' => 'F'
+		),
+		array(
+			'full' => 'Saturday',
+			'initial' => 'S'
+		),
+		array(
+			'full' => 'Sunday',
+			'initial' => 'S'
+		)
+	);
 
-	list( $month, $year, $month_name, $weekday ) = explode( ',', date_i18n( 'm, Y, F, w', $first_of_month ) );
+	list( $month, $year, $month_name, $weekday ) = explode( ',', date( 'm, Y, F, w', $first_of_month ) );
 	$weekday = ( $weekday + 7 - $first_day ) % 7; #adjust for $first_day
-	$title = esc_html( $month_name ) . '&nbsp;' . $year;  #note that some locales don't capitalize month and day names
+	$title =  $month_name  . '&nbsp;' . $year;  #note that some locales don't capitalize month and day names
 
 	#Begin calendar. Uses a real <caption>. See http://diveintomark.org/archives/2002/07/03
 	list( $p, $pl ) = each( $pn );
@@ -44,18 +70,18 @@ function gce_generate_calendar( $year, $month, $days = array(), $day_name_length
 	if ( $n )
 		$n = '&nbsp;<span class="gce-next">' . ( ( $nl ) ? ( '<a class="gce-change-month" title="Next month" name="' . $nl . '">' . $n . '</a>' ) : $n ) . '</span>';
 
-	$calendar = '<table class="gce-calendar">' . "\n" . '<caption class="gce-caption">' . $p . '<span class="gce-month-title">' . ( ( $month_href ) ? ( '<a href="' . esc_attr( $month_href ) . '">' . $title . '</a>' ) : $title ) . '</span>' . $n . "</caption>\n<tr>";
+	$calendar = '<table class="gce-calendar">' . "\n" . '<caption class="gce-caption">' . $p . '<span class="gce-month-title">' . ( ( $month_href ) ? ( '<a href="' .  $month_href  . '">' . $title . '</a>' ) : $title ) . '</span>' . $n . "</caption>\n<tr>";
 
 	if ( $day_name_length ) { #if the day names should be shown ($day_name_length > 0)
 		#if day_name_length is >3, the full name of the day will be printed
 		foreach ( $day_names as $d ) {
-			$calendar .= '<th><abbr title="' . esc_attr( $d['full'] ) . '">' . esc_html( $d['initial'] ) . '</abbr></th>';
+			$calendar .= '<th><abbr title="' . $d['full'] . '">' .  $d['initial']  . '</abbr></th>';
 		}
 
 		$calendar .= "</tr>\n<tr>";
 	}
 
-	$time_now = current_time( 'timestamp' );
+	$time_now = time();
 	$today = mktime( 0, 0, 0, date( 'm', $time_now ), date( 'd', $time_now ), date( 'Y', $time_now ) );
 
 	if ( $weekday > 0 ) $calendar .= '<td colspan="' . $weekday . '">&nbsp;</td>'; #initial 'empty' days

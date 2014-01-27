@@ -17,7 +17,7 @@ Class Calendar extends CI_Controller {
 		$data['navigation'] = $this->load->view('navigation', '', TRUE);
 
 		$data['cal'] = $this->gcalendar->get_calendar();
-
+		$this->firephp->log($data['cal']);
 		$this->load->view('header', $data);
 		$this->load->view('format', $data);
 		$this->load->view('footer', $data);
