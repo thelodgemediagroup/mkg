@@ -78,7 +78,7 @@ class Gcalendar {
 
 	public function get_calendar()
 	{
-		$this->get_grid();
+		return $this->get_grid();
 	}
 
 	//Returns grid markup
@@ -135,7 +135,7 @@ class Gcalendar {
 				$markup .= '<ul>';
 
 				foreach ( $event_day as $num_in_day => $event ) {
-					$feed_id = absint( $event->get_feed()->get_feed_id() );
+					$feed_id =  abs(intval($event->get_feed()->get_feed_id()));
 					$markup .= '<li class="gce-tooltip-feed-' . $feed_id . '">' . $event->get_event_markup( 'tooltip', $num_in_day, $i ) . '</li>';
 
 					//Add CSS class for the feed from which this event comes. If there are multiple events from the same feed on the same day, the CSS class will only be added once.
@@ -204,7 +204,7 @@ class Gcalendar {
 
 		//Loop through entire array of events, or until maximum number of events to be displayed has been reached
 		for ( $i = 0; $i < $count; $i++ ) {
-			$event = $this->feeds[$i];
+			$event = $this->merged_feed_data[$i];
 
 			//Check that event ends, or starts (or both) within the required date range. This prevents all-day events from before / after date range from showing up.
 			if ( $event->get_end_time() > $event->get_feed()->get_feed_start() && $event->get_start_time() < $event->get_feed()->get_feed_end() ) {
