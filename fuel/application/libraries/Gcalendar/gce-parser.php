@@ -1,4 +1,8 @@
-<?php
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+// load codeigniter resources
+$CI =& get_instance();
+
 class GCE_Parser {
 	private $feeds = array();
 	private $merged_feed_data = array();

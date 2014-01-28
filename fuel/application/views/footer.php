@@ -117,6 +117,11 @@
 
 	<!-- Custom site js-->
 	<?php echo js('script.js'); ?>
+
+	<?php //echo js('jquery-qtip.js'); ?>
+	<script src="http://cdn.jsdelivr.net/qtip2/2.2.0/jquery.qtip.min.js" type="text/javascript"></script>
+
+	<?php echo js('gce-script.js'); ?>
 	<!-- End Javascript Files -->
 </body>
 </html>

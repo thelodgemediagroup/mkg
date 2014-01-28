@@ -2,7 +2,9 @@
 
 			<div class="container">
 				<div class="row" >
-					<?php //echo $cal; ?>
+					<div class="gce-page-grid">
+						<?php echo $cal; ?>
+					</div>
 				</div>
 			</div>
 </section>		

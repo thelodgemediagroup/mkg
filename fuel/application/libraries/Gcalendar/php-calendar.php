@@ -1,4 +1,4 @@
-<?php
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 # PHP Calendar (version 2.3), written by Keith Devens
 # http://keithdevens.com/software/php_calendar
 #  see example at http://keithdevens.com/weblog
@@ -16,9 +16,9 @@ Changes made to original PHP Calendar script by me (Ross Hanney):
 - Other small markup changes
 - Replaced gmmktime() with mktime()
 */
-
+// load codeigniter resources
+$CI =& get_instance();
 function gce_generate_calendar( $year, $month, $days = array(), $day_name_length = 3, $month_href = NULL, $first_day = 0, $pn = array() ) {
-	global $wp_locale;
 
 	$first_of_month = mktime( 0, 0, 0, $month, 1, $year );
 	#remember that mktime will automatically correct if invalid dates are entered
@@ -27,6 +27,10 @@ function gce_generate_calendar( $year, $month, $days = array(), $day_name_length
 
 	$day_names =  #generate all the day names according to the current locale
 	array(
+		array(
+			'full' => 'Sunday',
+			'initial' => 'S'
+		),		
 		array(
 			'full' => 'Monday',
 			'initial' => 'M'
@@ -49,10 +53,6 @@ function gce_generate_calendar( $year, $month, $days = array(), $day_name_length
 		),
 		array(
 			'full' => 'Saturday',
-			'initial' => 'S'
-		),
-		array(
-			'full' => 'Sunday',
 			'initial' => 'S'
 		)
 	);
@@ -94,8 +94,21 @@ function gce_generate_calendar( $year, $month, $days = array(), $day_name_length
 		$timestamp = mktime( 0, 0, 0, $month, $day, $year );
 
 		if ( isset( $days[$timestamp] ) && is_array( $days[$timestamp] ) ) {
-			list( $link, $classes, $content ) = $days[$timestamp];
-			$calendar .= '<td' . ( ( $classes ) ? ( ' class="' . $classes . '">' ) : '>' ) . ( ( $link ) ? ( '<a href="' . $link . '"><span class="gce-day-number">' . $day . '</span></a>' . $content ) : '<span class="gce-day-number">' . $day . '</span>' . $content ) . '</td>';
+
+			list( $link, $classes, $content, $headline ) = $days[$timestamp];
+			$calendar .= '<td' . ( ( $classes ) ? ( ' class="' . $classes . '">' ) : '>' ) . ( ( $link ) ? ( '<a href="' . $link . '"><span class="gce-day-number">' . $day . '</span></a>' . $content ) : '<span class="gce-day-number">' . $day . '</span>' . $content );
+
+			if (!empty($headline))
+			{
+				foreach ($headline as $a)
+				{
+					$calendar .= '<br/><span class="gce-cal-headline">';
+					$calendar .= $a[0] . ': ' . $a[1];
+					$calendar .= '</span>';
+				}								
+			}
+
+			$calendar .= '</td>';
 		}else{
 			$css_class = ( $timestamp < $time_now ) ? 'gce-day-past' : 'gce-day-future';
 			$calendar .= '<td class="' . $css_class . '"><span class="gce-day-number">' . $day . '</span></td>';

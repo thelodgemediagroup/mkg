@@ -1,5 +1,9 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
+// load codeigniter resources
+$CI =& get_instance();
+
+
 class Gcalendar {
 
 
@@ -8,20 +12,20 @@ class Gcalendar {
 	private $max_events_display = 0;
 	private $merged_feed_data = array();
 	private $sort_order = 'asc';
+	private $errors = array();
+	private $title = null;
+	private $start_of_week = 0;
 
 
 	public function __construct()
 	{
-		//require_once('gce-event.php');
 		require_once('gce-feed.php');
-		//require_once('gce-parser.php');
-		//require_once('php-calendar.php');
 
 		$feed = new GCE_feed();
 		$feed->set_feed_url( 'https://www.google.com/calendar/feeds/testguy736251%40gmail.com/public/basic?alt=json&singleevents=true&sortorder=ascending&orderby=starttime' );
 		$feed->set_max_events( 40 );
 
-		$feed->set_feed_start( mktime( 0, 0, 0, date( 'm' ), ( date( 'j' ) - date( 'w' ) ), date( 'Y' ) ) );
+		$feed->set_feed_start( mktime( 0, 0, 0, date( 'm' ), ( date( 'j' ) - 31 ), date( 'Y' ) ) );
 
 		$feed->set_feed_end( mktime( 0, 0, 0, date( 'm' ), ( date( 'j' ) + 31 ), date( 'Y' ) ) );
 
@@ -67,7 +71,7 @@ class Gcalendar {
 	}
 
 	//Comparison function for use when sorting merged feed data (with usort)
-	function compare( $event1, $event2 ) {
+	private function compare( $event1, $event2 ) {
 		//Sort ascending or descending
 		if ( 'asc' == $this->sort_order )
 			return $event1->get_start_time() - $event2->get_start_time();
@@ -110,7 +114,7 @@ class Gcalendar {
 
 		//Get events data
 		$event_days = $this->get_event_days();
-
+		//$CI->firephp->log($event_days);
 		//If event_days is empty, then there are no events in the feed(s), so set ajaxified to false (Prevents AJAX calendar from allowing to endlessly click through months with no events)
 		if ( empty( $event_days ) )
 			$ajaxified = false;
@@ -121,16 +125,16 @@ class Gcalendar {
 
 		foreach ( $event_days as $key => $event_day ) {
 			//If event day is in the month and year specified (by $month and $year)
+
 			if ( $key >= $display_month_start && $key < $display_month_end ) {
 				//Create array of CSS classes. Add gce-has-events
 				$css_classes = array( 'gce-has-events' );
 
+				// headline for calendar
+				$cal_headline = array();
+
 				//Create markup for display
 				$markup = '<div class="gce-event-info">';
-
-				//If title option has been set for display, add it
-				if ( isset( $this->title ) )
-					$markup .= '<div class="gce-tooltip-title">' . esc_html( $this->title ) . ' ' . date_i18n( $event_day[0]->get_feed()->get_date_format(), $key ) . '</div>';
 
 				$markup .= '<ul>';
 
@@ -140,7 +144,7 @@ class Gcalendar {
 
 					//Add CSS class for the feed from which this event comes. If there are multiple events from the same feed on the same day, the CSS class will only be added once.
 					$css_classes['feed-' . $feed_id] = 'gce-feed-' . $feed_id;
-
+					$cal_headline[] = $event->get_calendar_headline();
 					$i++;
 				}
 
@@ -159,7 +163,7 @@ class Gcalendar {
 					$css_classes[] = 'gce-day-future';
 
 				//Change array entry to array of link href, CSS classes, and markup for use in gce_generate_calendar (below)
-				$event_days[$key] = array( null, implode( ' ', $css_classes ), $markup );
+				$event_days[$key] = array( null, implode( ' ', $css_classes ), $markup, $cal_headline );
 			} elseif ( $key < $display_month_start ) {
 				//This day is before the display month, so set $nav_prev to true. Remove the day from $event_days, as it's no use for displaying this month
 				$nav_prev = true;
@@ -200,7 +204,7 @@ class Gcalendar {
 		$event_days = array();
 
 		//Total number of events retrieved
-		$count = count( $this->feeds );
+		$count = count( $this->merged_feed_data );
 
 		//Loop through entire array of events, or until maximum number of events to be displayed has been reached
 		for ( $i = 0; $i < $count; $i++ ) {

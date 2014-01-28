@@ -1,4 +1,8 @@
-<?php
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+// load codeigniter resources
+$CI =& get_instance();
+
 class GCE_Event{
 	private $id;
 	private $title;
@@ -90,6 +94,14 @@ class GCE_Event{
 		}
 
 		return $days;
+	}
+
+	// Get the items to display on the calendar without tooltips
+	function get_calendar_headline()
+	{
+		$arr[] = date( $this->feed->get_time_format(), $this->start_time );
+		$arr[] = $this->title;
+		return $arr;
 	}
 
 	//Returns the markup for this event, so that it can be used in the construction of a grid / list

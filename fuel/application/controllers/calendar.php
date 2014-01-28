@@ -24,6 +24,7 @@ Class Calendar extends CI_Controller {
 
 	}
 
+
 }
 
 ?>

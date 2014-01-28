@@ -16,6 +16,8 @@
 	<?php echo css('styles.css'); ?>
     <?php echo css('color/gray.css'); ?>
 	<?php echo css('media-queries.css'); ?>
+	<?php echo css('gce-style.css'); ?>
+	<link type="text/css" href="http://cdn.jsdelivr.net/qtip2/2.2.0/jquery.qtip.min.css" rel="stylesheet">
 
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
