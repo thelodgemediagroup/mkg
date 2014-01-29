@@ -38,7 +38,7 @@
 						Classes and private training, offered at multiple locations throughout the Metro area, apply the MKG Method to assist in your successful development in the areas of:   
 					</p>
 					<p class="group-indent">
-						<i class="entypo-right-open-mini" ></i> The signature “<a href="<?php echo base_url('classes/phase_program/'); ?>">MKG Phase Program</a>" (mixed arts) 
+						<i class="entypo-right-open-mini" ></i> The signature <a href="<?php echo base_url('classes/phase_program/'); ?>">MKG Phase Program</a> (mixed arts) 
 					</p>
 					<p class="group-indent">
 						<i class="entypo-right-open-mini" ></i> <a href="<?php echo base_url('classes/jeet_kune_do/'); ?>">Jeet Kune Do / Jun Fan Gung Fu</a> (Bruce Lee's famed kickboxing method) 
@@ -69,7 +69,7 @@
 					</p>
 
 				</div>  
-
+<?php /*
 					<!-- begin Sidebar -->
 					<aside class="col-sm-3 sidebar">
 
@@ -87,6 +87,14 @@
 						
 					</aside>
 					<!-- end Sidebar -->
+*/?>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<img src="<?php echo img_path('mkg_images/about/01.jpg'); ?>" class="col-md-4" />
+						<img src="<?php echo img_path('mkg_images/about/02.jpg'); ?>" class="col-md-4" />
+						<img src="<?php echo img_path('mkg_images/about/03.jpg'); ?>" class="col-md-4" />
+					</div>
 				</div>
 			</div>
 		</article>

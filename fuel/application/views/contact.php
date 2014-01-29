@@ -28,7 +28,7 @@
 				
 				<div class="row" >
 					<div class="col-md-12">
-					<h2 class="article-title" >Contact MKGD to Register for Classes</h2>
+					<h2 class="article-title" >Contact MKGD for Registration and Information</h2>
 					<span class="line" >
 						<span class="sub-line" ></span>
 					</span>
@@ -65,6 +65,7 @@
 						</form>
 					</div>
 				</div>
+				<?php /*
 				<div class="row">
 					<div class="col-md-9">
 						<h4>Training is all about taking you from where you are, to where you want to be. </h4>
@@ -83,6 +84,7 @@
 						Web: company.com</p>
 					</div>
 				</div>
+				*/ ?>
 			</div>
 		</article>
 		<!-- end Contact -->

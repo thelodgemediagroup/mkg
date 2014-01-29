@@ -23,7 +23,7 @@
 										<a href="<?php echo base_url('about/') ?>">About</a>
 										<ul class="dropdown-about">
 											<li><a href="<?php echo base_url('about/'); ?>">General Info</a></li>
-											<li><a href="<?php echo base_url('about/mission/'); ?>">Mission Statement</a></li>
+											<?php /* <li><a href="<?php echo base_url('about/mission/'); ?>">Mission Statement</a></li> */ ?>
 											<li><a href="<?php echo base_url('about/mkg_international/'); ?>">International Organization</a></li>
 											<li><a href="<?php echo base_url('about/staff/'); ?>">Staff</a></li>
 										</ul>

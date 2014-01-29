@@ -35,6 +35,7 @@
 					<h2 class="article-title" >About Our Instructors</h2>
 					<h3>Kurt Cornwell</h3>
 					<p>
+						<img src="<?php echo img_path('mkg_images/about_staff/01.jpg'); ?>" class="col-md-3" />
 						MKG Detroit’s head Instructor, Kurt Cornwell, has been a certified with the MKG International Martial Art Organization since 2009.  
 					</p>
 					<p>
@@ -47,7 +48,7 @@
 						Kurt is also certified in Myomassology (holistic bodyworks), is a writer and gardener, and has extensive training in primitive survival skills and tracking through Tom Brown’s famed Tracker School.  
 					</p>
 				</div>  
-
+<?php /*
 					<!-- begin Sidebar -->
 					<aside class="col-sm-3 sidebar">
 
@@ -65,6 +66,7 @@
 						
 					</aside>
 					<!-- end Sidebar -->
+*/?>
 				</div>
 			</div>
 		</article>

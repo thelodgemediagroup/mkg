@@ -42,91 +42,91 @@
 				</div>
 
 				<div class="row content">
-					<div class="element kickboxing martial-arts" >
-						<div class="link" >
-							<a href="<?php echo base_url('classes/muay_thai_thai_boxing'); ?>"></a>
-							<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
-						</div>
-						<div class="title">
-							<h4>Muay Thai / Thai Boxing</h4>
-							<p>A quick description of the class</p>
-						</div>
-					</div>
-
 					<div class="element fitness" >
 						<div class="link" >
 							<a href="<?php echo base_url('classes/phase_program'); ?>"></a>
-							<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
+							<img src="<?php echo img_path('mkg_images/class_phase/1.jpg'); ?>" alt="//" />
 						</div>
 						<div class="title">
 							<h4>Phase Program</h4>
-							<p>A quick description of the class</p>
+							<p>A progressive mixed art program</p>
+						</div>
+					</div>
+
+					<div class="element kickboxing martial-arts" >
+						<div class="link" >
+							<a href="<?php echo base_url('classes/muay_thai_thai_boxing'); ?>"></a>
+							<img src="<?php echo img_path('mkg_images/class_muay/02.jpg'); ?>" alt="//" />
+						</div>
+						<div class="title">
+							<h4>Muay Thai / Thai Boxing</h4>
+							<p>legendary endurance and conditioning workout</p>
 						</div>
 					</div>
 
 					<div class="element martial-arts" >
 						<div class="link" >
 							<a href="<?php echo base_url('classes/jeet_kune_do'); ?>"></a>
-							<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
+							<img src="<?php echo img_path('mkg_images/class_jeet/1.jpg'); ?>" alt="//" />
 						</div>
 						<div class="title">
 							<h4>Jeet Kune Do / JKD Concepts</h4>
-							<p>A quick description of the class</p>
+							<p>The highly effective martial art developed by Bruce Lee</p>
 						</div>
 					</div>
 						
 					<div class="element martial-arts" >
 						<div class="link" >
 							<a href="<?php echo base_url('classes/filipino_kali_weaponry'); ?>"></a>
-							<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
+							<img src="<?php echo img_path('mkg_images/class_kali/3.jpg'); ?>" alt="//" />
 						</div>
 						<div class="title">
 							<h4>Filipino Kali Weaponry</h4>
-							<p>A quick description of the class</p>
+							<p>Martial art based on weaponry and speed of combat</p>
 						</div>
 					</div>
 
 					<div class="element kickboxing martial-arts" >
 						<div class="link" >
 							<a href="<?php echo base_url('classes/dirty_boxing'); ?>"></a>
-							<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
+							<img src="<?php echo img_path('mkg_images/class_boxing/1.jpg'); ?>" alt="//" />
 						</div>
 						<div class="title">
 							<h4>Filipino Dirty Boxing / Panantukan</h4>
-							<p>A quick description of the class</p>
+							<p>One of the most exciting MKGD offerings</p>
 						</div>
 					</div>
 
 					<div class="element kickboxing martial-arts" >
 						<div class="link" >
 							<a href="<?php echo base_url('classes/womens_kickboxing'); ?>"></a>
-							<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
+							<img src="<?php echo img_path('mkg_images/class_womens/1.jpg'); ?>" alt="//" />
 						</div>
 						<div class="title">
 							<h4>Women’s Kickboxing</h4>
-							<p>A quick description of the class</p>
+							<p>A kickboxing class designed exclusively for women</p>
 						</div>
 					</div>
 						
 					<div class="element fitness" >
 						<div class="link" >
 							<a href="<?php echo base_url('classes/fitness'); ?>"></a>
-							<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
+							<img src="<?php echo img_path('mkg_images/class_fitness/1.jpg'); ?>" alt="//" />
 						</div>
 						<div class="title">
 							<h4>Functional Fitness Circuits</h4>
-							<p>A quick description of the class</p>
+							<p>Train like a pro fighter</p>
 						</div>
 					</div>
 
 					<div class="element fitness martial-arts" >
 						<div class="link" >
 							<a href="<?php echo base_url('classes/specialty_programs'); ?>"></a>
-							<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
+							<img src="<?php echo img_path('mkg_images/class_specialty/2.png'); ?>" alt="//" />
 						</div>
 						<div class="title">
 							<h4>Specialty Programs</h4>
-							<p>A quick description of the class</p>
+							<p>Practical self defense</p>
 						</div>
 					</div>
 			</div>

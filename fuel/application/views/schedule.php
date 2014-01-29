@@ -69,7 +69,7 @@
 				
 				<div class="row" >
 					<div class="col-md-12">
-					<h2 class="article-title" >See all our prices</h2>
+					<h2 class="article-title" >MKGD Membership</h2>
 					<span class="line" >
 						<span class="sub-line" ></span>
 					</span>
@@ -78,79 +78,58 @@
 
 				<div class="row pricing">
 						<!-- Pricing tables -->
-						<div class="col-sm-6 col-md-3" >
+						<div class="col-md-8 col-md-offset-2" >
 							<ul class="pricing-table" >
 								<li class="title" >
-									<p class="item-title" >Group Exercises</p>
-									<p class="item-price" ><strong>$19</strong> monthly</p>
+									<p class="item-title" >Full Membership</p>
 								</li>
-								<li class="features" >Group Training</li>
-								<li class="features" >Fitness Coaching</li>
-								<li class="features" >Cardio Floor Classes</li>
-								<li class="features" >Fitness Coaching</li>
-								<li class="features" >Group Training</li>
-								<li class="features" >Aulum males</li>
-								<li class="features" >Fitness Coaching</li>
-								<li class="button" >
-									<a href="#">Suscribe Now</a>
+								<li class="features">
+									<p>
+										If you want to get the most out of your time at MKGD, and enjoy getting the best bang for your buck, a Full Membership is for you.  Full Membership students enjoy access to all classes, at all locations, for one low price.  This is your best opportunity to immerse yourself in what we do, with the highest likelihood of reaching your fitness and wellness goals.
+									</p>
 								</li>
 							</ul>
 						</div>
-						<div class="col-sm-6 col-md-3" >
+						<!-- Pricing tables -->
+						<div class="col-md-8 col-md-offset-2" >
 							<ul class="pricing-table" >
 								<li class="title" >
-									<p class="item-title" >Personal training</p>
-									<p class="item-price" ><strong>$39</strong> monthly</p>
+									<p class="item-title" >One-Track Membership</p>
 								</li>
-								<li class="features" >Fitness Coaching</li>
-								<li class="features" >Cardio Floor</li>
-								<li class="features" >Aulum males</li>
-								<li class="features" >Fitness Coaching</li>
-								<li class="features" >Aulum maales</li>
-								<li class="features" >Aulum males</li>
-								<li class="features" >Sauna Access</li>
-								<li class="button" >
-									<a href="#">Suscribe Now</a>
+								<li class="features">
+									<p>
+										While we strongly advise students to participate in all of our programs, we recognize that some people are interested in only training a single art. Please bear in mind that not all classes are available with great regularity.  If your focus is on fitness over interest in a specific art, this may not be the best way for you to see results.
+									</p>
+									<p>If you do choose to follow an a la carte method, the One-Track Membership allows you to pay for one specific course of your choosing. </p>
 								</li>
 							</ul>
 						</div>
-						<div class="col-sm-6 col-md-3" >
+						<!-- Pricing tables -->
+						<div class="col-md-8 col-md-offset-2" >
 							<ul class="pricing-table" >
 								<li class="title" >
-									<p class="item-title" >Weight Loss</p>
-									<p class="item-price" ><strong>$49</strong> monthly</p>
+									<p class="item-title" >Punch Cards</p>
 								</li>
-								<li class="features" >Cardio Floor</li>
-								<li class="features" >Fitness Coaching</li>
-								<li class="features" >Group Training</li>
-								<li class="features" >Sauna Access</li>
-								<li class="features" >Aulum maales</li>
-								<li class="features" >Aulum males</li>
-								<li class="features" >Aulum maal</li>
-								<li class="button" >
-									<a href="#">Suscribe Now</a>
+								<li class="features">
+									<p>
+										Ten-class punch cards are also available for purchase.  Each punch is good for a day’s worth of training, therefore can be used whether one or two classes are being held on any given day.
+									</p>
 								</li>
 							</ul>
 						</div>
-						<div class="col-sm-6 col-md-3" >
+						<!-- Pricing tables -->
+						<div class="col-md-8 col-md-offset-2" >
 							<ul class="pricing-table" >
 								<li class="title" >
-									<p class="item-title" >Total Access Fitness</p>
-									<p class="item-price" ><strong>$59</strong> monthly</p>
+									<p class="item-title" >Drop-In</p>
 								</li>
-								<li class="features" >Aulum maal</li>
-								<li class="features" >Group Training</li>
-								<li class="features" >Sauna Access</li>
-								<li class="features" >Fitness Coaching</li>
-								<li class="features" >Cardio Floor Classes</li>
-								<li class="features" >Group Training</li>
-								<li class="features" >Fitness Coaching</li>
-								<li class="button" >
-									<a href="#">Suscribe Now</a>
+								<li class="features">
+									<p>
+										Call today to set up an appointment for a free trial, before choosing how you organize your membership.  Free Trials can even be tailored to fit your needs!
+									</p>
 								</li>
 							</ul>
 						</div>
-
 				</div>
 			</div>
 		</article>
@@ -166,79 +145,12 @@
 							all you nedd to know to start today your classes<br />
 							plus the latest join ofer and existing members extras.
 						</p>
-						<span>find out more</span>
+						<span><a href="<?php echo base_url('contact'); ?>" class="light-hover">find out more</a></span>
 					</div>
 				</div>
 			</div>
 		</article>
 		<!-- end Membership -->
 
-		<!-- begin All Prices -->
-		<article class="article-container">
-			<div class="container membership-price" >
-				
-				<div class="row " >
-					<div class="col-md-12">
-					<h2 class="article-title" >See all our prices</h2>
-					<span class="line" >
-						<span class="sub-line" ></span>
-					</span>
-					</div>
-				</div>
-
-				<div class="row pricing">
-						<div class="col-md-4" >
-							<ul class="pricing-table" >
-								<li class="title" >
-									<p class="item-title" >One Free Week Pass</p>
-									<p class="item-price" >Free</p>
-								</li>
-								<li class="features" >Fitness Coaching</li>
-								<li class="features" >Group Training</li>
-								<li class="features" >Twise Weekly</li>
-								<li class="features" >Fitness Calculator</li>
-								<li class="features" >Cardop Floor</li>
-								<li class="button" >
-									<a href="#">Suscribe Now</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-md-4" >
-							<ul class="pricing-table" >
-								<li class="title" >
-									<p class="item-title" >6 months membership</p>
-									<p class="item-price" >$ 450<small>.00</small></p>
-								</li>
-								<li class="features" >Flexible Coaching</li>
-								<li class="features" >Semi-private training</li>
-								<li class="features" >Times to suit you</li>
-								<li class="features" >Pilates</li>
-								<li class="features" >Table Tennis</li>
-								<li class="button" >
-									<a href="#">Suscribe Now</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-md-4" >
-							<ul class="pricing-table" >
-								<li class="title" >
-									<p class="item-title" >12 months membership</p>
-									<p class="item-price" >$ 980<small>.00</small></p>
-								</li>
-								<li class="features" >Private Coachingr</li>
-								<li class="features" >Completely bespoke</li>
-								<li class="features" >Times to suit you</li>
-								<li class="features" >Table Tennis</li>
-								<li class="features" >Ralax Time</li>
-								<li class="button" >
-									<a href="#">Suscribe Now</a>
-								</li>
-							</ul>
-						</div>
-
-				</div>
-			</div>
-		</article>
-		<!-- end All Prices --> 
 	</section>
 	<!-- begin Content -->

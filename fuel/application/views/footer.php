@@ -9,7 +9,7 @@
 					<ul class="about" >
 						<li><i class="entypo-location" ></i></li>
 						<li><i class="entypo-mobile" ></i></li>
-						<li><i class="entypo-mail" ></i><a href="mailto:info@mkgdetroit.com">info@mkgdetroit.com</a></li>
+						<li><i class="entypo-mail" ></i><a href="mailto:info@mkgdetroit.com" class="light-hover">info@mkgdetroit.com</a></li>
 						<li><i class="entypo-clock" ></i></li>
 					</ul>
 				</div>  

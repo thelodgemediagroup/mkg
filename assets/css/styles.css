@@ -1125,7 +1125,7 @@ section .row {
 }
 
 #classes .sub-header  {
-	background-image: url("../images/header/classes.jpg");
+	background-image: url("../images/sub_head_bkgnd.jpg");
 }
 
 #club .sub-header  {
@@ -1133,11 +1133,11 @@ section .row {
 }
 
 #contact .sub-header  {
-	background-image: url("../images/header/contact.jpg");
+	background-image: url("../images/sub_head_bkgnd.jpg");
 }
 
 #faq .sub-header  {
-	background-image: url("../images/header/faq.jpg");
+	background-image: url("../images/sub_head_bkgnd.jpg");
 }
 
 #features .sub-header  {
@@ -1157,31 +1157,31 @@ section .row {
 }
 
 #news .sub-header  {
-	background-image: url("../images/header/general.jpg");
+	background-image: url("../images/sub_head_bkgnd.jpg");
 }
 
 #price .sub-header  {
-	background-image: url("../images/header/general.jpg");
+	background-image: url("../images/sub_head_bkgnd.jpg");
 }
 
 #single-class .sub-header  {
-	background-image: url("../images/header/general.jpg");
+	background-image: url("../images/sub_head_bkgnd.jpg");
 }
 
 #single-news .sub-header  {
-	background-image: url("../images/header/general.jpg");
+	background-image: url("../images/sub_head_bkgnd.jpg");
 }
 
 #single-trainer .sub-header  {
-	background-image: url("../images/header/general.jpg");
+	background-image: url("../images/sub_head_bkgnd.jpg");
 }
 
 #tabs .sub-header  {
-	background-image: url("../images/header/general.jpg");
+	background-image: url("../images/sub_head_bkgnd.jpg");
 }
 
 #trainers .sub-header  {
-	background-image: url("../images/header/general.jpg");
+	background-image: url("../images/sub_head_bkgnd.jpg");
 }
 
 .sub-header .sub-header-container {
@@ -2224,4 +2224,8 @@ footer .copyright .main-links li a {
 
 .group-indent {
 	margin-left: 2em;
+}
+
+.light-hover:hover {
+	color: #eee;
 }

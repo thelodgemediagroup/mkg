@@ -92,54 +92,6 @@
 			</div>
 		</article>
 		<!-- end News -->
-
-
-		<!-- begin Bodybuilding Supplements -->
-		<article class="article-container">
-			<div class="container" >
-
-				<!-- arrows -->
-				<div class="row" >                  
-					<div class="col-md-12">
-						<h2 class="headers">Bodybuilding Supplements</h2>
-						<span class="line" >
-							<span class="sub-line" ></span>
-						</span>
-						<a class="slider-control pull-right next" href="#bodybuilding" data-slide="next"></a>
-						<a class="slider-control pull-right prev" href="#bodybuilding" data-slide="prev"></a>
-					</div>
-				</div>
-				<!-- end arrows -->
-
-				<div class="row" >
-					<div id="bodybuilding" class="carousel slide">
-					<!-- Wrapper for slides -->
-					<div class="carousel-inner">
-						<div class="item active">
-							<ul class="logos" >
-								<li><a href="#"><img src="<?php echo img_path('logos/1.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/2.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/3.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/4.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/5.png'); ?>" alt="//" /></a></li>
-							</ul>
-						</div>
-						<div class="item">
-							<ul class="logos" >
-								<li><a href="#"><img src="<?php echo img_path('logos/5.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/1.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/2.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/3.png'); ?>" alt="//" /></a></li>
-								<li><a href="#"><img src="<?php echo img_path('logos/4.png'); ?>" alt="//" /></a></li>
-							</ul>
-						</div>
-					</div>
-					</div>
-				</div>
-			</div>
-		</article>
-		<!-- end Bodybuilding Supplements -->
-
 	</section>
 	<!-- end Content -->
 	

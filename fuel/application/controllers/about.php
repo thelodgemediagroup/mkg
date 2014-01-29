@@ -19,7 +19,7 @@ Class About extends CI_Controller {
 		$this->load->view('footer', $data);
 
 	}
-
+/*
 	public function mission()
 	{
 
@@ -30,7 +30,7 @@ Class About extends CI_Controller {
 		$this->load->view('footer');
 
 	}
-
+*/
 	public function mkg_international()
 	{
 

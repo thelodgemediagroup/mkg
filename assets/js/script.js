@@ -68,16 +68,16 @@ $(document).ready(function() {
 		var map;
 		map = new GMaps({
 			div: '#map',
-			lat: 41.8902624,
-			lng: 12.4923096
+			lat: 42.461365,
+			lng: -83.1345753
 		});
 		map.addMarker({
-			lat: 41.8902624,
-			lng: 12.4923096,
-			title: 'Contact',
+			lat: 42.461365,
+			lng: -83.134575,
+			title: 'Contact'/*,
 			infoWindow: {
 				content: '15rd Avenue, New York,<br /> 156408, US<br /> <br /> Email: info@company.com <br /> Web: company.com'
-			}
+			}*/
 		});
 	}
 
