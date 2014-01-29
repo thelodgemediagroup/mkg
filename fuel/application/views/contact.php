@@ -43,22 +43,22 @@
 						<div id="map"></div>
 					</div>
 					<div class="col-md-5 contact" >
-						<form role="form">
+						<?php echo form_open('contact/email'); ?>
 						  <div class="form-group">
 							<label for="contact_name"><i class="entypo-user" ></i> Name <em>(required)</em></label>
-							<input type="text" class="form-control" id="contact_name">
+							<input type="text" name="name" class="form-control" id="contact_name">
 						  </div>
 						  <div class="form-group">
 							<label for="contact_e-mail"><i class="entypo-mail" ></i> E-mail <em>(required)</em></label>
-							<input type="email" class="form-control" id="contact_e-mail">
+							<input type="email" name="email" class="form-control" id="contact_e-mail">
 						  </div>
 						  <div class="form-group">
 							<label for="contact_subject"><i class="entypo-comment" ></i> Subject <em>(required)</em></label>
-							<input type="text" class="form-control" id="contact_subject">
+							<input type="text" name="subject" class="form-control" id="contact_subject">
 						  </div>
 						  <div class="form-group">
 							<label for="contact_message"><i class="entypo-pencil" ></i> Message</label>
-							<textarea id="contact_message" class="form-control" rows="6"></textarea>
+							<textarea id="contact_message" name="message" class="form-control" rows="6"></textarea>
 						  </div>
 
 						  <button type="submit" class="btn btn-default">contact us</button>

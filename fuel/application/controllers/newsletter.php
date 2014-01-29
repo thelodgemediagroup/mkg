@@ -9,7 +9,7 @@ Class Newsletter extends CI_Controller {
 
 	}
 
-	private static $request_url;
+	private $request_url;
 
 	public function index()
 	{

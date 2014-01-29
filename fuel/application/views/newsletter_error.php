@@ -15,7 +15,7 @@
 						<label for="email" class="sr-only">Email address</label>
 						<input type="email" name="email" class="form-control" id="email" placeholder="Enter email" value="<?php echo set_value('email'); ?>">
 					</div>
-					<button class="button-gym" >Suscribe now</button>
+					<button type="submit" class="button-gym" >Suscribe now</button>
 
 				</form>
 			</div>
