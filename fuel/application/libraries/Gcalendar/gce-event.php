@@ -101,6 +101,7 @@ class GCE_Event{
 	{
 		$arr[] = date( $this->feed->get_time_format(), $this->start_time );
 		$arr[] = $this->title;
+		$arr[] = $this->link;
 		return $arr;
 	}
 

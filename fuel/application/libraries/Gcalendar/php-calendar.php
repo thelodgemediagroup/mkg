@@ -94,16 +94,22 @@ function gce_generate_calendar( $year, $month, $days = array(), $day_name_length
 		$timestamp = mktime( 0, 0, 0, $month, $day, $year );
 
 		if ( isset( $days[$timestamp] ) && is_array( $days[$timestamp] ) ) {
-
-			list( $link, $classes, $content, $headline ) = $days[$timestamp];
+			if (array_key_exists(3, $days[$timestamp]))
+			{
+				list( $link, $classes, $content, $headline ) = $days[$timestamp];
+			}
+			else
+			{
+				list( $link, $classes, $content) = $days[$timestamp];
+			}
 			$calendar .= '<td' . ( ( $classes ) ? ( ' class="' . $classes . '">' ) : '>' ) . ( ( $link ) ? ( '<a href="' . $link . '"><span class="gce-day-number">' . $day . '</span></a>' . $content ) : '<span class="gce-day-number">' . $day . '</span>' . $content );
 
-			if (!empty($headline))
+			if (isset($headline))
 			{
 				foreach ($headline as $a)
 				{
 					$calendar .= '<br/><span class="gce-cal-headline">';
-					$calendar .= $a[0] . ': ' . $a[1];
+					$calendar .= '<a href="'.$a[2].'">'.$a[0] . ': ' . $a[1].'</a>';
 					$calendar .= '</span>';
 				}								
 			}
