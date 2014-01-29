@@ -58,7 +58,7 @@
 							data-easing="easeOutBack"
 						>
 							<h2>women's kickboxing</h2>
-							<p>Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum sollicitudin. Lorem ipsum dolor sit amet velu.</p>
+							<p>A kickboxing class designed exclusively for women,  Women’s Kickboxing provides a workout for all fitness levels.</p>
 						</div>
 
 						<div 
@@ -70,8 +70,8 @@
 							data-easing="easeOutBack"
 						>
 							<h2 class="invert">specialty programs</h2>
-							<p>Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum sollicitudin. Lorem ipsum dolor sit amet velu.</p>
-							<button class="button-gym">Read More</button>
+							<p>Periodical workshops and private training in reality-based self defense, situational awareness, and threat management.</p>
+							<a href="<?php echo base_url('classes'); ?>"><button class="button-gym">Read More</button></a>
 						</div>
 
 						<div 
@@ -83,7 +83,7 @@
 							data-easing="easeOutBack"
 						>
 							<h2>jeet kune do</h2>                               
-							<p>Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum sollicitudin. Lorem ipsum dolor sit amet velu.</p>
+							<p>This class focuses on developing specific attributes that allow a martial artist to hone their craft in all ranges of empty hand combatives. </p>
 						</div>
 					</li> 
 
@@ -111,7 +111,7 @@
 							data-start="500" 
 							data-easing="easeOutBack"
 						>
-							<p>Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum sollicitudin. Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum sollicitudin.</p>
+							<p>MKG signiature program designed to improve your fitness, self-discipline, coordination and self defense capabilities.</p>
 						</div>
 						<div 
 							class="caption lfb ltb"  
@@ -120,7 +120,7 @@
 							data-speed="300" 
 							data-start="500"
 						>
-							<a class="see_work" href="#portfolio" >sign up today</a>
+							<a class="see_work" href="<?php echo base_url('contact'); ?>" >sign up today</a>
 						</div>                                    
 					</li>
 				</ul>
@@ -235,44 +235,44 @@
 						<div class="item active">
 							<div class="col-sm-6 col-md-3" >
 								<div class="new-class" >
-									<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
+									<img src="<?php echo img_path('mkg_images/class_phase/1.jpg'); ?>" alt="//" />
 									<div class="class-title" >
-										<div class="occult" ><a href="#" class="link" ></a></div>
+										<div class="occult" ><a href="<?php echo base_url('classes/phase_program'); ?>" class="link" ></a></div>
 										<h3>Phase Program</h3>
-										<p class="occult" >Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum</p>
+										<p class="occult" >A progressive mixed art program</p>
 									</div>
 								</div>
 							</div>
 								
 							<div class="col-sm-6 col-md-3" >
 								<div class="new-class" >
-									<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
+									<img src="<?php echo img_path('mkg_images/class_muay/3.jpg'); ?>" alt="//" />
 									<div class="class-title" >
-										<div class="occult" ><a href="#" class="link" ></a></div>
+										<div class="occult" ><a href="<?php echo base_url('classes/muay_thai_thai_boxing'); ?>" class="link" ></a></div>
 										<h3>Muay Thai</h3>
-										<p class="occult" >Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum</p>
+										<p class="occult" >Legendary endurance and conditioning workout</p>
 									</div>
 								</div>
 							</div>
 								
 							<div class="col-sm-6 col-md-3" >
 								<div class="new-class" >
-									<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
+									<img src="<?php echo img_path('mkg_images/class_jeet/1.jpg'); ?>" alt="//" />
 									<div class="class-title" >
-										<div class="occult" ><a href="#" class="link" ></a></div>
+										<div class="occult" ><a href="<?php echo base_url('classes/jeet_kune_do'); ?>" class="link" ></a></div>
 										<h3>Jeet Kune Do</h3>
-										<p class="occult" >Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum</p>
+										<p class="occult" >The highly effective martial art developed by Bruce Lee</p>
 									</div>
 								</div>
 							</div>
 
 							<div class="col-sm-6 col-md-3" >
 								<div class="new-class" >
-									<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
+									<img src="<?php echo img_path('mkg_images/class_kali/3.jpg'); ?>" alt="//" />
 									<div class="class-title" >
-										<div class="occult" ><a href="#" class="link" ></a></div>
+										<div class="occult" ><a href="<?php echo base_url('classes/filipino_kali_weaponry'); ?>" class="link" ></a></div>
 										<h3>Kali Weaponry</h3>
-										<p class="occult" >Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum</p>
+										<p class="occult" >Martial art based on weaponry and speed of combat</p>
 									</div>
 								</div>
 							</div>
@@ -281,44 +281,44 @@
 						<div class="item">
 							<div class="col-sm-6 col-md-3" >
 								<div class="new-class" >
-									<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
+									<img src="<?php echo img_path('mkg_images/class_boxing/1.jpg'); ?>" alt="//" />
 									<div class="class-title" >
-										<div class="occult" ><a href="#" class="link" ></a></div>
+										<div class="occult" ><a href="<?php echo base_url('classes/dirty_boxing'); ?>" class="link" ></a></div>
 										<h3>Dirty Boxing</h3>
-										<p class="occult" >Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum</p>
+										<p class="occult" >One of the most exciting MKGD offerings</p>
 									</div>
 								</div>
 							</div>
 								
 							<div class="col-sm-6 col-md-3" >
 								<div class="new-class" >
-									<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
+									<img src="<?php echo img_path('mkg_images/class_womens/1.jpg'); ?>" alt="//" />
 									<div class="class-title" >
-										<div class="occult" ><a href="#" class="link" ></a></div>
+										<div class="occult" ><a href="<?php echo base_url('classes/womens_kickboxing'); ?>" class="link" ></a></div>
 										<h3>Women’s Kickboxing</h3>
-										<p class="occult" >Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum</p>
+										<p class="occult" >A kickboxing class designed exclusively for women</p>
 									</div>
 								</div>
 							</div>
 
 							<div class="col-sm-6 col-md-3" >
 								<div class="new-class" >
-									<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
+									<img src="<?php echo img_path('mkg_images/class_fitness/1.jpg'); ?>" alt="//" />
 									<div class="class-title" >
-										<div class="occult" ><a href="#" class="link" ></a></div>
+										<div class="occult" ><a href="<?php echo base_url('classes/fitness'); ?>" class="link" ></a></div>
 										<h3>Functional Fitness</h3>
-										<p class="occult" >Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum</p>
+										<p class="occult" >Train like a pro fighter</p>
 									</div>
 								</div>
 							</div>
 
 							<div class="col-sm-6 col-md-3" >
 								<div class="new-class" >
-									<img src="<?php echo img_path('classes/01.jpg'); ?>" alt="//" />
+									<img src="<?php echo img_path('mkg_images/class_specialty/2.png'); ?>" alt="//" />
 									<div class="class-title" >
-										<div class="occult" ><a href="#" class="link" ></a></div>
+										<div class="occult" ><a href="<?php echo base_url('classes/specialty_programs'); ?>" class="link" ></a></div>
 										<h3>Specialty Programs</h3>
-										<p class="occult" >Lorem ipsum dolor sit amet velum, consectetur adipiscing volutpat rutrum</p>
+										<p class="occult" >Practical self defense</p>
 									</div>
 								</div>
 							</div>

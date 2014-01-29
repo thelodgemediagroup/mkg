@@ -60,7 +60,7 @@
 						</div>
 						<div class="title">
 							<h4>Muay Thai / Thai Boxing</h4>
-							<p>legendary endurance and conditioning workout</p>
+							<p>Legendary endurance and conditioning workout</p>
 						</div>
 					</div>
 
