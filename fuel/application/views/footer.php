@@ -27,7 +27,9 @@
 				<div class="col-md-3">
 					<h3>Newsletter</h3>
 					<p>Suscribe to our newsletter and stay current on our course offerings and hot deals throughout the year.</p>
-					<form method="post" action="//" role="form">
+
+					<?php echo form_open('newsletter'); ?>
+
 						<div class="form-group">
 							<label for="name" class="sr-only">Your Name</label>
 							<input type="text" name="name" class="form-control" id="name" placeholder="Your name">

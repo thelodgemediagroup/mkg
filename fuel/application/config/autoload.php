@@ -54,7 +54,7 @@ $autoload['packages'] = array(
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array('fuel/asset', 'fuel/fuel', 'Firephp');
+$autoload['libraries'] = array('fuel/asset', 'fuel/fuel', 'Firephp', 'form_validation', 'database');
 
 
 /*
@@ -66,7 +66,7 @@ $autoload['libraries'] = array('fuel/asset', 'fuel/fuel', 'Firephp');
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array('my', 'url', 'string', 'language', 'date', 'html', 'fuel/asset', 'fuel/fuel', 'fuel/utility', 'fuel/validator');
+$autoload['helper'] = array('my', 'url', 'string', 'language', 'date', 'html', 'fuel/asset', 'fuel/fuel', 'fuel/utility', 'fuel/validator', 'form');
 
 
 /*
