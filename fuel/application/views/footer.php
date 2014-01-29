@@ -7,10 +7,10 @@
 					<p>MKG DETROIT (MKGD) is Michigan's only branch of the famed MKG International martial art organization!</p>
 					<p>MKGD brings you the unique approach to martial art training that the MKG brand is known for the world over.</p>
 					<ul class="about" >
-						<li><i class="entypo-location" ></i>Street 32165, 646 UK</li>
-						<li><i class="entypo-mobile" ></i>(62626) 5154 4545</li>
-						<li><i class="entypo-mail" ></i>email@democompany.com</li>
-						<li><i class="entypo-clock" ></i>From 10:15 AM to 7:30 PM</li>
+						<li><i class="entypo-location" ></i></li>
+						<li><i class="entypo-mobile" ></i></li>
+						<li><i class="entypo-mail" ></i><a href="mailto:info@mkgdetroit.com">info@mkgdetroit.com</a></li>
+						<li><i class="entypo-clock" ></i></li>
 					</ul>
 				</div>  
 				<div class="col-md-3">
@@ -44,13 +44,8 @@
 					<h3>Get Social</h3>
 					<p>Follow us on the Social Networks for news and special offers.</p>
 					<ul class="social" >
-						<li><a href="#"><i class="entypo-facebook" ></i></a></li>
-						<li><a href="#"><i class="entypo-twitter" ></i></a></li>
-						<li><a href="#"><i class="entypo-linkedin" ></i></a></li>
-						<li><a href="#"><i class="entypo-play" ></i></a></li>
-						<li><a href="#"><i class="entypo-tumblr" ></i></a></li>
-						<li><a href="#"><i class="entypo-gplus" ></i></a></li>
-						<li><a href="#"><i class="entypo-pinterest-circled" ></i></a></li>
+						<li><a href="https://www.facebook.com/MKGDetroit" target="_blank"><i class="entypo-facebook" ></i></a></li>
+						<li><a href="https://twitter.com/MKGDetroit" target="_blank"><i class="entypo-twitter" ></i></a></li>
 					</ul>
 				</div>                
 			</div>
@@ -59,12 +54,12 @@
 			<div class="container">
 				<p class="pull-left" >&copy; MKG Detroit <?php echo date('Y'); ?>. All rights reserved.</a></p>
 				<ul class="main-links pull-right" >
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Classes</a></li>
-					<li><a href="#">Trainers</a></li>
-					<li><a href="#">Club</a></li>
-					<li><a href="#">News</a></li>
-					<li><a href="#">Price</a></li>
+					<li><a href="<?php echo base_url(); ?>">Home</a></li>
+					<li><a href="<?php echo base_url('classes'); ?>">Classes</a></li>
+					<li><a href="<?php echo base_url('staff'); ?>">Staff</a></li>
+					<li><a href="<?php echo base_url('about'); ?>">About</a></li>
+					<li><a href="<?php echo base_url('schedule'); ?>">Schedule</a></li>
+					<li><a href="<?php echo base_url('contact'); ?>">Contact</a></li>
 				</ul>
 			</div>
 		</div>           

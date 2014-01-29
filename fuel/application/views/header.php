@@ -37,17 +37,11 @@
 			<div class="container" >
 				<div class="row">
 					<ul class="misc pull-left" >
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle"><i class="entypo-calendar" ></i>Opening Hours</a>
-							<ul>
-								<li><i class="entypo-calendar" ></i>Monday to Friday</li>
-								<li><i class="entypo-clock" ></i>10AM - 11AM and 7PM - 8PM</li>
-								<li><i class="entypo-location" ></i>Room 07, Center Plaza 15654</li>
-								<li><a href="<?php echo base_url('schedule'); ?>">See Pricing Tables</a></li>
-							</ul>
-						</li>   
 						<li>
-							<a href="#"><i class="entypo-phone" ></i>2-985-505-6574</a>
+							<a href="<?php echo base_url('contact'); ?>"><i class="entypo-location" ></i>MKG Detroit</a>
+						</li>
+						<li>
+							<a href="<?php echo base_url('contact'); ?>"><i class="entypo-phone" ></i>1-800-111-1111</a>
 						</li>
 						<li>
 							<a href="<?php echo base_url('contact'); ?>"><i class="entypo-mail" ></i>Contact</a>
@@ -55,19 +49,10 @@
 					</ul>
 					<ul class="social-header pull-right">
 						<li>
-							<a href="#"><i class="entypo-flickr" ></i></a>
+							<a href="https://www.facebook.com/MKGDetroit" target="_blank"><i class="entypo-facebook" ></i></a>
 						</li>
 						<li>
-							<a href="#"><i class="entypo-gplus" ></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="entypo-play" ></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="entypo-facebook" ></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="entypo-twitter" ></i></a>
+							<a href="https://twitter.com/MKGDetroit" target="_blank"><i class="entypo-twitter" ></i></a>
 						</li>
 					</ul>
 				</div>    

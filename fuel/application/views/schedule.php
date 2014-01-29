@@ -30,7 +30,7 @@
 					<h2>MKGD Class Schedule</h2>
 					<p>MKG Detroit offers classes out of a rotating list of locations around the Detroit Metro area, in an effort to make our classes, and our community, available to people regardless of geography.  Please refer to our Google Calendar, located on this site’s home page, for up-to-date schedule postings.</p>
 					<p>MKG Detroit encourages you to try all the classes offered, as opposed to just specializing in one specific art.  All classes are specifically designed to help your development each area of these arts.  We do not take a singular approach.  This way, everyone achieves more.</p>
-					<p>Also, remember to follow us on <a href="https://www.facebook.com/MKGDetroit">Facebook</a> and Twitter for real-time updates on classes, special events, and re-scheduling notices.</p>
+					<p>Also, remember to follow us on <a href="https://www.facebook.com/MKGDetroit" target="_blank">Facebook</a> and <a href="https://twitter.com/MKGDetroit" target="_blank">Twitter</a> for real-time updates on classes, special events, and re-scheduling notices.</p>
 				</div>
 			</div>
 			</div>
