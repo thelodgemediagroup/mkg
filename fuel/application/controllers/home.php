@@ -23,6 +23,14 @@ Class Home extends CI_Controller {
 
 	}
 
+	// Demonstrate the function for all of the MKG classes
+	public function event()
+	{
+		$event_class = 'rabbit';
+		$events = $this->gcalendar->get_event_list($event_class);
+		echo $events;
+	}
+
 }
 
 ?>

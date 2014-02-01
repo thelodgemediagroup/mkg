@@ -536,5 +536,10 @@ class GCE_Event{
 			return sprintf( $smallest[0], 1 ); 
 		} 
 	} 
+
+	public function get_title()
+	{
+		return $this->title;
+	}
 }
 ?>

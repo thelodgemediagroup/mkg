@@ -56,9 +56,9 @@ Class Contact extends CI_Controller {
 			$this->email->send();
 
 			$arr = array(
-				'name' => $name,
-				'email' => $email,
-				'timestamp' => $time,
+				'name'       => $name,
+				'email'      => $email,
+				'timestamp'  => $time,
 				'ip_address' => $ip
 				);
 			$query = $this->db->insert('newsletter', $arr);

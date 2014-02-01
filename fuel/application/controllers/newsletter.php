@@ -46,9 +46,9 @@ Class Newsletter extends CI_Controller {
 		else
 		{
 			$arr = array(
-				'name' => $name,
-				'email' => $email,
-				'timestamp' => $time,
+				'name'       => $name,
+				'email'      => $email,
+				'timestamp'  => $time,
 				'ip_address' => $ip
 				);
 			$query = $this->db->insert('newsletter', $arr);
