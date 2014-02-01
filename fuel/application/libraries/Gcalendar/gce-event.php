@@ -105,6 +105,21 @@ class GCE_Event{
 		return $arr;
 	}
 
+	function get_list_markup()
+	{
+		$ret = '<li>'.$this->title.'</li>';
+		$ret .= '<li>Date: '.date( $this->feed->get_date_format(), $this->start_time  ).'</li>';
+		$ret .= '<li>Time: '.date( $this->feed->get_time_format(), $this->start_time  ).' - '.
+				date( $this->feed->get_time_format(), $this->end_time  ).'</li>';
+		if ($this->location != '' || $this->location != NULL)
+		{
+			$ret .= '<li>Location: '.trim( $this->location ).'</li>';
+		}
+		$ret .= '<li><a href="' . $this->link . '&ctz=' . $this->feed->get_timezone() . '" target="_blank">More details...</a></li>';
+
+		return $ret;
+	}
+
 	//Returns the markup for this event, so that it can be used in the construction of a grid / list
 	function get_event_markup( $display_type, $num_in_day, $num ) {
 		//Set the display type (either tooltip or list)

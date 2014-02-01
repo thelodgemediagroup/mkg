@@ -55,10 +55,7 @@
 							<div class="panel-body">
 								<ul class="custom-icon-list" >
 									<li><i class="entypo-user" ></i>Teacher: Kurt Cornwell</li>
-									<li><i class="entypo-calendar" ></i>Monday to Friday</li>
-									<li><i class="entypo-clock" ></i>10AM - 11AM and 7PM - 8PM</li>
-									<li><i class="entypo-location" ></i>Ferndale Michigan</li>
-									<li><i class="entypo-newspaper" ></i>See Schedule</li>
+									<?php echo $events; ?>
 								</ul>
 							</div>
 							<div class="panel-footer"><a href="<?php echo base_url('contact'); ?>">Registration</a></div>

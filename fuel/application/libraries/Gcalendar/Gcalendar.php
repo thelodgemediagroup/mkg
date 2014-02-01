@@ -17,7 +17,7 @@ class Gcalendar {
 	private $start_of_week = 0;
 
 
-	public function __construct()
+	public function __construct($return_type = 'calendar')
 	{
 		require_once('gce-feed.php');
 
@@ -254,12 +254,7 @@ class Gcalendar {
 				if ($event->get_title() == $event_class)
 				{
 					$markup .=
-						'<li class="gce-feed-' . $event->get_feed()->get_feed_id() . '">' .
-						//If this isn't a grouped list and a date title should be displayed, add the date title
-						( ( ! $grouped && isset( $this->title ) ) ? '<div class="gce-list-title">' . $this->title . ' ' . date( $event->get_feed()->get_date_format(), $key ) . '</div>' : '' ) .
-						//Add the event markup
-						$event->get_event_markup( 'list', $num_in_day, $i ) .
-						'</li>';
+						$event->get_list_markup();
 
 					$i++;
 				}
@@ -273,6 +268,10 @@ class Gcalendar {
 
 		$markup .= '</ul>';
 
+		if ($i == 1)
+		{
+			return '<br><li>There are currently no classes scheduled. Check back later</li>';
+		}
 		return $markup;
 	}
 }
