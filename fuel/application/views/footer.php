@@ -19,7 +19,7 @@
 						<li><a href="<?php echo base_url('about'); ?>"><i class="entypo-right-open-mini" ></i>About MKGD</a></li>  
 						<li><a href="<?php echo base_url('about/staff/'); ?>"><i class="entypo-right-open-mini" ></i>Meet the Staff</a></li>  
 						<li><a href="<?php echo base_url('classes'); ?>"><i class="entypo-right-open-mini" ></i>Explore Our Classes</a></li>  
-						<li><a href="#<?php echo base_url('contact'); ?>"><i class="entypo-right-open-mini" ></i>Register for Classes</a></li>  
+						<li><a href="<?php echo base_url('contact'); ?>"><i class="entypo-right-open-mini" ></i>Register for Classes</a></li>  
 						<li><a href="<?php echo base_url('news'); ?>"><i class="entypo-right-open-mini" ></i>MKGD News</a></li>  
 						<li><a href="<?php echo base_url('schedule'); ?>"><i class="entypo-right-open-mini" ></i>MKGD Schedule</a></li>                      
 					</ul>
