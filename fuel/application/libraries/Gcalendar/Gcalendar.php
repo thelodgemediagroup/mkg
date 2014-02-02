@@ -17,7 +17,7 @@ class Gcalendar {
 	private $start_of_week = 0;
 
 
-	public function __construct($return_type = 'calendar')
+	public function __construct()
 	{
 		require_once('gce-feed.php');
 
