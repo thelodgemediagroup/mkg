@@ -85,6 +85,11 @@
 	padding:0;
 }
 
+.gce-list ul {
+	border-top: 1px solid #dddddd;
+	margin: 1em 0 1em 0;
+}
+
 /* WIDGET GRID */
 
 .gce-widget-grid .gce-calendar .gce-caption{
@@ -206,4 +211,12 @@
 	display: inline;
 	font-size: 0.8em;
 	vertical-align: middle;
+}
+
+.gce-class-sched {
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 1em;
+	text-align: center;
+	list-style-type: none;
 }

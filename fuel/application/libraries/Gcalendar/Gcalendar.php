@@ -239,6 +239,7 @@ class Gcalendar {
 		$i = 1;
 
 		$markup = '<ul class="gce-list">';
+		$markup .= '<li class="gce-class-sched">Class Schedule</li>';
 
 		foreach ( $event_days as $key => $event_day ) {
 			//If this is a grouped list, add the date title and begin the nested list for this day
@@ -253,9 +254,10 @@ class Gcalendar {
 				//Create the markup for this event
 				if ($event->get_title() == $event_class)
 				{
+					$markup .= '<ul>';
 					$markup .=
 						$event->get_list_markup();
-
+					$markup .= '</ul>';
 					$i++;
 				}
 
