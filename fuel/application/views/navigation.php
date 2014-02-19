@@ -43,7 +43,12 @@
 										</ul>
 									</li>
 									<li><a href="<?php echo base_url('schedule/'); ?>">Schedule</a></li>
-									<li><a href="<?php echo base_url('contact'); ?>">Registration</a></li>
+									<li class="dropdown">
+										<a href="<?php echo base_url('contact'); ?>">Registration</a>
+										<ul class="dropdown-registration">
+											<li><a href="<?php echo base_url('membership'); ?>">Membership</a></li>
+										</ul>
+									</li>
 									
 									<li><a href="<?php echo base_url('news/'); ?>">News</a></li>
 									

@@ -2229,3 +2229,7 @@ footer .copyright .main-links li a {
 .light-hover:hover {
 	color: #eee;
 }
+
+.dropdown-registration a {
+	width: 200px;
+}
