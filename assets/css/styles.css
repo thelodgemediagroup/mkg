@@ -2233,3 +2233,7 @@ footer .copyright .main-links li a {
 .dropdown-registration a, .dropdown-news a {
 	width: 200px;
 }
+
+.background-highlight {
+	background-color: #DCDCDC;
+}

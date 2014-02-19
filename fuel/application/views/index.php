@@ -336,7 +336,7 @@
 		<article class="article-container">
 			<div class="container" >
 				<div class="row">
-					<div class="col-md-7">
+					<div class="col-md-7 background-highlight">
 						<h2 class="headers">Is it right for me?</h2>
 						<span class="line" >
 							<span class="sub-line" ></span>
