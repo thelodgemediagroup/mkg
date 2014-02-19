@@ -6,93 +6,21 @@
 			<div class="bannercontainer">
 			<div class="banner ">
 				<ul>                        
+
 					<li 
 						class="slide1" 
 						data-transition="boxslide" 
 						data-slotamount="1"
 					>
-						<img src="<?php echo img_path('slider/mkg_slider01.jpg'); ?>" alt="//" />
-						<div 
-							class="caption lfb ltb" 
-							data-x="600"
-							data-y="120"
-							data-speed="700"
-							data-start="500"
-							data-easing="easeOutBack"
-						>
-							<h2>Muay Thai</h2>
-						</div>
-						<div 
-							class="caption lfb ltb"  
-							data-x="600" 
-							data-y="120" 
-							data-speed="500" 
-							data-start="500" 
-							data-easing="easeOutBack"
-						>
-							<p>thai boxing</p>
-						</div>
-						<div 
-							class="caption lfb ltb"  
-							data-x="600" 
-							data-y="120" 
-							data-speed="300" 
-							data-start="500"
-						>
-							<a class="see_work" href="<?php echo base_url('contact'); ?>" >sign up today</a>
-						</div>                                    
+						<img src="<?php echo img_path('slider/mkg_slider01.jpg'); ?>" alt="MKG Detroit" />                            
 					</li>
-
-					<li 
-						class="slide2" 
-						data-transition="boxslide" 
-						data-slotamount="1"
-					>
-						<img src="<?php echo img_path('slider/mkg_slider01.jpg'); ?>" alt="//" />
-						<div 
-							class="caption lfb ltb divA"  
-							data-x="100" 
-							data-y="bottom" 
-							data-speed="700" 
-							data-start="500" 
-							data-easing="easeOutBack"
-						>
-							<h2>women's kickboxing</h2>
-							<p>A kickboxing class designed exclusively for women,  Women’s Kickboxing provides a workout for all fitness levels.</p>
-						</div>
-
-						<div 
-							class="caption lfb ltb divB"  
-							data-x="440" 
-							data-y="bottom" 
-							data-speed="700" 
-							data-start="500" 
-							data-easing="easeOutBack"
-						>
-							<h2 class="invert">specialty programs</h2>
-							<p>Periodical workshops and private training in reality-based self defense, situational awareness, and threat management.</p>
-							<a href="<?php echo base_url('classes'); ?>"><button class="button-gym">Read More</button></a>
-						</div>
-
-						<div 
-							class="caption lfb ltb divC"  
-							data-x="780" 
-							data-y="bottom" 
-							data-speed="700" 
-							data-start="500" 
-							data-easing="easeOutBack"
-						>
-							<h2>jeet kune do</h2>                               
-							<p>This class focuses on developing specific attributes that allow a martial artist to hone their craft in all ranges of empty hand combatives. </p>
-						</div>
-					</li> 
 
 					<li 
 						class="slide3" 
 						data-transition="boxslide" 
 						data-slotamount="1"
 					>
-						<img src="<?php echo img_path('slider/mkg_slider01.jpg'); ?>" alt="//" />
+						<img src="<?php echo img_path('mkg_images/slider/phase.jpg'); ?>" alt="//" />
 						<div 
 							class="caption lfb ltb"  
 							data-x="100" 
@@ -120,9 +48,269 @@
 							data-speed="300" 
 							data-start="500"
 						>
-							<a class="see_work" href="<?php echo base_url('contact'); ?>" >sign up today</a>
+							<a class="see_work" href="<?php echo base_url('classes/phase_program'); ?>" >learn more</a>
 						</div>                                    
 					</li>
+
+					<li 
+						class="slide3" 
+						data-transition="boxslide" 
+						data-slotamount="1"
+					>
+						<img src="<?php echo img_path('mkg_images/slider/muay_thai.jpg'); ?>" alt="//" />
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="95" 
+							data-speed="700" 
+							data-start="500" 
+							data-easing="easeOutBack"
+						>
+							<h2>muay thai</h2>
+						</div>
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="75" 
+							data-speed="500" 
+							data-start="500" 
+							data-easing="easeOutBack"
+						>
+							<p>This non-competitive Muay Thai class promotes an incredible leap in the fitness level of any martial artist. Get experienced with MKG's biggest fitness outlet.</p>
+						</div>
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="75" 
+							data-speed="300" 
+							data-start="500"
+						>
+							<a class="see_work" href="<?php echo base_url('classes/muay_thai'); ?>" >learn more</a>
+						</div>                                    
+					</li>
+
+					<li 
+						class="slide3" 
+						data-transition="boxslide" 
+						data-slotamount="1"
+					>
+						<img src="<?php echo img_path('mkg_images/slider/jeet_kune_do.jpg'); ?>" alt="//" />
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="95" 
+							data-speed="700" 
+							data-start="500" 
+							data-easing="easeOutBack"
+						>
+							<h2>jeet kune do</h2>
+						</div>
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="75" 
+							data-speed="500" 
+							data-start="500" 
+							data-easing="easeOutBack"
+						>
+							<p>This highly effective approach to martial art was developed by the late, and infamous, Bruce Lee. This class offers a workout for the body as well as the mind.</p>
+						</div>
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="75" 
+							data-speed="300" 
+							data-start="500"
+						>
+							<a class="see_work" href="<?php echo base_url('classes/jeet_kune_do'); ?>" >learn more</a>
+						</div>                                    
+					</li>
+
+					<li 
+						class="slide3" 
+						data-transition="boxslide" 
+						data-slotamount="1"
+					>
+						<img src="<?php echo img_path('mkg_images/slider/kali.jpg'); ?>" alt="//" />
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="95" 
+							data-speed="700" 
+							data-start="500" 
+							data-easing="easeOutBack"
+						>
+							<h2>kali weaponry</h2>
+						</div>
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="75" 
+							data-speed="500" 
+							data-start="500" 
+							data-easing="easeOutBack"
+						>
+							<p>Filipino Kali weapon training covers a wide spectrum featuring sticks, long-blades, knives/daggers, palm stick, as well as flexible weapons and weapons of opportunity.</p>
+						</div>
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="75" 
+							data-speed="300" 
+							data-start="500"
+						>
+							<a class="see_work" href="<?php echo base_url('classes/filipino_kali_weaponry'); ?>" >learn more</a>
+						</div>                                    
+					</li>
+
+					<li 
+						class="slide3" 
+						data-transition="boxslide" 
+						data-slotamount="1"
+					>
+						<img src="<?php echo img_path('mkg_images/slider/boxing.jpg'); ?>" alt="//" />
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="95" 
+							data-speed="700" 
+							data-start="500" 
+							data-easing="easeOutBack"
+						>
+							<h2>Panantukan</h2>
+						</div>
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="75" 
+							data-speed="500" 
+							data-start="500" 
+							data-easing="easeOutBack"
+						>
+							<p>Panantukan is one of the most unique, exciting, and effective arts shared at MKG Detroit. Originally developed for warfare, this scientific system emphasizes destruction and safe escape.</p>
+						</div>
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="75" 
+							data-speed="300" 
+							data-start="500"
+						>
+							<a class="see_work" href="<?php echo base_url('classes/dirty_boxing'); ?>" >learn more</a>
+						</div>                                    
+					</li>
+
+					<li 
+						class="slide3" 
+						data-transition="boxslide" 
+						data-slotamount="1"
+					>
+						<img src="<?php echo img_path('mkg_images/slider/womens_kickboxing.jpg'); ?>" alt="//" />
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="95" 
+							data-speed="700" 
+							data-start="500" 
+							data-easing="easeOutBack"
+						>
+							<h2>Women's Kickboxing</h2>
+						</div>
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="75" 
+							data-speed="500" 
+							data-start="500" 
+							data-easing="easeOutBack"
+						>
+							<p>An MKG kickboxing class designed exclusively for women,  Women’s Kickboxing provides a workout for all fitness levels.</p>
+						</div>
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="75" 
+							data-speed="300" 
+							data-start="500"
+						>
+							<a class="see_work" href="<?php echo base_url('classes/womens_kickboxing'); ?>" >learn more</a>
+						</div>                                    
+					</li>
+
+					<li 
+						class="slide3" 
+						data-transition="boxslide" 
+						data-slotamount="1"
+					>
+						<img src="<?php echo img_path('mkg_images/slider/functional_fitness.jpg'); ?>" alt="//" />
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="95" 
+							data-speed="700" 
+							data-start="500" 
+							data-easing="easeOutBack"
+						>
+							<h2>Functional Fitness</h2>
+						</div>
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="75" 
+							data-speed="500" 
+							data-start="500" 
+							data-easing="easeOutBack"
+						>
+							<p>These group workouts are designed to rotate you through multiple stations of very high-energy, non-traditional workout routines inspired by professional fighter training.</p>
+						</div>
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="75" 
+							data-speed="300" 
+							data-start="500"
+						>
+							<a class="see_work" href="<?php echo base_url('classes/functional_fitness'); ?>" >learn more</a>
+						</div>                                    
+					</li>
+
+					<li 
+						class="slide3" 
+						data-transition="boxslide" 
+						data-slotamount="1"
+					>
+						<img src="<?php echo img_path('mkg_images/slider/specialty_programs.jpg'); ?>" alt="//" />
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="95" 
+							data-speed="700" 
+							data-start="500" 
+							data-easing="easeOutBack"
+						>
+							<h2>Specialty Programs</h2>
+						</div>
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="75" 
+							data-speed="500" 
+							data-start="500" 
+							data-easing="easeOutBack"
+						>
+							<p>MKGD holds periodical workshops and private training in reality-based self defense, situational awareness, and threat management.</p>
+						</div>
+						<div 
+							class="caption lfb ltb"  
+							data-x="100" 
+							data-y="75" 
+							data-speed="300" 
+							data-start="500"
+						>
+							<a class="see_work" href="<?php echo base_url('classes/specialty_programs'); ?>" >learn more</a>
+						</div>                                    
+					</li>
+
 				</ul>
 			</div>
 			</div>
@@ -209,129 +397,6 @@
 			</div>
 		</article>
 		<!-- end No pressure, no diamonds  / The Club Featured -->
-
-
-		<!-- begin new classes -->
-		<article class="article-container">
-			<div class="container" >
-				<div class="row" >
-					<div class="col-md-12">
-
-					<h2 class="article-title" >New Classes</h2>
-					<span class="line" >
-						<span class="sub-line" ></span>
-					</span>
-					<a class="slider-control pull-right next" href="#new-classes" data-slide="next"></a>
-					<a class="slider-control pull-right prev" href="#new-classes" data-slide="prev"></a>
-					<a class="button-gym normal-button view-all pull-right" href="<?php echo base_url('classes'); ?>" >view all</a>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="new-classes" >
-					<div id="new-classes" class="carousel slide">
-					<!-- Wrapper for slides -->
-					<div class="carousel-inner">
-						<div class="item active">
-							<div class="col-sm-6 col-md-3" >
-								<div class="new-class" >
-									<img src="<?php echo img_path('mkg_images/class_phase/1.jpg'); ?>" alt="//" />
-									<div class="class-title" >
-										<div class="occult" ><a href="<?php echo base_url('classes/phase_program'); ?>" class="link" ></a></div>
-										<h3>Phase Program</h3>
-										<p class="occult" >A progressive mixed art program</p>
-									</div>
-								</div>
-							</div>
-								
-							<div class="col-sm-6 col-md-3" >
-								<div class="new-class" >
-									<img src="<?php echo img_path('mkg_images/class_muay/3.jpg'); ?>" alt="//" />
-									<div class="class-title" >
-										<div class="occult" ><a href="<?php echo base_url('classes/muay_thai_thai_boxing'); ?>" class="link" ></a></div>
-										<h3>Muay Thai</h3>
-										<p class="occult" >Legendary endurance and conditioning workout</p>
-									</div>
-								</div>
-							</div>
-								
-							<div class="col-sm-6 col-md-3" >
-								<div class="new-class" >
-									<img src="<?php echo img_path('mkg_images/class_jeet/1.jpg'); ?>" alt="//" />
-									<div class="class-title" >
-										<div class="occult" ><a href="<?php echo base_url('classes/jeet_kune_do'); ?>" class="link" ></a></div>
-										<h3>Jeet Kune Do</h3>
-										<p class="occult" >The highly effective martial art developed by Bruce Lee</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-sm-6 col-md-3" >
-								<div class="new-class" >
-									<img src="<?php echo img_path('mkg_images/class_kali/3.jpg'); ?>" alt="//" />
-									<div class="class-title" >
-										<div class="occult" ><a href="<?php echo base_url('classes/filipino_kali_weaponry'); ?>" class="link" ></a></div>
-										<h3>Kali Weaponry</h3>
-										<p class="occult" >Martial art based on weaponry and speed of combat</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="item">
-							<div class="col-sm-6 col-md-3" >
-								<div class="new-class" >
-									<img src="<?php echo img_path('mkg_images/class_boxing/1.jpg'); ?>" alt="//" />
-									<div class="class-title" >
-										<div class="occult" ><a href="<?php echo base_url('classes/dirty_boxing'); ?>" class="link" ></a></div>
-										<h3>Dirty Boxing</h3>
-										<p class="occult" >One of the most exciting MKGD offerings</p>
-									</div>
-								</div>
-							</div>
-								
-							<div class="col-sm-6 col-md-3" >
-								<div class="new-class" >
-									<img src="<?php echo img_path('mkg_images/class_womens/1.jpg'); ?>" alt="//" />
-									<div class="class-title" >
-										<div class="occult" ><a href="<?php echo base_url('classes/womens_kickboxing'); ?>" class="link" ></a></div>
-										<h3>Women’s Kickboxing</h3>
-										<p class="occult" >A kickboxing class designed exclusively for women</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-sm-6 col-md-3" >
-								<div class="new-class" >
-									<img src="<?php echo img_path('mkg_images/class_fitness/1.jpg'); ?>" alt="//" />
-									<div class="class-title" >
-										<div class="occult" ><a href="<?php echo base_url('classes/fitness'); ?>" class="link" ></a></div>
-										<h3>Functional Fitness</h3>
-										<p class="occult" >Train like a pro fighter</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-sm-6 col-md-3" >
-								<div class="new-class" >
-									<img src="<?php echo img_path('mkg_images/class_specialty/2.png'); ?>" alt="//" />
-									<div class="class-title" >
-										<div class="occult" ><a href="<?php echo base_url('classes/specialty_programs'); ?>" class="link" ></a></div>
-										<h3>Specialty Programs</h3>
-										<p class="occult" >Practical self defense</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					</div>
-
-					</div>
-
-				</div>
-			</div>
-		</article>
-		<!-- end new classes --> 
 
 		<!-- Table -->
 		<article class="article-container">      
