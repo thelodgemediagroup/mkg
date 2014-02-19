@@ -42,7 +42,7 @@
 											<li><a href="<?php echo base_url('classes/specialty_programs/'); ?>">Specialty Programs</a></li>
 										</ul>
 									</li>
-									<li><a href="<?php echo base_url('schedule/'); ?>">Schedule</a></li>
+
 									<li class="dropdown">
 										<a href="<?php echo base_url('contact'); ?>">Registration</a>
 										<ul class="dropdown-registration">
@@ -50,8 +50,13 @@
 										</ul>
 									</li>
 									
-									<li><a href="<?php echo base_url('news/'); ?>">News</a></li>
-									
+									<li class="dropdown">
+										<a href="<?php echo base_url('news/'); ?>">News</a>
+										<ul class="dropdown-news">
+											<li><a href="<?php echo base_url('friends'); ?>">friends</a></li>
+										</ul>
+									</li>
+									<li><a href="<?php echo base_url('schedule/'); ?>">Schedule</a></li>									
 								</ul>
 							</div><!-- /.navbar-collapse -->
 						</nav>

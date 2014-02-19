@@ -2230,6 +2230,6 @@ footer .copyright .main-links li a {
 	color: #eee;
 }
 
-.dropdown-registration a {
+.dropdown-registration a, .dropdown-news a {
 	width: 200px;
 }
