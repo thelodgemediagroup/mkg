@@ -36,13 +36,13 @@
 					<h3>Kurt Cornwell</h3>
 					<p>
 						<img src="<?php echo img_path('mkg_images/about_staff/01.jpg'); ?>" class="col-md-3" />
-						MKG Detroit’s head Instructor, Kurt Cornwell, has been a certified with the MKG International Martial Art Organization since 2009.  
+						MKG Detroit’s head Instructor, Kurt Cornwell, has been certified with the MKG International Martial Art Organization since 2009.  
 					</p>
 					<p>
 						Kurt began learning martial art as a young child, originally under the tutelage of his father, a former Judo competitor and fitness enthusiast.  He trained in an extensive variety of arts throughout his formative years, before he began his studies under Sifu Rick Faye and MKG International.  Other notable instructors Kurt regularly trains under include Guro Dan Inosanto, Guro Diana Rathborne, Grandmaster Chai Sirisute, Sensei Erik Paulson, author and expert coach Marcus Wynne, and the talented staff at MKG MPLS. 
 					</p>
 					<p>
-						Kurt has taught classes throughout the Minneapolis and Detroit areas, was a regular staff instructor at MKG MPLS, and also regularly helps instruct women’s self defense workshops, college safety seminars, corporate safety workshops, and classes for law enforcement agencies such as the Eau Claire (WI) SWAT Team, and the Dakota County Sherriff’s Department.  His studies in reality-based self defense and Criminal Justice have enabled him to work as a Security Consultant, as well as a security officer and liaison for a Major League Baseball team and for  numerous nightclubs around Detroit, MI, Ann Arbor, MI, Brooklyn, NY, and Minneapolis, MN.
+						Kurt has taught classes throughout the Minneapolis and Detroit areas, was a regular staff instructor at MKG MPLS, and also regularly helps instruct women’s self defense workshops, college safety seminars, corporate safety workshops, and classes for SWAT teams and County Sherriff’s Departments in Minnesota and Wisconsin.  His studies in reality-based self defense and Criminal Justice have enabled him to work as a Security Consultant, as well as a security officer and liaison for a Major League Baseball team and for  numerous nightclubs around Detroit, MI, Ann Arbor, MI, Brooklyn, NY, and Minneapolis, MN.
 					</p>
 					<p>
 						Kurt is also certified in Myomassology (holistic bodyworks), is a writer and gardener, and has extensive training in primitive survival skills and tracking through Tom Brown’s famed Tracker School.  

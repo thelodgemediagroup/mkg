@@ -323,8 +323,8 @@
 			<div class="container">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
-					<h2><strong>MKG DETROIT is Michigan's only branch of the famed MKG International martial art organization</strong></h2>
-					<p>With a mission to empower the great people of the city of Detroit and its surrounding metro area, using a variety of martial arts, MKGD has put its roots down in locations all over the Metro in order to watch as many people grow as possible.</p>
+					<h2><strong>MKG DETROIT Martial Art and Functional Fitness – Building a Stronger Detroit!</strong></h2>
+					<p>MKG Detroit brings a unique approach to martial art training and fitness development to the Motor City’s fast-growing “Pop-Up Business” community.</p>
 					<a href="<?php echo base_url('classes'); ?>"><button class="button-gym big-button">see our classes</button></a>
 				</div>
 			</div>
@@ -345,34 +345,25 @@
 							<div class="tab-content">
 								<p><strong>If you answer “YES” to any of the following questions, MKGD is right for YOU!</strong></p>
 									<p>
-										&#9656; Do you want to get healthier, stronger, faster, better – not just “in shape” (whatever that means)?
+										&#9656; Do you want to get healthier, stronger, faster, better?
 									</p>
 									<p>
-										&#9656; Have you been interested in martial arts, but have been concerned about the competitive, ego-driven atmosphere sometimes associated with this activity?
+										&#9656; Are you looking to get fit in an environment that emphasizes encouragement, excitement, and skill-building, over vanity, competition, and mirror-gazing?
 									</p>
 									<p>
-										&#9656; Do you fantasize about working out in a place that emphasizes encouragement, excitement, and skill-building, over vanity, competition, and mirror-gazing? 
+										&#9656; Do you want to relieve stress in your life, and learn to be more present?
 									</p>
 									<p>
-										&#9656; Do you want to relieve stress in your life?
+										&#9656; Do you want to learn a new skill, and be part of a new opportunity in Detroit?
 									</p>
 									<p>
-										&#9656; Do you want to learn a new skill, one that can help keep you and your loved ones safe? 
+										&#9656; Do you want to learn how to keep you and your loved ones safe?
 									</p>
 									<p>
-										&#9656; Do you like fun?
+										&#9656; Do you wonder what it’s like to train your body like a pro fighter, but aren’t interested belts, rings, or cages?
 									</p>
 									<p>
-										&#9656; Are you a martial art movie fan?
-									</p>
-									<p>
-										&#9656; Do you want to expand in your knowledge of martial art?
-									</p>
-									<p>
-										&#9656; Do you want an interesting place to meet new people, share in new experiences, and get out of the house?
-									</p>
-									<p>
-										&#9656; Have you wondered what it’s like to train your body like a real MMA fighter or pro boxer, but aren’t interested in the inconvenience of explaining your black eye and concussion to your boss?  
+										&#9656; Are you looking for a fun way to meet new people, share in new experiences, and get out of the house?
 									</p>
 							</div> 
 
@@ -389,7 +380,7 @@
 									All of our classes are designed to offer the beginning student a “go-at-your-own-pace” experience, while offering the more seasoned martial artist a chance to dive deeper in their skill set, or develop in a new area entirely.  This will probably be the most fun you’ll have learning something new, and working towards looking and feeling great. 
 								</p>
 								<p>&nbsp;</p>
-								<p><a href="<?php echo base_url('contact'); ?>"><button class="button-gym big-button">Call or email to register for a free trial!</button></a></p>
+								<p><a href="<?php echo base_url('contact'); ?>"><button class="button-gym big-button">Register on the MKGD Mailing List to hear about future classes TODAY!</button></a></p>
 							</div>
 						</div>
 					</div>
