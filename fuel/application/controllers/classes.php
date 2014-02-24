@@ -132,6 +132,20 @@ Class Classes extends CI_Controller {
 		$this->load->view('footer', $data);
 
 	}
+
+	public function self_protection()
+	{
+
+		$data['navigation'] = $this->load->view('navigation', '', TRUE);
+
+		$event_class = 'Self Protection';
+		$data['events'] = $this->gcalendar->get_event_list($event_class);
+
+		$this->load->view('header', $data);
+		$this->load->view('classes/self_protection.php', $data);
+		$this->load->view('footer', $data);
+
+	}
 }
 
 ?>
