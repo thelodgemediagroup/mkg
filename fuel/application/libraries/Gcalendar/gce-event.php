@@ -294,8 +294,8 @@ class GCE_Event{
 					$description = nl2br( $description );
 
 					//Make URLs clickable if required
-					if ( $autolink )
-						$description = make_clickable( $description );
+					//if ( $autolink )
+					//	$description = make_clickable( $description );
 				}
 
 				return $m[1] . $description . $m[6];

@@ -22,7 +22,7 @@ class Gcalendar {
 		require_once('gce-feed.php');
 
 		$feed = new GCE_feed();
-		$feed->set_feed_url( 'https://www.google.com/calendar/feeds/testguy736251%40gmail.com/public/basic?alt=json&singleevents=true&sortorder=ascending&orderby=starttime' );
+		$feed->set_feed_url( 'https://www.google.com/calendar/feeds/mkgdetroit%40gmail.com/public/basic?alt=json&singleevents=true&sortorder=ascending&orderby=starttime' );
 		$feed->set_max_events( 40 );
 
 		$feed->set_feed_start( mktime( 0, 0, 0, date( 'm' ), ( date( 'j' ) - 31 ), date( 'Y' ) ) );
