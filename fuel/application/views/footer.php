@@ -8,7 +8,7 @@
 					<p>MKG Detroit brings a unique approach to martial art training and fitness development to the Motor City’s fast-growing “Pop-Up Business” community.</p>
 					<ul class="about" >
 						<li><i class="entypo-location" ></i></li>
-						<li><i class="entypo-mobile" ></i></li>
+						<li><i class="entypo-mobile" ></i>1-248-820-5MKG</li>
 						<li><i class="entypo-mail" ></i><a href="mailto:info@mkgdetroit.com" class="light-hover">info@mkgdetroit.com</a></li>
 						<li><i class="entypo-clock" ></i></li>
 					</ul>

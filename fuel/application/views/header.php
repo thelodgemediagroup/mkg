@@ -41,7 +41,7 @@
 							<a href="<?php echo base_url('contact'); ?>"><i class="entypo-location" ></i>MKG Detroit</a>
 						</li>
 						<li>
-							<a href="<?php echo base_url('contact'); ?>"><i class="entypo-phone" ></i>1-800-111-1111</a>
+							<a href="<?php echo base_url('contact'); ?>"><i class="entypo-phone" ></i>1-248-820-5MKG</a>
 						</li>
 						<li>
 							<a href="<?php echo base_url('contact'); ?>"><i class="entypo-mail" ></i>Contact</a>
