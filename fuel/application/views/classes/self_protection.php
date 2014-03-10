@@ -48,33 +48,7 @@
 					<div class="sol-sm-7 col-md-5">
 						<p>At MKGD, we approach our training in a fun, layed-back fashion.  We want our students to come and RELIEVE stress, not to have a stressful workout.  Unfortunately, the world today offers up an extensive list of potentially threatening situations.</p>
 						<p>For those looking to take responsibility for their safety, and for the safety of their loved ones, MKGD holds periodical workshops and private training in reality-based self defense, situational awareness, and threat management.  Using these skill sets as the building blocks for a well-rounded safety plan, you will learn effective physical defense tools, an increased ability to spot a predator, tips on how not to fit the “victim profile”, and the ability to create a plan of action for your family, for use in times of emergency or critical incident. Private group sessions or one-on-one training sessions are available by appointment only.  Call for details.  </p>
-						<p class="group-indent">
-							<i class="entypo-right-open-mini" ></i> Corporations
-						</p>
-						<p class="group-indent">
-							<i class="entypo-right-open-mini" ></i> Social Service Agencies
-						</p>
-						<p class="group-indent">
-							<i class="entypo-right-open-mini" ></i> Youth Programs
-						</p>
-						<p class="group-indent">
-							<i class="entypo-right-open-mini" ></i> Colleges / Universities
-						</p>
-						<p class="group-indent">
-							<i class="entypo-right-open-mini" ></i> Churches
-						</p>
-						<p class="group-indent">
-							<i class="entypo-right-open-mini" ></i> Individual Families
-						</p>
-						<p class="group-indent">
-							<i class="entypo-right-open-mini" ></i> Community Centers
-						</p>
-						<p class="group-indent">
-							<i class="entypo-right-open-mini" ></i> Law Enforcement Agencies / Security Companies
-						</p>
-						<p class="group-indent">
-							<i class="entypo-right-open-mini" ></i> Health and Wellness Centers
-						</p>
+					
 					</div>
 					<div class="col-md-4">
 						<div class="panel panel-gym">
