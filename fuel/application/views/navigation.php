@@ -46,9 +46,9 @@
 
 									<li class="dropdown">
 										<a href="<?php echo base_url('contact'); ?>">Registration</a>
-										<ul class="dropdown-registration">
+										<?php /*<ul class="dropdown-registration">
 											<li><a href="<?php echo base_url('membership'); ?>">Membership</a></li>
-										</ul>
+										</ul> */ ?>
 									</li>
 									
 									<li class="dropdown">

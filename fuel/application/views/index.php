@@ -12,7 +12,7 @@
 						data-transition="boxslide" 
 						data-slotamount="1"
 					>
-						<img src="<?php echo img_path('slider/mkg_slider01.jpg'); ?>" alt="MKG Detroit" />                            
+						<img src="<?php echo img_path('slider/mkg_logo2.png'); ?>" alt="MKG Detroit" />                            
 					</li>
 
 					<li 
@@ -323,7 +323,7 @@
 			<div class="container">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
-					<h2><strong>MKG DETROIT Martial Art and Functional Fitness – Building a Stronger Detroit!</strong></h2>
+					<h2><strong>MKG DETROIT Martial Art &amp; Functional Fitness<br>DETROIT MOVEMENT</strong></h2>
 					<p>MKG Detroit brings a unique approach to martial art training and fitness development to the Motor City’s fast-growing “Pop-Up Business” community.</p>
 					<a href="<?php echo base_url('classes'); ?>"><button class="button-gym big-button">see our classes</button></a>
 				</div>
