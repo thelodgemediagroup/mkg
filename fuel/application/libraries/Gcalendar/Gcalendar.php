@@ -114,7 +114,7 @@ class Gcalendar {
 
 		//Get events data
 		$event_days = $this->get_event_days();
-		//$CI->firephp->log($event_days);
+
 		//If event_days is empty, then there are no events in the feed(s), so set ajaxified to false (Prevents AJAX calendar from allowing to endlessly click through months with no events)
 		if ( empty( $event_days ) )
 			$ajaxified = false;
@@ -196,7 +196,7 @@ class Gcalendar {
 		}
 
 		//Generate the calendar markup and return it
-		return gce_generate_calendar( $year, $month, $event_days, 1, null, 0, $pn );
+		return gce_generate_calendar($year, $month, $event_days, 1, null, 0, $pn );
 	}
 
 	//Returns array of days with events, with sub-arrays of events for that day
