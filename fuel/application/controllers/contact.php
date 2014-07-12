@@ -11,7 +11,7 @@ Class Contact extends CI_Controller {
 
 	private $request_url;
 
-	/public function index()
+	public function index()
 	{
 
 		$data['navigation'] = $this->load->view('navigation', '', TRUE);
