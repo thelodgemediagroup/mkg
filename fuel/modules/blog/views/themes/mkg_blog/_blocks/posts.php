@@ -1,37 +1,27 @@
-<div class="posts left">
+<section class="posts">
 	<?=fuel_edit('create', 'Create Post', 'blog/posts')?>
 	<?php if (!empty($posts)) : ?>
 		<?php foreach($posts as $post) : ?>
-		<div class="post">
+		<article class="post">
 			<?=fuel_edit($post)?>
-
 			<?=blog_block('post_unpublished', array('post' => $post))?>
-		
-			<h2><a href="<?=$post->url?>"><?=$post->title?></a></h2> 
-
-			<div class="post_date">
-				Published <?=$post->get_date_formatted('F')?> <?=$post->get_date_formatted('d')?>, <?=$post->get_date_formatted('Y')?> 
-				by <strong><span class="post_author_name"><?=$post->author_name?></span></strong>
-			</div>
-
-			<div class="post_content">
-				<?=$post->excerpt_formatted?> 
-			</div>
-			<div class="post_meta">
-				<?=$post->categories_linked ?> 
-			</div>
-		</div>
-		<div class="clear"></div>
+			<?php if ($post->get_image_path()) : ?>
+			<img src="<?php echo $post->get_image_path(); ?>" alt="<?=$post->title?>" />
+			<?php endif; ?>
+			<header>
+				<h3><?=$post->title?></h3>
+			</header>
+			<p><?=$post->excerpt_formatted?></p>
+			<a href="<?=$post->url?>" class="readmore">Read more <i class="entypo-right-open" ></i></a>
+			<footer>
+				<span><i class="entypo-pencil" ></i><?=$post->author_name?></span>
+				<span><i class="entypo-calendar" ></i><?=$post->get_date_formatted('F')?> <?=$post->get_date_formatted('d')?>, <?=$post->get_date_formatted('Y')?>  </span>
+			</footer>
+		</article>
 		<?php endforeach; ?>
-		
-		<div class="view_archives">
-			<?php if (!empty($pagination)) : ?><?=$pagination?>  &nbsp;<?php endif; ?>
-			Looking for older posts? <a href="<?=blog_url('archives')?>">View our Archives</a>
-		</div>
-		
 	<?php else: ?>
 	<div class="no_posts">
 		<p>There are no posts available.</p>
 	</div>
 	<?php endif; ?> 
-</div>
+</section>

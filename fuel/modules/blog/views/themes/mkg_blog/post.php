@@ -1,44 +1,42 @@
-<div class="post">
+
 	<?=fuel_edit($post)?>
 	
 	<?=blog_block('post_unpublished', array('post' => $post))?>
 	
-	<h1><?=$post->title?> </h1>
-	<div class="post_author_date">
-		Posted on <span class="post_content_date"><?=$post->get_date_formatted()?></span> by <span class="post_author_name"><?=$post->author_name?></span>
-	</div>
-	
-	<div class="post_content">
-		<?=$post->content_formatted?>
-	</div>
-	
-</div>
+   <h2 class="article-title" ><?=$post->title?></h2>
+    <span class="line" >
+        <span class="sub-line" ></span>
+    </span>
 
-<a name="comments"></a>
+	<!-- begin Post -->
+    <section class="row">
+        <article class="post">
+			<?php if ($post->get_image_path()) : ?>
+			<img src="<?php echo $post->get_image_path(); ?>" alt="<?=$post->title?>" />
+			<?php endif; ?>
+ 			<p><?=$post->get_date_formatted()?></p>
+ 			<?=$post->content_formatted?>
+        </article>
+    </section>
+    <!-- end Post -->
+<?php /*
 
 	<?php if ($post->comments_count > 0) : ?>
-		<h3>Comments</h3>
-		<div class="comments">
-
-			<?php foreach($post->comments as $comment) : ?>
-
-				<div class="<?=($comment->is_child()) ? 'comment child' : 'comment'?>">
-
-					<a name="comment<?=$comment->id?>"></a>
-					<div class="comment_content">
-						<?php if ($comment->is_by_post_author()) :?>
-						<?=$comment->post->author->get_avatar_img_tag(array('class' => 'img_left'))?>
-						<?php endif; ?>
-						<?=$comment->content_formatted?>
-					</div>
-
-
-					<div class="comment_meta">
-						<cite><?=$comment->author_and_link?>, <?=$comment->get_date_formatted('h:iA / M d, Y')?></cite>
-					</div>
-				</div>
-			<?php endforeach; ?>
-		</div>
+        <h2 class="article-title" >Comments (2)</h2>
+        <span class="line" >
+            <span class="sub-line" ></span>
+        </span>
+        <section class="row container-comments">
+        	<?php foreach($post->comments as $comment) : ?>
+            <article class="single-comment">
+                <header>
+                    <h4><?=$comment->author_and_link?> <small> / <?=$comment->get_date_formatted('h:iA / M d, Y')?></small></h4>
+                </header>
+                <div class="comment-bubble">
+					<?=$comment->content_formatted?>
+                </div>
+            </article>
+        	<?php endforeach; ?>
 	<?php endif; ?>
 
 <?php if ($post->allow_comments) : ?>
@@ -61,3 +59,4 @@
 <?php else: ?>
 	<p>Comments have been closed.</p>
 <?php endif; ?>
+*/ ?>

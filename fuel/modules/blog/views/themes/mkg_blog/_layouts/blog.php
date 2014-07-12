@@ -40,14 +40,15 @@ if (isset($current_post) AND !$is_home)
 	<article class="article-container">
 		<div class="container" >
 			<div class="row" >
+				<!-- begin Main Colum -->
+				<div class="col-sm-9">
+					<?php echo fuel_var('body', ''); ?>
+				</div>
+				
 				<aside class="col-sm-3 sidebar">
 					<?php echo $this->fuel->blog->sidemenu(array('categories', 'search'))?>
 				</aside>
 				<!-- end Sidebar -->
-
-				<div id="main_inner">
-					<?php echo fuel_var('body', ''); ?>
-				</div>
 			</div>
 		</div>
 	</article>
