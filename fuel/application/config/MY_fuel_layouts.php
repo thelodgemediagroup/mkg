@@ -30,6 +30,45 @@ $config['layouts']['main'] = array(
 	)
 );
 
+$config['layouts']['home'] = array(	
+	'fields'	=> array(
+		'Header' => array('type' => 'fieldset', 'label' => 'Header', 'class' => 'tab'),
+		'page_title' => array('label' => lang('layout_field_page_title')),
+		'meta_description' => array('label' => lang('layout_field_meta_description')),
+		'meta_keywords' => array('label' => lang('layout_field_meta_keywords')),
+		'Body' => array('type' => 'fieldset', 'label' => 'Body', 'class' => 'tab'),
+		'heading' => array('label' => lang('layout_field_heading')),
+		'body' => array('label' => lang('layout_field_body'), 'type' => 'textarea', 'description' => lang('layout_field_body_description')),
+		'body_class' => array('label' => lang('layout_field_body_class')),
+	)
+);
+
+$config['layouts']['page'] = array(	
+	'fields'	=> array(
+		'Header' => array('type' => 'fieldset', 'label' => 'Header', 'class' => 'tab'),
+		'page_title' => array('label' => lang('layout_field_page_title')),
+		'meta_description' => array('label' => lang('layout_field_meta_description')),
+		'meta_keywords' => array('label' => lang('layout_field_meta_keywords')),
+		'Body' => array('type' => 'fieldset', 'label' => 'Body', 'class' => 'tab'),
+		'heading' => array('label' => lang('layout_field_heading')),
+		'body' => array('label' => lang('layout_field_body'), 'type' => 'textarea', 'description' => lang('layout_field_body_description')),
+		'body_class' => array('label' => lang('layout_field_body_class')),
+	)
+);
+
+$config['layouts']['class_page'] = array(	
+	'fields'	=> array(
+		'Header' => array('type' => 'fieldset', 'label' => 'Header', 'class' => 'tab'),
+		'page_title' => array('label' => lang('layout_field_page_title')),
+		'meta_description' => array('label' => lang('layout_field_meta_description')),
+		'meta_keywords' => array('label' => lang('layout_field_meta_keywords')),
+		'Body' => array('type' => 'fieldset', 'label' => 'Body', 'class' => 'tab'),
+		'heading' => array('label' => lang('layout_field_heading')),
+		'body' => array('label' => lang('layout_field_body'), 'type' => 'textarea', 'description' => lang('layout_field_body_description')),
+		'body_class' => array('label' => lang('layout_field_body_class')),
+		'class_name' => array('label' => 'Class Name'),
+	)
+);
 /* End of file MY_fuel_layouts.php */
 /* Location: ./application/config/MY_fuel_layouts.php */
 

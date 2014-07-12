@@ -69,25 +69,7 @@
 					</p>
 
 				</div>  
-<?php /*
-					<!-- begin Sidebar -->
-					<aside class="col-sm-3 sidebar">
 
-						<h3 class="article-title" >Membership Prices</h3>
-						<span class="line" >
-							<span class="sub-line" ></span>
-						</span>
-						<ul class="custom-icon-list categories" >
-							<li><i class="entypo-check" ></i><a href="#">3 day session<span class="badge badge-gym pull-right">$10.95</span></a></li>
-							<li><i class="entypo-check" ></i><a href="#">9 day session<span class="badge badge-gym pull-right">$15.95</span></a></li>
-							<li><i class="entypo-check" ></i><a href="#">14 day session<span class="badge badge-gym pull-right">$20.95</span></a></li>
-							<li><i class="entypo-check" ></i><a href="#">28 day session<span class="badge badge-gym pull-right">$30.95</span></a></li>
-
-						</ul>
-						
-					</aside>
-					<!-- end Sidebar -->
-*/?>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
