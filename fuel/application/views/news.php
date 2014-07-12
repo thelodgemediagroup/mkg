@@ -20,7 +20,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- begin Sub Header -->
+
 
 		<!-- begin News -->
 		<article class="article-container">

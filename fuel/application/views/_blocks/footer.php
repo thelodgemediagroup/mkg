@@ -1,21 +1,103 @@
+	<!-- Footer -->
+	<footer>
+		<div class="container" >
+			<div class="row misc">
+				<div class="col-md-3" >
+					<h3>About MKGD</h3>
+					<p>MKG DETROIT Martial Art and Functional Fitness – Building a Stronger Detroit!</p>
+					<p>MKG Detroit brings a unique approach to martial art training and fitness development to the Motor City’s fast-growing “Pop-Up Business” community.</p>
+					<ul class="about" >
+						<li><i class="entypo-location" ></i></li>
+						<li><i class="entypo-mobile" ></i>1-248-820-5MKG</li>
+						<li><i class="entypo-mail" ></i><a href="mailto:info@mkgdetroit.com" class="light-hover">info@mkgdetroit.com</a></li>
+						<li><i class="entypo-clock" ></i></li>
+					</ul>
+				</div>  
+				<div class="col-md-3">
+					<h3>Useful Links</h3>
+					<ul class="links" >
+						<li><a href="<?php echo base_url('about'); ?>"><i class="entypo-right-open-mini" ></i>About MKGD</a></li>  
+						<li><a href="<?php echo base_url('about/staff/'); ?>"><i class="entypo-right-open-mini" ></i>Meet the Staff</a></li>  
+						<li><a href="<?php echo base_url('classes'); ?>"><i class="entypo-right-open-mini" ></i>Explore Our Classes</a></li>  
+						<li><a href="<?php echo base_url('contact'); ?>"><i class="entypo-right-open-mini" ></i>Register for Classes</a></li>  
+						<li><a href="<?php echo base_url('news'); ?>"><i class="entypo-right-open-mini" ></i>MKGD News</a></li>  
+						<li><a href="<?php echo base_url('schedule'); ?>"><i class="entypo-right-open-mini" ></i>MKGD Schedule</a></li>                      
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h3>Newsletter</h3>
+					<p>Suscribe to our newsletter and stay current on our course offerings and hot deals throughout the year.</p>
+
+					<?php echo form_open('newsletter'); ?>
+
+						<div class="form-group">
+							<label for="name" class="sr-only">Your Name</label>
+							<input type="text" name="name" class="form-control" id="name" placeholder="Your name">
+						</div>
+						<div class="form-group">
+							<label for="email" class="sr-only">Email address</label>
+							<input type="email" name="email" class="form-control" id="email" placeholder="Enter email">
+						</div>
+						<button class="button-gym" >Suscribe now</button>
+
+					</form>
+				</div>
+				<div class="col-md-3">
+					<h3>Get Social</h3>
+					<p>Follow us on the Social Networks for news and special offers.</p>
+					<ul class="social" >
+						<li><a href="https://www.facebook.com/MKGDetroit" target="_blank"><i class="entypo-facebook" ></i></a></li>
+						<li><a href="https://twitter.com/MKGDetroit" target="_blank"><i class="entypo-twitter" ></i></a></li>
+					</ul>
+				</div>                
 			</div>
-	</div>
-	<div class="wrapper">
-	<footer class="row footer">
-		<nav class="mainnav">
-			<ul>
-				<li class="first active"><a href="http://www.getfuelcms.com" target="_blank">Home</a></li>
-				<li><a href="http://getfuelcms.com/features" target="_blank">Features</a></li>
-				<li><a href="http://getfuelcms.com/developers" target="_blank">Developers</a></li>
-				<li><a href="http://getfuelcms.com/support" target="_blank">Support</a></li>
-				<li class="last"><a href="http://getfuelcms.com/blog" target="_blank">Blog</a></li>
-			</ul>
-		</nav>
-		<p class="colophon">FUEL CMS is developed with love by <a href="http://thedaylightstudio.com" target="_blank">Daylight Studio</a> <object type="image/svg+xml" width="25" height="25" data="<?= img_path('_template_icons.svg#daylight') ?>"></object> &copy; <?php echo date("Y"); ?> Run for Daylight LLC, All Rights Reserved.</p>
+		</div>
+		<div class="copyright" >
+			<div class="container">
+				<p class="pull-left" >&copy; MKG Detroit <?php echo date('Y'); ?>. All rights reserved.</a></p>
+				<ul class="main-links pull-right" >
+					<li><a href="<?php echo base_url(); ?>">Home</a></li>
+					<li><a href="<?php echo base_url('classes'); ?>">Classes</a></li>
+					<li><a href="<?php echo base_url('staff'); ?>">Staff</a></li>
+					<li><a href="<?php echo base_url('about'); ?>">About</a></li>
+					<li><a href="<?php echo base_url('schedule'); ?>">Schedule</a></li>
+					<li><a href="<?php echo base_url('contact'); ?>">Contact</a></li>
+				</ul>
+			</div>
+		</div>           
 	</footer>
-</div>
+	<!-- End footer -->
 
-<?php echo js('main').js($js); ?>
 
-</body>
-</html>
+	<a href="#" class="scrollup"><i class="entypo-up-open"></i></a>      
+
+
+
+	<!-- Javascript Files -->
+	<!-- jQuery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript" ></script>
+	
+		
+	<!-- Respond.j media queries for IE8 -->
+	<?php echo js('respond.min.js'); ?>
+	
+	<!-- Bootstrap-->
+	<?php echo js('bootstrap.min.js'); ?>
+ 
+	<!-- Easing -->
+	<?php echo js('jquery.easing.min.js'); ?>
+
+	<!-- Placeholder.js http://widgetulous.com/placeholderjs/ -->
+	<?php echo js('placeholder.js'); ?>
+
+	<!-- Retina.js -->
+	<?php echo js('retina.js'); ?>
+
+	<!-- Custom site js-->
+	<?php echo js('script.js'); ?>
+
+	<?php //echo js('jquery-qtip.js'); ?>
+	<script src="http://cdn.jsdelivr.net/qtip2/2.2.0/jquery.qtip.min.js" type="text/javascript"></script>
+
+	<?php echo js('gce-script.js'); ?>
+	<!-- End Javascript Files -->
