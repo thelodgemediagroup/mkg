@@ -36,15 +36,22 @@ if (isset($current_post) AND !$is_home)
 	fuel_set_var('canonical', $post->url);	
 }
 ?>
-	
-	<div id="right">
-		<?php echo $this->fuel->blog->sidemenu(array('search', 'authors', 'categories', 'links', 'archives'))?>
-	</div>
+	<!-- begin News -->
+	<article class="article-container">
+		<div class="container" >
+			<div class="row" >
+				<aside class="col-sm-3 sidebar">
+					<?php echo $this->fuel->blog->sidemenu(array('categories', 'search'))?>
+				</aside>
+				<!-- end Sidebar -->
 
-	<div id="main_inner">
-		<?php echo fuel_var('body', ''); ?>
-	</div>
-	
-	<div class="clear"></div>
+				<div id="main_inner">
+					<?php echo fuel_var('body', ''); ?>
+				</div>
+			</div>
+		</div>
+	</article>
+	<!-- end News -->
+				
 </section>
 <?php $this->load->view('_blocks/mkg_footer')?>
