@@ -52,7 +52,7 @@
 									</li>
 									
 									<li class="dropdown">
-										<a href="<?php echo base_url('news/'); ?>">News</a>
+										<a href="<?php echo base_url('blog'); ?>">News</a>
 										<ul class="dropdown-news">
 											<li><a href="<?php echo base_url('friends'); ?>">friends</a></li>
 										</ul>

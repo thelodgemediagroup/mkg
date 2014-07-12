@@ -9,7 +9,7 @@ Class Friends extends CI_Controller {
 
 	}
 
-	public function index()
+	/*public function index()
 	{
 
 		$data['navigation'] = $this->load->view('navigation', '', TRUE);
@@ -18,7 +18,7 @@ Class Friends extends CI_Controller {
 		$this->load->view('friends', $data);
 		$this->load->view('footer', $data);
 
-	}
+	} */
 
 }
 
