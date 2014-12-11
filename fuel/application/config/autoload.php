@@ -54,7 +54,7 @@ $autoload['packages'] = array(
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array('fuel/asset', 'fuel/fuel', 'Firephp', 'form_validation', 'database');
+$autoload['libraries'] = array('fuel/asset', 'fuel/fuel', 'Firephp', 'form_validation', 'database', 'Gcalendar/gcalendar');
 
 
 /*
