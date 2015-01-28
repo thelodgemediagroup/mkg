@@ -4,3 +4,5 @@
 */cache/*
 */cache/!index.html
 fuel/application/config/database.php
+cache/*
+fuel/application/cache/*
