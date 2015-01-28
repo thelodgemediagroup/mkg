@@ -69,7 +69,7 @@
 					<div class="col-md-12">
 						<h2>interested in membership?</h2>
 						<p>
-							all you nedd to know to start today your classes<br />
+							all you need to know to start today your classes<br />
 							plus the latest join ofer and existing members extras.
 						</p>
 						<span><a href="<?php echo base_url('contact'); ?>" class="light-hover">find out more</a></span>
