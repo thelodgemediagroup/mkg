@@ -15,7 +15,7 @@ Class Schedule extends CI_Controller {
 
 		$data['navigation'] = $this->load->view('navigation', '', TRUE);
 
-		$data['cal'] = $this->gcalendar->get_calendar();
+		//$data['cal'] = $this->gcalendar->get_calendar();
 
 		$this->load->view('header', $data);
 		$this->load->view('schedule', $data);

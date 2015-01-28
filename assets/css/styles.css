@@ -2237,3 +2237,30 @@ footer .copyright .main-links li a {
 .background-highlight {
 	background-color: #DCDCDC;
 }
+
+/**
+* Static Calendar Update
+*/
+
+
+.class {
+	margin: 40px 0 0 0;
+	font-weight: bold;
+
+}
+
+.className {
+	font-size: 1.4em;
+}
+
+.classTime {
+	font-size: 1.2em;
+}
+
+.classTime {
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+
