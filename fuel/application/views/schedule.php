@@ -28,7 +28,7 @@
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1">
 						<h2>MKGD 2015 Class Schedule</h2>
-						<p>MKG Detroit offers Pop-Up classes out of a rotating list of locations around the Detroit Metro area, in an effort to make our classes, and our community, available to people regardless of geography. Please Register on our mailing list for information on joining or dropping in on a class, and refer to our Google Calendar, located on this site’s home page, for up-to-date schedule postings.</p>
+						<p>MKG Detroit offers Pop-Up classes out of a rotating list of locations around the Detroit Metro area, in an effort to make our classes, and our community, available to people regardless of geography. Please register on our mailing list for information on joining or dropping in on a class.</p>
 						<p>MKG Detroit encourages you to try all the classes offered, as opposed to just specializing in one specific art.  All classes are specifically designed to help your development each area of these arts.  We do not take a singular approach.  This way, everyone achieves more.</p>
 						<p>Also, remember to follow us on <a href="https://www.facebook.com/MKGDetroit" target="_blank">Facebook</a> and <a href="https://twitter.com/MKGDetroit" target="_blank">Twitter</a> for real-time updates on classes, special events, and re-scheduling notices.</p>
 					
