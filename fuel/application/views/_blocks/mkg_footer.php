@@ -4,24 +4,27 @@
 			<div class="row misc">
 				<div class="col-md-3" >
 					<h3>About MKGD</h3>
-					<p>MKG DETROIT Martial Art and Functional Fitness – Building a Stronger Detroit!</p>
-					<p>MKG Detroit brings a unique approach to martial art training and fitness development to the Motor City’s fast-growing “Pop-Up Business” community.</p>
+					<div>
+					MKG DETROIT Martial Art &amp; Functional Fitness<br/><br/>
+					Martial Art - Kickboxing - <br/>Yoga - Self Protection<br/><br/>
+					Train Hard.&nbsp;&nbsp;Live Well.&nbsp;&nbsp;Keep Moving<br/><br/>
+					</div>
 					<ul class="about" >
 						<li><i class="entypo-location" ></i></li>
 						<li><i class="entypo-mobile" ></i>1-248-820-5MKG</li>
 						<li><i class="entypo-mail" ></i><a href="mailto:info@mkgdetroit.com" class="light-hover">info@mkgdetroit.com</a></li>
 						<li><i class="entypo-clock" ></i></li>
 					</ul>
-				</div>  
+				</div>
 				<div class="col-md-3">
 					<h3>Useful Links</h3>
 					<ul class="links" >
-						<li><a href="<?php echo base_url('about'); ?>"><i class="entypo-right-open-mini" ></i>About MKGD</a></li>  
-						<li><a href="<?php echo base_url('about/staff/'); ?>"><i class="entypo-right-open-mini" ></i>Meet the Staff</a></li>  
-						<li><a href="<?php echo base_url('classes'); ?>"><i class="entypo-right-open-mini" ></i>Explore Our Classes</a></li>  
-						<li><a href="<?php echo base_url('contact'); ?>"><i class="entypo-right-open-mini" ></i>Register for Classes</a></li>  
-						<li><a href="<?php echo base_url('news'); ?>"><i class="entypo-right-open-mini" ></i>MKGD News</a></li>  
-						<li><a href="<?php echo base_url('schedule'); ?>"><i class="entypo-right-open-mini" ></i>MKGD Schedule</a></li>                      
+						<li><a href="<?php echo base_url('about'); ?>"><i class="entypo-right-open-mini" ></i>About MKGD</a></li>
+						<li><a href="<?php echo base_url('about/staff/'); ?>"><i class="entypo-right-open-mini" ></i>Meet the Staff</a></li>
+						<li><a href="<?php echo base_url('classes'); ?>"><i class="entypo-right-open-mini" ></i>Explore Our Classes</a></li>
+						<li><a href="<?php echo base_url('contact'); ?>"><i class="entypo-right-open-mini" ></i>Register for Classes</a></li>
+						<li><a href="<?php echo base_url('news'); ?>"><i class="entypo-right-open-mini" ></i>MKGD News</a></li>
+						<li><a href="<?php echo base_url('schedule'); ?>"><i class="entypo-right-open-mini" ></i>MKGD Schedule</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3">
@@ -38,7 +41,7 @@
 							<label for="email" class="sr-only">Email address</label>
 							<input type="email" name="email" class="form-control" id="email" placeholder="Enter email">
 						</div>
-						<button class="button-gym" >Suscribe now</button>
+						<button class="button-gym" >Subscribe now</button>
 
 					</form>
 				</div>
@@ -49,7 +52,7 @@
 						<li><a href="https://www.facebook.com/MKGDetroit" target="_blank"><i class="entypo-facebook" ></i></a></li>
 						<li><a href="https://twitter.com/MKGDetroit" target="_blank"><i class="entypo-twitter" ></i></a></li>
 					</ul>
-				</div>                
+				</div>
 			</div>
 		</div>
 		<div class="copyright" >
@@ -64,26 +67,26 @@
 					<li><a href="<?php echo base_url('contact'); ?>">Contact</a></li>
 				</ul>
 			</div>
-		</div>           
+		</div>
 	</footer>
 	<!-- End footer -->
 
 
-	<a href="#" class="scrollup"><i class="entypo-up-open"></i></a>      
+	<a href="#" class="scrollup"><i class="entypo-up-open"></i></a>
 
 
 
 	<!-- Javascript Files -->
 	<!-- jQuery -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript" ></script>
-	
-		
+
+
 	<!-- Respond.j media queries for IE8 -->
 	<?php echo js('respond.min.js'); ?>
-	
+
 	<!-- Bootstrap-->
 	<?php echo js('bootstrap.min.js'); ?>
- 
+
 	<!-- Easing -->
 	<?php echo js('jquery.easing.min.js'); ?>
 
@@ -92,7 +95,7 @@
 
 	<!-- Retina.js -->
 	<?php echo js('retina.js'); ?>
-	
+
 	<?php //if (current_url() == base_url()) : ?>
 		<!-- jQuery REVOLUTION Slider  -->
 		<?php echo js('rs-plugin/pluginsources/jquery.themepunch.plugins.min.js'); ?>
