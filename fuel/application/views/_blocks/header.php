@@ -84,7 +84,7 @@
 									<span class="icon-bar"></span>
 								</button>
 								<h1 class="logo">
-									<a class="navbar-brand" href="<?php echo base_url(); ?>"><img src="<?php echo img_path('mkg_logo.png'); ?>" alt="Logo" /></a>
+									<a class="navbar-brand" href="<?php echo base_url(); ?>"><img src="<?php echo img_path('redesign/logo.jpg'); ?>" alt="Logo" /></a>
 								</h1>
 							</div>
 
