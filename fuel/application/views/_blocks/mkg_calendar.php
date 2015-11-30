@@ -5,9 +5,24 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1">
+
+						<h2>MKG DETROIT</h2>
+						<p>Martial Art & Functional Fitness<br/>
+						1035 Hilton Rd.<br/>
+						Ferndale, MI  48220<br/>
+						248-820-5654<br/>
+						<a href="mailto:MKGDetroit@yahoo.com">MKGDetroit@yahoo.com</a><br/>
+						<br/>
+						<br/>
+
 						<h2>MKGD 2015 Class Schedule</h2>
+						<p>Our Weekly Class Schedule breaks down as follows.  Please contact us ahead of time to schedule a FREE TRIAL DAY.  Be sure to click the link to our MindBody page to see our weekly schedule, and register for classes! </p>
+
+						<?php /*
+						// Original for reference
 						<p>MKG Detroit offers Pop-Up classes out of a rotating list of locations around the Detroit Metro area, in an effort to make our classes, and our community, available to people regardless of geography. Please register on our mailing list for information on joining or dropping in on a class.</p>
 						<p>MKG Detroit encourages you to try all the classes offered, as opposed to just specializing in one specific art.  All classes are specifically designed to help your development each area of these arts.  We do not take a singular approach.  This way, everyone achieves more.</p>
+						*/ ?>
 						<p>Also, remember to follow us on <a href="https://www.facebook.com/MKGDetroit" target="_blank">Facebook</a> and <a href="https://twitter.com/MKGDetroit" target="_blank">Twitter</a> for real-time updates on classes, special events, and re-scheduling notices.</p>
 
 						<div class="class">
@@ -27,7 +42,7 @@
 							<h3 class="classDay">MONDAY </h3>
 
 							<div class="classTime">
- No Regular MKG Detroit Classes. <br/>
+								No Regular MKG Detroit Classes. <br/>
 								See schedule in school for additional training opportunities with separate groups.
 							</div>
 
