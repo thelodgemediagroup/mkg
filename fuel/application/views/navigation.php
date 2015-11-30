@@ -45,7 +45,7 @@
 									</li>
 
 									<li class="dropdown">
-										<a href="<?php echo base_url('contact'); ?>">Registration</a>
+										<a href="https://clients.mindbodyonline.com/classic/ws?studioid=197335&stype=-7&sTG=22&sVT=6&sView=week&sLoc=1" target="_blank">Registration</a>
 										<?php /*<ul class="dropdown-registration">
 											<li><a href="<?php echo base_url('membership'); ?>">Membership</a></li>
 										</ul> */ ?>

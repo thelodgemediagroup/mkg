@@ -16,7 +16,7 @@
 						<br/>
 
 						<h2>MKGD 2015 Class Schedule</h2>
-						<p>Our Weekly Class Schedule breaks down as follows.  Please contact us ahead of time to schedule a FREE TRIAL DAY.  Be sure to click the link to our MindBody page to see our weekly schedule, and register for classes! </p>
+						<p>Our Weekly Class Schedule breaks down as follows.  Please contact us ahead of time to schedule a FREE TRIAL DAY.  Be sure to click the link to our MindBody page to see our weekly schedule, and <a href="https://clients.mindbodyonline.com/classic/ws?studioid=197335&stype=-7&sTG=22&sVT=6&sView=week&sLoc=1" target="_blank">register for classes!</a> </p>
 
 						<?php /*
 						// Original for reference
