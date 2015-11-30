@@ -14,7 +14,7 @@
 								<li><h6><a href="<?php echo base_url(); ?>">Home</a></h6></li>
 								<li><i class="separator entypo-play" ></i></li>
 								<li><h6>Contact</h6></li>
-							</ul>                    
+							</ul>
 						</li>
 					</ul>
 				</div>
@@ -25,7 +25,7 @@
 		<!-- begin Contanct -->
 		<article class="article-container">
 			<div class="container" >
-				
+
 				<div class="row" >
 					<div class="col-md-12">
 					<h2 class="article-title" >Contact MKGD for Registration and Information</h2>

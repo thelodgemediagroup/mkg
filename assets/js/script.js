@@ -1,89 +1,94 @@
 $(document).ready(function() {
 
 
-/*************************  Slider Revolution  *****************************/
-	if($('.banner').length) {
-		var height=$('.homev2').length>0?447:415;
+	/*************************  Slider Revolution  *****************************/
+	if ($('.banner').length) {
+		var height = $('.homev2').length > 0 ? 447 : 415;
 		$('.banner').revolution({
-			delay:8000,
-			hideThumbs:1,
-			startwidth:1170,
-			startheight:400,
-			shadow:0,
-			touchenabled:"on",
+			delay: 8000,
+			hideThumbs: 1,
+			startwidth: 1170,
+			startheight: 400,
+			shadow: 0,
+			touchenabled: "on",
 			navigationType: "none",
 		});
 	}
 
-	if($('.new-classes').length) {
+	if ($('.new-classes').length) {
 		$(".new-classes").on({
-			mouseenter : function() {
+			mouseenter: function() {
 				$(this).find(".occult").slideDown(100);
 			},
-			mouseleave : function() {
+			mouseleave: function() {
 				$(this).find(".occult").slideUp(100);
 			}
-		},".new-class");
+		}, ".new-class");
 	}
 
 
-/***************************** Go to top  *********************************/
-	 $(window).scroll(function(){
-		 if ($(this).scrollTop() > 900) {
-			 $('.scrollup').fadeIn();
-		 } else {
-			 $('.scrollup').fadeOut();
-		 }
-	 });
+	/***************************** Go to top  *********************************/
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 900) {
+			$('.scrollup').fadeIn();
+		} else {
+			$('.scrollup').fadeOut();
+		}
+	});
 
-	 $('.scrollup').click(function(){
-		 $("html, body").animate({ scrollTop: 0 }, 600);
-		 return false;
-	 });
+	$('.scrollup').click(function() {
+		$("html, body").animate({
+			scrollTop: 0
+		}, 600);
+		return false;
+	});
 
 
-/******************************  Isotope  **********************************/
+	/******************************  Isotope  **********************************/
 	if ($('.magic-grid .content').length) {
 		// cache container
 		var $container = $('.magic-grid .content');
 
 		// initialize isotope
-		$container.isotope({ });
+		$container.isotope({});
 
 		// filter items when filter link is clicked
-		$('.filters button').click(function(){
+		$('.filters button').click(function() {
 			$('.filters button').removeClass('active');
 			$(this).addClass('active');
 
 			var selector = $(this).attr('data-filter');
-			$container.isotope({ filter: selector });
+			$container.isotope({
+				filter: selector
+			});
 			return false;
 		});
 	}
 
 
 
-/*******************************  GMaps  ***********************************/
+	/*******************************  GMaps  ***********************************/
 	if ($('#map').length) {
 		var map;
 		map = new GMaps({
 			div: '#map',
-			lat: 42.461365,
-			lng: -83.1345753
+			lat: 42.454879,
+			lng: -83.1230088
 		});
 		map.addMarker({
-			lat: 42.461365,
-			lng: -83.134575,
-			title: 'Contact'/*,
-			infoWindow: {
-				content: '15rd Avenue, New York,<br /> 156408, US<br /> <br /> Email: info@company.com <br /> Web: company.com'
-			}*/
+			lat: 42.454879,
+			lng: -83.1230088,
+			title: 'Contact'
+				/*,
+							infoWindow: {
+								content: '15rd Avenue, New York,<br /> 156408, US<br /> <br /> Email: info@company.com <br /> Web: company.com'
+							}*/
 		});
 	}
 
 
 
-/***************************  Easy PaiChart  *******************************/
+	/***************************  Easy PaiChart  *******************************/
 	if ($('.chart').length) {
 		$('.chart').easyPieChart({
 			animate: 2000,
@@ -97,7 +102,7 @@ $(document).ready(function() {
 
 
 
-/******************************  Chart.js  *********************************/
+	/******************************  Chart.js  *********************************/
 	if ($('#linear-chart').length) {
 		//Get context with jQuery - using jQuery's .get() method.
 		var ctx = $("#linear-chart").get(0).getContext("2d");
@@ -105,22 +110,21 @@ $(document).ready(function() {
 		var myNewChart = new Chart(ctx);
 
 		var data = {
-			labels : ["10AM","11AM","12AM","1PM","2PM","3PM","4PM","5PM","6PM","7PM","8PM","9PM"],
-			datasets : [
+			labels: ["10AM", "11AM", "12AM", "1PM", "2PM", "3PM", "4PM", "5PM", "6PM", "7PM", "8PM", "9PM"],
+			datasets: [
 				//Actitude
 				{
-					fillColor : "rgba(220,220,220,0)",
-					strokeColor : "rgba(29,153,69,1)",
-					pointColor : "rgba(29,153,69,1)",
-					pointStrokeColor : "#fff",
-					data : [5,3,3,5,7,8,6,6,9,8,10,12]
-				},
-				{
-					fillColor : "rgba(220,220,220,0)",
-					strokeColor : "rgba(244,179,1,1)",
-					pointColor : "rgba(244,179,1,1)",
-					pointStrokeColor : "#fff",
-					data : [3,4,4,6,2,3,3,7,3,7,11,11]
+					fillColor: "rgba(220,220,220,0)",
+					strokeColor: "rgba(29,153,69,1)",
+					pointColor: "rgba(29,153,69,1)",
+					pointStrokeColor: "#fff",
+					data: [5, 3, 3, 5, 7, 8, 6, 6, 9, 8, 10, 12]
+				}, {
+					fillColor: "rgba(220,220,220,0)",
+					strokeColor: "rgba(244,179,1,1)",
+					pointColor: "rgba(244,179,1,1)",
+					pointStrokeColor: "#fff",
+					data: [3, 4, 4, 6, 2, 3, 3, 7, 3, 7, 11, 11]
 				}
 			]
 		}
@@ -128,35 +132,35 @@ $(document).ready(function() {
 		var options = {
 
 			//Boolean - If we show the scale above the chart data
-			scaleOverlay : false,
+			scaleOverlay: false,
 
 			//Boolean - If we want to override with a hard coded scale
-			scaleOverride : true,
+			scaleOverride: true,
 
 			//** Required if scaleOverride is true **
 			//Number - The number of steps in a hard coded scale
-			scaleSteps : 13,
+			scaleSteps: 13,
 			//Number - The value jump in the hard coded scale
-			scaleStepWidth : 1,
+			scaleStepWidth: 1,
 			//Number - The scale starting value
-			scaleStartValue : 1,
+			scaleStartValue: 1,
 
 			//Boolean - Whether to show labels on the scale
-			scaleShowLabels : false,
+			scaleShowLabels: false,
 
 			///Boolean - Whether grid lines are shown across the chart
-			scaleShowGridLines : false,
+			scaleShowGridLines: false,
 
 			//Boolean - Whether the line is curved between points
-			bezierCurve : false,
+			bezierCurve: false,
 
 			//Number - Radius of each point dot in pixels
-			pointDotRadius : 6,
+			pointDotRadius: 6,
 
 
 		}
 
-		myNewChart.Line(data,options);
+		myNewChart.Line(data, options);
 	}
 
 
@@ -166,20 +170,17 @@ $(document).ready(function() {
 		//This will get the first returned node in the jQuery collection.
 		var myNewChart = new Chart(ctx);
 
-		var data = [
-			{
-				value: 50,
-				color:"#1d9945"
-			},
-			{
-				value : 50,
-				color : "#849bad"
-			},
-		]
+		var data = [{
+			value: 50,
+			color: "#1d9945"
+		}, {
+			value: 50,
+			color: "#849bad"
+		}, ]
 
-		var options = { }
+		var options = {}
 
-		myNewChart.Pie(data,options);
+		myNewChart.Pie(data, options);
 	}
 
 	if ($('#pie-chart2').length) {
@@ -188,39 +189,35 @@ $(document).ready(function() {
 		//This will get the first returned node in the jQuery collection.
 		var myNewChart = new Chart(ctx);
 
-		var data = [
-			{
-				value: 75,
-				color:"#1d9945"
-			},
-			{
-				value : 25,
-				color : "#849bad"
-			},
-		]
+		var data = [{
+			value: 75,
+			color: "#1d9945"
+		}, {
+			value: 25,
+			color: "#849bad"
+		}, ]
 
-		var options = { }
+		var options = {}
 
-		myNewChart.Pie(data,options);
+		myNewChart.Pie(data, options);
 	}
 
-/***************************  Flickr Feed  *******************************/
+	/***************************  Flickr Feed  *******************************/
 	if ($('.flickr-feed').length) {
-	    $('.flickr-feed').jflickrfeed({
-    	    limit: 6,
-        	qstrings: {
-            	id: '52617155@N08'
-        	},
-        	itemTemplate: '<li><a href="{{link}}" target="_blank"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
-    	});
+		$('.flickr-feed').jflickrfeed({
+			limit: 6,
+			qstrings: {
+				id: '52617155@N08'
+			},
+			itemTemplate: '<li><a href="{{link}}" target="_blank"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
+		});
 	}
 
 
 
-
-/*****************************  Carousel  *********************************/
+	/*****************************  Carousel  *********************************/
 	$('.carousel').carousel({
-	  interval: 2000
+		interval: 2000
 	})
 
 });
