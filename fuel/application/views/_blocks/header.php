@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>    
+<head>
 	<!-- Define Charset -->
 	<meta charset="utf-8">
 	<meta name="keywords" content="<?php echo fuel_var('meta_keywords')?>">
 	<meta name="description" content="<?php echo fuel_var('meta_description')?>">
-	
+
 	<!-- Page Title -->
 	<title>
 		<?php
@@ -16,11 +16,11 @@
 			endif;
 		?>
 	</title>
-	
-	
+
+
 	<!-- Responsive Metatag -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	   
+
 	<!-- CSS -->
 	<?php echo css('bootstrap.min'); ?>
 	<?php echo css('rs-plugin/css/settings.css'); ?>
@@ -32,7 +32,7 @@
 
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>        
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
 	<!-- Media queries -->
@@ -66,7 +66,7 @@
 							<a href="https://twitter.com/MKGDetroit" target="_blank"><i class="entypo-twitter" ></i></a>
 						</li>
 					</ul>
-				</div>    
+				</div>
 			</div>
 		</div>
 		<!-- End Top Bar -->
@@ -85,7 +85,7 @@
 								</button>
 								<h1 class="logo">
 									<a class="navbar-brand" href="<?php echo base_url(); ?>"><img src="<?php echo img_path('mkg_logo.png'); ?>" alt="Logo" /></a>
-								</h1>  
+								</h1>
 							</div>
 
 							<!-- Collect the nav links, forms, and other content for toggling -->
@@ -100,7 +100,7 @@
 											<li><a href="<?php echo base_url('about/staff/'); ?>">Staff</a></li>
 										</ul>
 									</li>
-									
+
 									<li class="dropdown">
 										<a href="<?php echo base_url('classes/'); ?>">Classes</a>
 										<ul class="dropdown-class">
@@ -122,14 +122,14 @@
 											<li><a href="<?php echo base_url('membership'); ?>">Membership</a></li>
 										</ul> */ ?>
 									</li>
-									
+
 									<li class="dropdown">
 										<a href="<?php echo base_url('news/'); ?>">News</a>
 										<ul class="dropdown-news">
 											<li><a href="<?php echo base_url('friends'); ?>">friends</a></li>
 										</ul>
 									</li>
-									<li><a href="<?php echo base_url('schedule/'); ?>">Schedule</a></li>									
+									<li><a href="<?php echo base_url('schedule/'); ?>">Schedule</a></li>
 								</ul>
 							</div><!-- /.navbar-collapse -->
 						</nav>

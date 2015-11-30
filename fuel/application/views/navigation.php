@@ -13,7 +13,7 @@
 								</button>
 								<h1 class="logo">
 									<a class="navbar-brand" href="<?php echo base_url(); ?>"><img src="<?php echo img_path('mkg_logo.png'); ?>" alt="Logo" /></a>
-								</h1>  
+								</h1>
 							</div>
 
 							<!-- Collect the nav links, forms, and other content for toggling -->
@@ -28,7 +28,7 @@
 											<li><a href="<?php echo base_url('about/staff/'); ?>">Staff</a></li>
 										</ul>
 									</li>
-									
+
 									<li class="dropdown">
 										<a href="<?php echo base_url('classes/'); ?>">Classes</a>
 										<ul class="dropdown-class">
@@ -50,14 +50,14 @@
 											<li><a href="<?php echo base_url('membership'); ?>">Membership</a></li>
 										</ul> */ ?>
 									</li>
-									
+
 									<li class="dropdown">
 										<a href="<?php echo base_url('blog'); ?>">News</a>
 										<ul class="dropdown-news">
 											<li><a href="<?php echo base_url('friends'); ?>">friends</a></li>
 										</ul>
 									</li>
-									<li><a href="<?php echo base_url('schedule/'); ?>">Schedule</a></li>									
+									<li><a href="<?php echo base_url('schedule/'); ?>">Schedule</a></li>
 								</ul>
 							</div><!-- /.navbar-collapse -->
 						</nav>

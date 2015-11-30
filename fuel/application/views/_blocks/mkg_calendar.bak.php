@@ -12,99 +12,26 @@
 
 						<div class="class">
 
-							<h3 class="classDay">SUNDAY </h3>
-
-							<div class="classTime">
-								No Regular MKG Detroit classes. <br/>
-								See schedule in school for workshops, special events, or training opportunities with separate groups.
-							</div>
-
-						</div>
-
-
-						<div class="class">
-
-							<h3 class="classDay">MONDAY </h3>
-
-							<div class="classTime">
- No Regular MKG Detroit Classes. <br/>
-								See schedule in school for additional training opportunities with separate groups.
-							</div>
-
-						</div>
-
-
-						<div class="class">
-
-							<h3 class="classDay">TUESDAY  </h3>
+							<h3 class="classDay">Tuesday&nbsp;&nbsp;&nbsp;6:00-8:30pm</h3>
 
 							<div class="className">
-								11am  &mdash; KBX: Kick-Box-Cross-Train<br/>
-								5pm  &mdash; Open Gym (Open Training Time)<br/>
-								6pm  &mdash; Jun Fan / Jeet Kune Do Concepts<br/>
-								7pm  &mdash; Muay Thai
+								PHASE ONE NIGHT!
 							</div>
 
-						</div>
-
-						<div class="class">
-
-							<h3 class="classDay">WEDNESDAY  </h3>
-
 							<div class="className">
-								5pm &mdash; Open Gym<br/>
-								6pm &mdash; Phase One
-							</div>
-
-						</div>
-
-						<div class="class">
-
-							<h3 class="classDay">THURSDAY  </h3>
-
-							<div class="className">
-								11am &mdash; KBX   Kick-Box-Cross-Train<br/>
-								5pm &mdash; Open Gym<br/>
-								6pm &mdash; Jun Fan / Jeet Kune Do Concepts<br/>
-								7pm &mdash; Muay Thai
-							</div>
-
-						</div>
-
-
-						<div class="class">
-
-							<h3 class="classDay">FRIDAY  </h3>
-
-							<div class="className">
-								6pm &mdash; MKGD Happy Hour!<br/>
+								6pm &mdash; <a href="/classes/filipino_kali_weaponry" title="Weaponry Fundamentals &amp; Mobility">Weaponry Fundamentals &amp; Mobility</a><br/>
+								7:15pm &mdash; <a href="/classes/phase_program" title="Mixed Kickboxing and Conditioning">Mixed Kickboxing and Conditioning</a><br/>
 							</div>
 
 							<div class="classTime">
-								See schedule in school for weekly offer, or visit the schedule on our MindBody page.
+								Located at the <a href="https://www.google.com/maps/place/Brazilian+Jiu+Jitsu+Club+of+Michigan/@42.505165,-83.222726,15z/data=!4m2!3m1!1s0x0:0x44e1437c2052b50" title="Map to BJJ Club of Michigan" target="_blank">
+								BJJ Club of Michigan</a><br/>
+								29305 Southfield Rd, Southfield
 							</div>
 
 						</div>
 
 
-						<div class="class">
-
-							<h3 class="classDay">SATURDAY  </h3>
-
-							<div class="className">
-								10am &mdash; Filipino Kali Weaponry<br/>
-								11am &mdash; Dirty Boxing<br/>
-								12pm &mdash; Phase One<br/>
-							</div>
-
-							<div class="classTime">
-								See schedule in school for additional training opportunities with separate groups.
-							</div>
-
-						</div>
-
-						<?php /**
-						// ORIGINAL for reference
 						<div class="class">
 							<h3 class="classDay">Sunday&nbsp;&nbsp;&nbsp;12:00-3:00pm</h3>
 							<div class="className">
@@ -117,7 +44,6 @@
 								1438 Michigan Ave, Detroit (Corktown)
 							</div>
 						</div>
-						*/ ?>
 
 
 

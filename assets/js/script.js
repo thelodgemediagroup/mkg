@@ -5,23 +5,23 @@ $(document).ready(function() {
 	if($('.banner').length) {
 		var height=$('.homev2').length>0?447:415;
 		$('.banner').revolution({
-			delay:3000,
+			delay:8000,
 			hideThumbs:1,
 			startwidth:1170,
 			startheight:400,
 			shadow:0,
 			touchenabled:"on",
 			navigationType: "none",
-		});    
+		});
 	}
 
 	if($('.new-classes').length) {
 		$(".new-classes").on({
 			mouseenter : function() {
-				$(this).find(".occult").slideDown(100);               
+				$(this).find(".occult").slideDown(100);
 			},
 			mouseleave : function() {
-				$(this).find(".occult").slideUp(100);            
+				$(this).find(".occult").slideUp(100);
 			}
 		},".new-class");
 	}
@@ -34,8 +34,8 @@ $(document).ready(function() {
 		 } else {
 			 $('.scrollup').fadeOut();
 		 }
-	 }); 
- 
+	 });
+
 	 $('.scrollup').click(function(){
 		 $("html, body").animate({ scrollTop: 0 }, 600);
 		 return false;
@@ -46,7 +46,7 @@ $(document).ready(function() {
 	if ($('.magic-grid .content').length) {
 		// cache container
 		var $container = $('.magic-grid .content');
-		
+
 		// initialize isotope
 		$container.isotope({ });
 
@@ -54,7 +54,7 @@ $(document).ready(function() {
 		$('.filters button').click(function(){
 			$('.filters button').removeClass('active');
 			$(this).addClass('active');
-			
+
 			var selector = $(this).attr('data-filter');
 			$container.isotope({ filter: selector });
 			return false;
@@ -103,7 +103,7 @@ $(document).ready(function() {
 		var ctx = $("#linear-chart").get(0).getContext("2d");
 		//This will get the first returned node in the jQuery collection.
 		var myNewChart = new Chart(ctx);
-		
+
 		var data = {
 			labels : ["10AM","11AM","12AM","1PM","2PM","3PM","4PM","5PM","6PM","7PM","8PM","9PM"],
 			datasets : [
@@ -126,13 +126,13 @@ $(document).ready(function() {
 		}
 
 		var options = {
-						
-			//Boolean - If we show the scale above the chart data			
+
+			//Boolean - If we show the scale above the chart data
 			scaleOverlay : false,
-			
+
 			//Boolean - If we want to override with a hard coded scale
 			scaleOverride : true,
-			
+
 			//** Required if scaleOverride is true **
 			//Number - The number of steps in a hard coded scale
 			scaleSteps : 13,
@@ -141,19 +141,19 @@ $(document).ready(function() {
 			//Number - The scale starting value
 			scaleStartValue : 1,
 
-			//Boolean - Whether to show labels on the scale	
+			//Boolean - Whether to show labels on the scale
 			scaleShowLabels : false,
-			
+
 			///Boolean - Whether grid lines are shown across the chart
 			scaleShowGridLines : false,
-			
+
 			//Boolean - Whether the line is curved between points
 			bezierCurve : false,
-			
+
 			//Number - Radius of each point dot in pixels
 			pointDotRadius : 6,
-			
-			
+
+
 		}
 
 		myNewChart.Line(data,options);
@@ -165,7 +165,7 @@ $(document).ready(function() {
 		var ctx = $("#pie-chart1").get(0).getContext("2d");
 		//This will get the first returned node in the jQuery collection.
 		var myNewChart = new Chart(ctx);
-		
+
 		var data = [
 			{
 				value: 50,
@@ -174,7 +174,7 @@ $(document).ready(function() {
 			{
 				value : 50,
 				color : "#849bad"
-			},		
+			},
 		]
 
 		var options = { }
@@ -187,7 +187,7 @@ $(document).ready(function() {
 		var ctx = $("#pie-chart2").get(0).getContext("2d");
 		//This will get the first returned node in the jQuery collection.
 		var myNewChart = new Chart(ctx);
-		
+
 		var data = [
 			{
 				value: 75,
@@ -196,7 +196,7 @@ $(document).ready(function() {
 			{
 				value : 25,
 				color : "#849bad"
-			},		
+			},
 		]
 
 		var options = { }
@@ -214,10 +214,10 @@ $(document).ready(function() {
         	itemTemplate: '<li><a href="{{link}}" target="_blank"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
     	});
 	}
-	
 
 
-	
+
+
 /*****************************  Carousel  *********************************/
 	$('.carousel').carousel({
 	  interval: 2000
