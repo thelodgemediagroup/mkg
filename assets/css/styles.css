@@ -1391,14 +1391,22 @@ header .main-menu .navbar {
 	margin: 0;
 }
 
+header .main-menu .navbar {
+	min-height: 18px !important;
+}
+
 header .main-menu .navbar .logo {
 	margin: 0;
 }
 
 header .main-menu .navbar .navbar-brand {
-	height: 98px;
-	line-height: 98px;
+	height: 32px;
+	line-height: 32px;
 	padding: 0 15px;
+}
+
+header .main-menu-line .row {  /* hack for reducing navbar height */
+	margin-bottom: 0px !important;
 }
 
 header .main-menu .navbar .navbar-toggle {
@@ -1427,8 +1435,8 @@ header .main-menu .nav li > a {
 	color: white;
 	font-size: 1.07em;
 	font-weight: bold;
-	height: 98px;
-	line-height: 98px;
+	height: 32px;
+	line-height: 32px;
 	padding: 0 1.7em;
 	text-shadow: none;
 	text-transform: uppercase;
