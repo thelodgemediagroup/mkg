@@ -112,8 +112,6 @@
 											<li><a href="<?php echo base_url('classes/jeet_kune_do/'); ?>">Jeet Kune Do / JKD Concepts</a></li>
 											<li><a href="<?php echo base_url('classes/filipino_kali_weaponry/'); ?>">Filipino Kali Weaponry</a></li>
 											<li><a href="<?php echo base_url('classes/dirty_boxing/'); ?>">Filipino Dirty Boxing / Panantukan</a></li>
-											<li><a href="<?php echo base_url('classes/womens_kickboxing/'); ?>">Women’s Kickboxing</a></li>
-											<li><a href="<?php echo base_url('classes/fitness/'); ?>">Functional Fitness Circuits</a></li>
 											<li><a href="<?php echo base_url('classes/self_protection/'); ?>">Self Protection</a></li>
 											<li><a href="<?php echo base_url('classes/specialty_programs/'); ?>">Specialty Programs</a></li>
 										</ul>
