@@ -11,9 +11,11 @@
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 								</button>
+								<?php /*
 								<h1 class="logo">
 									<a class="navbar-brand" href="<?php echo base_url(); ?>"><img src="<?php echo img_path('redesign/logo.jpg'); ?>" alt="Logo" /></a>
 								</h1>
+								*/ ?>
 							</div>
 
 							<!-- Collect the nav links, forms, and other content for toggling -->
