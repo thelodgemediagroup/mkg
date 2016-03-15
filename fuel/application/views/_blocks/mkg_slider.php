@@ -1,3 +1,8 @@
+<?php
+/**
+* On Landing page
+*/
+?>
 	<!-- Content -->
 	<section id="home" >
 		<!-- Sub Header -->
@@ -12,7 +17,7 @@
 						data-transition="boxslide"
 						data-slotamount="1"
 					>
-						<img src="<?php echo img_path('slider/mkg_logo2.png'); ?>" alt="MKG Detroit" />
+						<img src="<?php echo img_path('slider/mkg_logo3.png'); ?>" alt="MKG Detroit" />
 					</li>
 
 					<li
@@ -197,80 +202,6 @@
 							data-start="500"
 						>
 							<a class="see_work" href="<?php echo base_url('classes/dirty_boxing'); ?>" >learn more</a>
-						</div>
-					</li>
-
-					<li
-						class="slide3"
-						data-transition="boxslide"
-						data-slotamount="1"
-					>
-						<img src="<?php echo img_path('mkg_images/slider/womens_kickboxing.jpg'); ?>" alt="//" />
-						<div
-							class="caption lfb ltb"
-							data-x="100"
-							data-y="95"
-							data-speed="700"
-							data-start="500"
-							data-easing="easeOutBack"
-						>
-							<h2>Women's Kickboxing</h2>
-						</div>
-						<div
-							class="caption lfb ltb"
-							data-x="100"
-							data-y="75"
-							data-speed="500"
-							data-start="500"
-							data-easing="easeOutBack"
-						>
-							<p>An MKG kickboxing class designed exclusively for women,  Women’s Kickboxing provides a workout for all fitness levels.</p>
-						</div>
-						<div
-							class="caption lfb ltb"
-							data-x="100"
-							data-y="75"
-							data-speed="300"
-							data-start="500"
-						>
-							<a class="see_work" href="<?php echo base_url('classes/womens_kickboxing'); ?>" >learn more</a>
-						</div>
-					</li>
-
-					<li
-						class="slide3"
-						data-transition="boxslide"
-						data-slotamount="1"
-					>
-						<img src="<?php echo img_path('mkg_images/slider/functional_fitness.jpg'); ?>" alt="//" />
-						<div
-							class="caption lfb ltb"
-							data-x="100"
-							data-y="95"
-							data-speed="700"
-							data-start="500"
-							data-easing="easeOutBack"
-						>
-							<h2>Functional Fitness</h2>
-						</div>
-						<div
-							class="caption lfb ltb"
-							data-x="100"
-							data-y="75"
-							data-speed="500"
-							data-start="500"
-							data-easing="easeOutBack"
-						>
-							<p>These group workouts are designed to rotate you through multiple stations of very high-energy, non-traditional workout routines inspired by professional fighter training.</p>
-						</div>
-						<div
-							class="caption lfb ltb"
-							data-x="100"
-							data-y="75"
-							data-speed="300"
-							data-start="500"
-						>
-							<a class="see_work" href="<?php echo base_url('classes/functional_fitness'); ?>" >learn more</a>
 						</div>
 					</li>
 
