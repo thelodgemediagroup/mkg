@@ -1117,6 +1117,8 @@ section .row {
 	background-color: #d6ebf0;
 	padding: 2.5em 0;
 	background-size: cover;
+	max-width: 1170px;
+	margin: 0 auto;
 }
 
 /********* Each page header image ***********/
@@ -1293,6 +1295,8 @@ section .row {
 header .top-bar {
 	background: #1a2127;
 	border-bottom: 1px solid #232a30;
+	max-width: 1170px;
+	margin: 0 auto;
 }
 
 header .top-bar ul {
@@ -1381,6 +1385,8 @@ header .main-menu {
 	background: #252f38;
 	border-bottom: none;
 	border-top: 1px solid #111619;
+	max-width: 1170px;
+	margin: 0 auto;
 }
 
 header .main-menu .main-menu-line {
@@ -1620,6 +1626,10 @@ footer .copyright .main-links li a {
 /************************ Specific Styles for Pages  **********************/
 
 /********************************** Home ***********************************/
+#home {
+	max-width: 1170px;
+	margin:0 auto;
+}
 #home .sub-header {
 	padding: 0;
 	background: #fff;
